@@ -1,0 +1,403 @@
+<div class="min-h-screen bg-[#0a0a0a]">
+  <div class="container mx-auto px-4 py-10 max-w-5xl">
+
+    <button (click)="volver()"
+            class="flex items-center gap-2 text-gray-400 hover:text-[#00ff80]
+                   mb-8 transition text-sm">
+      ← Volver a nuestros coches
+    </button>
+
+    <!-- Loading -->
+    <div *ngIf="cargando()" class="text-center py-20">
+      <div class="cc-loader"></div>
+    </div>
+
+    <!-- Error -->
+    <div *ngIf="error()" class="text-center py-12">
+      <div class="bg-red-950/50 border border-red-800 text-red-400
+                  rounded-xl px-6 py-4 max-w-md mx-auto">
+        {{ error() }}
+      </div>
+    </div>
+
+    <div *ngIf="coche() && !cargando()">
+
+      <!-- BLOQUE SUPERIOR -->
+      <div class="grid md:grid-cols-2 gap-8 mb-8">
+
+        <!-- Galería -->
+        <div>
+          <img [src]="imagenSeleccionada()"
+               [alt]="coche()!.marca + ' ' + coche()!.modelo"
+               class="w-full rounded-2xl object-cover max-h-80 border border-[#222]"
+               onerror="this.src='https://placehold.co/600x400/111111/00ff80?text=Sin+imagen'">
+
+          <div class="grid grid-cols-4 gap-2 mt-3" *ngIf="coche()!.imagenUrl.length > 1">
+            <img *ngFor="let img of coche()!.imagenUrl.slice(0, 4)"
+                 [src]="img"
+                 (click)="seleccionarImagen(img)"
+                 class="w-full h-16 object-cover rounded-lg cursor-pointer border-2 transition
+                        hover:border-[#00ff80]"
+                 [class.border-green]="imagenSeleccionada() === img"
+                 [class.border-transparent]="imagenSeleccionada() !== img"
+                 onerror="this.src='https://placehold.co/100x60/111111/00ff80?text=.'">
+          </div>
+
+          <div class="flex flex-wrap gap-2 mt-3">
+            <span *ngIf="coche()!.estado"
+                  class="bg-[#00ff80] text-black text-xs px-3 py-1 rounded-full font-bold">
+              {{ coche()!.estado }}
+            </span>
+            <span *ngIf="coche()!.tipoCarroceria"
+                  class="bg-[#1a1a1a] border border-[#333] text-gray-300
+                         text-xs px-3 py-1 rounded-full">
+              {{ coche()!.tipoCarroceria }}
+            </span>
+          </div>
+        </div>
+
+        <!-- Info principal -->
+        <div>
+          <h1 class="text-white text-2xl font-bold mb-1">
+            {{ coche()!.marca }} {{ coche()!.modelo }}
+          </h1>
+          <p *ngIf="coche()!.version" class="text-gray-500 text-sm mb-4">
+            {{ coche()!.version }}
+          </p>
+
+          <p class="text-[#00ff80] text-4xl font-bold mb-1">
+            {{ coche()!.precio | currency:'EUR':'symbol':'1.0-0' }}
+          </p>
+          <p class="text-gray-500 text-sm mb-6">IVA incluido</p>
+
+          <div class="grid grid-cols-2 gap-2 mb-5">
+            <div class="bg-[#111] border border-[#222] rounded-lg p-3">
+              <p class="text-gray-500 text-xs mb-1">Año</p>
+              <p class="text-white font-semibold text-sm">{{ coche()!.anio }}</p>
+            </div>
+            <div class="bg-[#111] border border-[#222] rounded-lg p-3">
+              <p class="text-gray-500 text-xs mb-1">Kilómetros</p>
+              <p class="text-white font-semibold text-sm">{{ coche()!.kilometros | number }} km</p>
+            </div>
+            <div class="bg-[#111] border border-[#222] rounded-lg p-3">
+              <p class="text-gray-500 text-xs mb-1">Combustible</p>
+              <p class="text-white font-semibold text-sm">{{ coche()!.combustible }}</p>
+            </div>
+            <div class="bg-[#111] border border-[#222] rounded-lg p-3">
+              <p class="text-gray-500 text-xs mb-1">Cambio</p>
+              <p class="text-white font-semibold text-sm">{{ coche()!.transmision }}</p>
+            </div>
+            <div class="bg-[#111] border border-[#222] rounded-lg p-3">
+              <p class="text-gray-500 text-xs mb-1">Potencia</p>
+              <p class="text-white font-semibold text-sm">{{ coche()!.potenciaCV }} CV</p>
+            </div>
+            <div class="bg-[#111] border border-[#222] rounded-lg p-3">
+              <p class="text-gray-500 text-xs mb-1">Carrocería</p>
+              <p class="text-white font-semibold text-sm">{{ coche()!.tipoCarroceria }}</p>
+            </div>
+          </div>
+
+          <button (click)="volver()"
+                  class="w-full bg-[#111] hover:bg-[#1a1a1a] border border-[#222]
+                         hover:border-[#00ff80] text-gray-300 hover:text-white
+                         py-3 rounded-lg transition text-sm mb-3">
+            ← Seguir viendo coches
+          </button>
+          <button (click)="reservar()"
+                  class="w-full bg-[#00ff80] hover:bg-[#00cc66] text-black
+                        font-bold py-3 rounded-lg transition text-sm mb-3">
+            Reservar vehículo →
+          </button>
+
+          <!-- BOTONES ADMIN — dentro del col de info -->
+          <div *ngIf="esAdmin" class="flex gap-3">
+            <button (click)="activarEdicion()"
+                    class="flex-1 py-2 px-4 border border-[#00ff80] text-[#00ff80]
+                           hover:bg-[#00ff8011] rounded-lg transition text-sm font-semibold">
+              ✏️ Editar coche
+            </button>
+            <button (click)="confirmandoEliminar.set(true)"
+                    class="flex-1 py-2 px-4 border border-red-700 text-red-400
+                           hover:bg-red-950 rounded-lg transition text-sm font-semibold">
+              🗑️ Eliminar
+            </button>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- FICHA TÉCNICA COMPLETA -->
+      <div class="bg-[#111] border border-[#222] rounded-2xl p-6 mb-6">
+        <h2 class="text-white text-lg font-bold mb-4">🔧 Ficha Técnica</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
+          <div *ngIf="coche()!.cilindrada" class="bg-[#0a0a0a] border border-[#1f1f1f] rounded-lg p-3">
+            <p class="text-gray-500 text-xs mb-1">Cilindrada</p>
+            <p class="text-white font-semibold text-sm">{{ coche()!.cilindrada }} cc</p>
+          </div>
+          <div *ngIf="coche()!.numPuertas" class="bg-[#0a0a0a] border border-[#1f1f1f] rounded-lg p-3">
+            <p class="text-gray-500 text-xs mb-1">Puertas</p>
+            <p class="text-white font-semibold text-sm">{{ coche()!.numPuertas }}</p>
+          </div>
+          <div *ngIf="coche()!.colorExterior" class="bg-[#0a0a0a] border border-[#1f1f1f] rounded-lg p-3">
+            <p class="text-gray-500 text-xs mb-1">Color exterior</p>
+            <p class="text-white font-semibold text-sm">{{ coche()!.colorExterior }}</p>
+          </div>
+          <div *ngIf="coche()!.colorInterior" class="bg-[#0a0a0a] border border-[#1f1f1f] rounded-lg p-3">
+            <p class="text-gray-500 text-xs mb-1">Color interior</p>
+            <p class="text-white font-semibold text-sm">{{ coche()!.colorInterior }}</p>
+          </div>
+          <div *ngIf="coche()!.matriculacion" class="bg-[#0a0a0a] border border-[#1f1f1f] rounded-lg p-3">
+            <p class="text-gray-500 text-xs mb-1">Matrícula</p>
+            <p class="text-white font-semibold text-sm">{{ coche()!.matriculacion }}</p>
+          </div>
+          <div *ngIf="coche()!.fechaPublicacion" class="bg-[#0a0a0a] border border-[#1f1f1f] rounded-lg p-3">
+            <p class="text-gray-500 text-xs mb-1">Publicado</p>
+            <p class="text-white font-semibold text-sm">{{ coche()!.fechaPublicacion }}</p>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap gap-2 mt-4">
+          <span *ngIf="coche()!.esNacional"
+                class="bg-[#0a2e1a] border border-[#00ff8033] text-[#00ff80]
+                       text-xs px-3 py-1 rounded-full">
+            🇪🇸 Nacional
+          </span>
+          <span *ngIf="coche()!.garantia"
+                class="bg-[#0a2e1a] border border-[#00ff8033] text-[#00ff80]
+                       text-xs px-3 py-1 rounded-full">
+            ✅ Con garantía
+          </span>
+          <span *ngIf="coche()!.revisionesAlDia"
+                class="bg-[#0a2e1a] border border-[#00ff8033] text-[#00ff80]
+                       text-xs px-3 py-1 rounded-full">
+            🔧 Revisiones al día
+          </span>
+        </div>
+      </div>
+
+      <!-- DESCRIPCIÓN -->
+      <div *ngIf="coche()!.descripcion"
+           class="bg-[#111] border border-[#222] rounded-2xl p-6 mb-6">
+        <h2 class="text-white text-lg font-bold mb-3">📋 Descripción</h2>
+        <p class="text-gray-400 text-sm leading-relaxed">{{ coche()!.descripcion }}</p>
+      </div>
+
+      <!-- VENDEDOR -->
+      <div *ngIf="coche()!.user"
+           class="bg-[#111] border border-[#222] rounded-2xl p-6">
+        <h2 class="text-white text-lg font-bold mb-4">👤 Vendedor</h2>
+        <div class="flex items-center justify-between">
+          <div>
+            <p class="text-white font-semibold">{{ coche()!.user.name }}</p>
+            <p class="text-gray-500 text-sm">Publicado: {{ coche()!.fechaPublicacion }}</p>
+          </div>
+          <a *ngIf="coche()!.user.telefono"
+             [href]="'tel:' + coche()!.user.telefono"
+             class="flex items-center gap-2 bg-[#1a1a1a] border border-[#222]
+                    hover:border-[#00ff80] text-gray-300 hover:text-white
+                    text-sm px-4 py-2 rounded-lg transition">
+            📞 Contactar
+          </a>
+          <span *ngIf="!coche()!.user.telefono" class="text-gray-600 text-sm">
+            Sin teléfono de contacto
+          </span>
+        </div>
+      </div>
+
+      <!-- CONFIRM ELIMINAR -->
+      <div *ngIf="confirmandoEliminar()"
+           class="fixed inset-0 bg-black/70 z-50 flex items-center justify-center px-4">
+        <div class="bg-[#111] border border-red-800 rounded-2xl p-6 max-w-sm w-full text-center">
+          <p class="text-white font-bold text-lg mb-2">¿Eliminar este coche?</p>
+          <p class="text-gray-400 text-sm mb-6">Esta acción no se puede deshacer.</p>
+          <div class="flex gap-3">
+            <button (click)="confirmandoEliminar.set(false)"
+                    class="flex-1 py-2 border border-[#333] text-gray-400
+                           hover:text-white rounded-lg transition text-sm">
+              Cancelar
+            </button>
+            <button (click)="eliminarCoche()"
+                    class="flex-1 py-2 bg-red-700 hover:bg-red-600 text-white
+                           rounded-lg transition text-sm font-bold">
+              Sí, eliminar
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- MODAL EDICIÓN -->
+      <div *ngIf="modoEdicion()"
+           class="fixed inset-0 bg-black/80 z-50 flex items-start justify-center
+                  overflow-y-auto py-10 px-4">
+        <div class="bg-[#111] border border-[#333] rounded-2xl p-6 w-full max-w-2xl">
+
+          <div class="flex justify-between items-center mb-6">
+            <h2 class="text-white text-lg font-bold">✏️ Editar coche</h2>
+            <button (click)="cancelarEdicion()" class="text-gray-500 hover:text-white text-xl">✕</button>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label class="text-gray-400 text-xs mb-1 block">Marca</label>
+              <input [(ngModel)]="cocheEditado.marca" type="text"
+                     class="w-full px-3 py-2 bg-[#1a1a1a] border border-[#333] text-white
+                            rounded-lg text-sm focus:outline-none focus:border-[#00ff80]">
+            </div>
+            <div>
+              <label class="text-gray-400 text-xs mb-1 block">Modelo</label>
+              <input [(ngModel)]="cocheEditado.modelo" type="text"
+                     class="w-full px-3 py-2 bg-[#1a1a1a] border border-[#333] text-white
+                            rounded-lg text-sm focus:outline-none focus:border-[#00ff80]">
+            </div>
+            <div>
+              <label class="text-gray-400 text-xs mb-1 block">Versión</label>
+              <input [(ngModel)]="cocheEditado.version" type="text"
+                     class="w-full px-3 py-2 bg-[#1a1a1a] border border-[#333] text-white
+                            rounded-lg text-sm focus:outline-none focus:border-[#00ff80]">
+            </div>
+            <div>
+              <label class="text-gray-400 text-xs mb-1 block">Año</label>
+              <input [(ngModel)]="cocheEditado.anio" type="number"
+                     class="w-full px-3 py-2 bg-[#1a1a1a] border border-[#333] text-white
+                            rounded-lg text-sm focus:outline-none focus:border-[#00ff80]">
+            </div>
+            <div>
+              <label class="text-gray-400 text-xs mb-1 block">Precio (€)</label>
+              <input [(ngModel)]="cocheEditado.precio" type="number"
+                     class="w-full px-3 py-2 bg-[#1a1a1a] border border-[#333] text-white
+                            rounded-lg text-sm focus:outline-none focus:border-[#00ff80]">
+            </div>
+            <div>
+              <label class="text-gray-400 text-xs mb-1 block">Kilómetros</label>
+              <input [(ngModel)]="cocheEditado.kilometros" type="number"
+                     class="w-full px-3 py-2 bg-[#1a1a1a] border border-[#333] text-white
+                            rounded-lg text-sm focus:outline-none focus:border-[#00ff80]">
+            </div>
+            <div>
+              <label class="text-gray-400 text-xs mb-1 block">Potencia (CV)</label>
+              <input [(ngModel)]="cocheEditado.potenciaCV" type="number"
+                     class="w-full px-3 py-2 bg-[#1a1a1a] border border-[#333] text-white
+                            rounded-lg text-sm focus:outline-none focus:border-[#00ff80]">
+            </div>
+            <div>
+              <label class="text-gray-400 text-xs mb-1 block">Cilindrada (cc)</label>
+              <input [(ngModel)]="cocheEditado.cilindrada" type="number"
+                     class="w-full px-3 py-2 bg-[#1a1a1a] border border-[#333] text-white
+                            rounded-lg text-sm focus:outline-none focus:border-[#00ff80]">
+            </div>
+            <div>
+              <label class="text-gray-400 text-xs mb-1 block">Combustible</label>
+              <select [(ngModel)]="cocheEditado.combustible"
+                      class="w-full px-3 py-2 bg-[#1a1a1a] border border-[#333] text-white
+                             rounded-lg text-sm focus:outline-none focus:border-[#00ff80]">
+                <option value="Gasolina">Gasolina</option>
+                <option value="Diesel">Diesel</option>
+                <option value="Híbrido">Híbrido</option>
+                <option value="Eléctrico">Eléctrico</option>
+              </select>
+            </div>
+            <div>
+              <label class="text-gray-400 text-xs mb-1 block">Transmisión</label>
+              <select [(ngModel)]="cocheEditado.transmision"
+                      class="w-full px-3 py-2 bg-[#1a1a1a] border border-[#333] text-white
+                             rounded-lg text-sm focus:outline-none focus:border-[#00ff80]">
+                <option value="Manual">Manual</option>
+                <option value="Automática">Automática</option>
+              </select>
+            </div>
+            <div>
+              <label class="text-gray-400 text-xs mb-1 block">Estado</label>
+              <select [(ngModel)]="cocheEditado.estado"
+                      class="w-full px-3 py-2 bg-[#1a1a1a] border border-[#333] text-white
+                             rounded-lg text-sm focus:outline-none focus:border-[#00ff80]">
+                <option value="Nuevo">Nuevo</option>
+                <option value="Seminuevo">Seminuevo</option>
+                <option value="Usado">Usado</option>
+              </select>
+            </div>
+            <div>
+              <label class="text-gray-400 text-xs mb-1 block">Carrocería</label>
+              <select [(ngModel)]="cocheEditado.tipoCarroceria"
+                      class="w-full px-3 py-2 bg-[#1a1a1a] border border-[#333] text-white
+                             rounded-lg text-sm focus:outline-none focus:border-[#00ff80]">
+                <option value="Berlina">Berlina</option>
+                <option value="SUV">SUV</option>
+                <option value="Familiar">Familiar</option>
+                <option value="Deportivo">Deportivo</option>
+                <option value="Monovolumen">Monovolumen</option>
+                <option value="Pickup">Pickup</option>
+              </select>
+            </div>
+            <div>
+              <label class="text-gray-400 text-xs mb-1 block">Color exterior</label>
+              <input [(ngModel)]="cocheEditado.colorExterior" type="text"
+                     class="w-full px-3 py-2 bg-[#1a1a1a] border border-[#333] text-white
+                            rounded-lg text-sm focus:outline-none focus:border-[#00ff80]">
+            </div>
+            <div>
+              <label class="text-gray-400 text-xs mb-1 block">Color interior</label>
+              <input [(ngModel)]="cocheEditado.colorInterior" type="text"
+                     class="w-full px-3 py-2 bg-[#1a1a1a] border border-[#333] text-white
+                            rounded-lg text-sm focus:outline-none focus:border-[#00ff80]">
+            </div>
+            <div>
+              <label class="text-gray-400 text-xs mb-1 block">Matrícula</label>
+              <input [(ngModel)]="cocheEditado.matriculacion" type="text"
+                     class="w-full px-3 py-2 bg-[#1a1a1a] border border-[#333] text-white
+                            rounded-lg text-sm focus:outline-none focus:border-[#00ff80]">
+            </div>
+            <div>
+              <label class="text-gray-400 text-xs mb-1 block">Puertas</label>
+              <select [(ngModel)]="cocheEditado.numPuertas"
+                      class="w-full px-3 py-2 bg-[#1a1a1a] border border-[#333] text-white
+                             rounded-lg text-sm focus:outline-none focus:border-[#00ff80]">
+                <option [value]="2">2</option>
+                <option [value]="3">3</option>
+                <option [value]="4">4</option>
+                <option [value]="5">5</option>
+              </select>
+            </div>
+
+            <div class="col-span-2 flex gap-6 mt-2">
+              <label class="flex items-center gap-2 cursor-pointer text-gray-300 text-sm">
+                <input type="checkbox" [(ngModel)]="cocheEditado.esNacional" class="accent-[#00ff80]">
+                Nacional
+              </label>
+              <label class="flex items-center gap-2 cursor-pointer text-gray-300 text-sm">
+                <input type="checkbox" [(ngModel)]="cocheEditado.revisionesAlDia" class="accent-[#00ff80]">
+                Revisiones al día
+              </label>
+              <label class="flex items-center gap-2 cursor-pointer text-gray-300 text-sm">
+                <input type="checkbox" [(ngModel)]="cocheEditado.garantia" class="accent-[#00ff80]">
+                Garantía
+              </label>
+            </div>
+
+            <div class="col-span-2">
+              <label class="text-gray-400 text-xs mb-1 block">Descripción</label>
+              <textarea [(ngModel)]="cocheEditado.descripcion" rows="3"
+                        class="w-full px-3 py-2 bg-[#1a1a1a] border border-[#333] text-white
+                               rounded-lg text-sm focus:outline-none focus:border-[#00ff80] resize-none">
+              </textarea>
+            </div>
+          </div>
+
+          <div class="flex gap-3 mt-6">
+            <button (click)="cancelarEdicion()"
+                    class="flex-1 py-2 border border-[#333] text-gray-400
+                           hover:text-white rounded-lg transition text-sm">
+              Cancelar
+            </button>
+            <button (click)="guardarCambios()"
+                    class="flex-1 py-2 bg-[#00ff80] hover:bg-[#00cc66] text-black
+                           font-bold rounded-lg transition text-sm">
+              💾 Guardar cambios
+            </button>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

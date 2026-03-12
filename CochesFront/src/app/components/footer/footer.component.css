@@ -1,0 +1,64 @@
+/* Footer Profesional */
+.footer-profesional {
+  background: rgba(15, 23, 42, 0.95);
+  backdrop-filter: blur(10px);
+  border-top: 1px solid rgba(59, 130, 246, 0.2);
+  margin-top: auto;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+/* Enlaces hover */
+a:hover {
+  transition: all 0.3s ease;
+}
+
+/* Iconos de redes sociales */
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.social-icon.facebook {
+  background: linear-gradient(135deg, #1877f2, #42a5f5);
+  color: white;
+}
+
+.social-icon.twitter {
+  background: linear-gradient(135deg, #1da1f2, #42a5f5);
+  color: white;
+}
+
+.social-icon.instagram {
+  background: linear-gradient(135deg, #e4405f, #f77737, #fccc63);
+  color: white;
+}
+
+.social-icon.linkedin {
+  background: linear-gradient(135deg, #0077b5, #42a5f5);
+  color: white;
+}
+
+.social-icon:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .grid {
+    gap: 1.5rem;
+  }
+  
+  .col-span-1 {
+    margin-bottom: 1rem;
+  }
+}

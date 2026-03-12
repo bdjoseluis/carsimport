@@ -1,0 +1,49 @@
+<div class="min-h-screen flex items-center justify-center bg-[#0a0a0a] py-12 px-4">
+  <div class="max-w-md w-full bg-[#111] border border-[#1f1f1f] rounded-2xl p-8 shadow-2xl shadow-black">
+
+    <!-- Logo -->
+    <div class="text-center mb-8">
+      <svg width="56" height="56" viewBox="0 0 44 44" class="mx-auto mb-4">
+        <rect width="44" height="44" rx="8" fill="#0a0a0a" stroke="#00ff80" stroke-width="1.5"/>
+        <text x="22" y="30" text-anchor="middle" font-family="Arial Black, sans-serif"
+              font-size="18" font-weight="900" fill="#00ff80">CC</text>
+      </svg>
+      <h2 class="text-2xl font-bold text-white">Bienvenido de nuevo</h2>
+      <p class="text-gray-500 text-sm mt-1">Inicia sesión en tu cuenta</p>
+    </div>
+
+    <form (ngSubmit)="login()" class="space-y-4">
+      <div>
+        <label class="block text-sm font-medium text-gray-400 mb-1">Correo electrónico</label>
+        <input type="email" name="email" required [(ngModel)]="credentials.email"
+               placeholder="Tu correo electrónico"
+               class="w-full px-4 py-3 bg-[#1a1a1a] border border-[#2a2a2a] text-white rounded-lg
+                      focus:outline-none focus:border-[#00ff80] focus:ring-1 focus:ring-[#00ff80]
+                      placeholder-gray-600 transition">
+      </div>
+      <div>
+        <label class="block text-sm font-medium text-gray-400 mb-1">Contraseña</label>
+        <input type="password" name="password" required [(ngModel)]="credentials.password"
+               placeholder="Tu contraseña"
+               class="w-full px-4 py-3 bg-[#1a1a1a] border border-[#2a2a2a] text-white rounded-lg
+                      focus:outline-none focus:border-[#00ff80] focus:ring-1 focus:ring-[#00ff80]
+                      placeholder-gray-600 transition">
+      </div>
+
+      <div *ngIf="error" class="text-red-400 text-sm text-center bg-red-950 border border-red-800 rounded-lg py-2">
+        {{ error }}
+      </div>
+
+      <button type="submit"
+              class="w-full py-3 px-4 bg-[#00ff80] hover:bg-[#00cc66] text-black font-bold
+                     rounded-lg transition text-sm tracking-wide mt-2">
+        Entrar →
+      </button>
+
+      <p class="text-center text-sm text-gray-500 pt-2">
+        ¿No tienes cuenta?
+        <a routerLink="/register" class="text-[#00ff80] hover:underline font-medium">Regístrate</a>
+      </p>
+    </form>
+  </div>
+</div>

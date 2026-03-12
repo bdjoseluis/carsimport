@@ -1,0 +1,62 @@
+<div class="coche-card"
+     [class.center-card]="isCenter"
+     [class.side-card]="!isCenter"
+     (click)="onCardClick()">
+
+  <!-- Imagen -->
+  <div class="coche-imagen">
+    <img [src]="coche.imagenUrl[0]"
+         [alt]="coche.marca + ' ' + coche.modelo"
+         (error)="onImageError($event)"
+         class="w-full h-48 object-cover rounded-t-xl">
+    <div class="estado-badge" [ngClass]="{
+      'nuevo':     coche.estado === 'Nuevo',
+      'seminuevo': coche.estado === 'Seminuevo',
+      'usado':     coche.estado === 'Usado'
+    }">{{ coche.estado }}</div>
+  </div>
+
+  <!-- Info -->
+  <div class="coche-info">
+
+    <div class="coche-titulo">
+      <h3>{{ coche.marca }} {{ coche.modelo }}</h3>
+      <p class="version">{{ coche.version }}</p>
+    </div>
+
+    <div class="coche-detalles">
+      <div class="detalle-item">📅 <span>{{ coche.anio }}</span></div>
+      <div class="detalle-item">🏠 <span>{{ coche.kilometros.toLocaleString() }} km</span></div>
+      <div class="detalle-item">⛽ <span>{{ coche.combustible }}</span></div>
+    </div>
+
+    <div class="coche-caracteristicas" *ngIf="isCenter">
+      <div class="caracteristica">
+        <span class="label">Potencia:</span>
+        <span>{{ coche.potenciaCV }} CV</span>
+      </div>
+      <div class="caracteristica">
+        <span class="label">Transmisión:</span>
+        <span>{{ coche.transmision }}</span>
+      </div>
+      <div class="caracteristica">
+        <span class="label">Carrocería:</span>
+        <span>{{ coche.tipoCarroceria }}</span>
+      </div>
+    </div>
+
+    <div class="coche-precio">
+      <span class="precio">{{ formatearPrecio(coche.precio) }}</span>
+    </div>
+
+    <div class="vendedor-info" *ngIf="isCenter && coche.user">
+      <div class="vendedor">👤 <span>{{ coche.user.name }}</span></div>
+      <div class="fecha-publicacion">📅 <span>{{ coche.fechaPublicacion }}</span></div>
+    </div>
+
+    <div class="card-actions" *ngIf="isCenter">
+      <button class="btn-ver-detalles" (click)="onCardClick()">Ver Detalles</button>
+    </div>
+
+  </div>
+</div>

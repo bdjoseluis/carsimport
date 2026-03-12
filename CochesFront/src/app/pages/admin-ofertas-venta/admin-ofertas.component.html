@@ -1,0 +1,200 @@
+<div class="min-h-screen bg-[#0a0a0a]">
+    <div class="container mx-auto px-4 py-10 max-w-7xl">
+
+        <div class="flex items-center justify-between mb-8">
+            <h1 class="text-white text-2xl font-bold">📋 Ofertas de venta</h1>
+            <span class="text-gray-500 text-sm">{{ ofertasFiltradas.length }} resultado(s)</span>
+        </div>
+
+        <!-- Filtros por estado -->
+        <div class="flex flex-wrap gap-2 mb-6">
+
+            <button (click)="filtroEstado = ''" [ngClass]="filtroEstado === '' 
+            ? 'bg-[#00ff80] text-black border-[#00ff80]' 
+            : 'bg-[#1a1a1a] text-gray-400 border-[#333] hover:border-[#00ff80] hover:text-white'"
+                class="px-4 py-1.5 rounded-full text-sm border transition font-semibold">
+                Todas
+            </button>
+
+            <button *ngFor="let e of estados" (click)="filtroEstado = e" [ngClass]="filtroEstado === e 
+            ? 'bg-[#00ff80] text-black border-[#00ff80]' 
+            : 'bg-[#1a1a1a] text-gray-400 border-[#333] hover:border-[#00ff80] hover:text-white'"
+                class="px-4 py-1.5 rounded-full text-sm border transition font-semibold">
+                {{ e }}
+            </button>
+
+        </div>
+
+
+        <!-- Loading -->
+        <div *ngIf="cargando()" class="text-center py-20 text-gray-500">Cargando...</div>
+
+        <!-- Error -->
+        <div *ngIf="error()" class="text-red-400 text-center py-10">{{ error() }}</div>
+
+        <!-- Tabla -->
+        <div *ngIf="!cargando() && ofertasFiltradas.length === 0" class="text-center text-gray-600 py-20">No hay ofertas
+            con este filtro.</div>
+
+        <div class="grid gap-4" *ngIf="!cargando()">
+            <div *ngFor="let oferta of ofertasFiltradas" (click)="abrirDetalle(oferta)" class="bg-[#111] border border-[#222] hover:border-[#00ff80] rounded-2xl p-5
+                  cursor-pointer transition grid md:grid-cols-5 gap-4 items-center">
+
+                <!-- Foto -->
+                <div class="md:col-span-1">
+                    <img *ngIf="getFotos(oferta.fotosJson)[0]" [src]="getFotos(oferta.fotosJson)[0]"
+                        class="w-full h-24 object-cover rounded-lg border border-[#333]"
+                        onerror="this.src='https://placehold.co/200x100/111/333?text=Sin+foto'">
+                    <div *ngIf="!getFotos(oferta.fotosJson)[0]" class="w-full h-24 bg-[#1a1a1a] rounded-lg border border-[#333]
+                      flex items-center justify-center text-gray-600 text-xs">
+                        Sin foto
+                    </div>
+                </div>
+
+                <!-- Info vehículo -->
+                <div class="md:col-span-2">
+                    <p class="text-white font-bold">{{ oferta.marca }} {{ oferta.modelo }}
+                        <span *ngIf="oferta.version" class="text-gray-500 font-normal text-sm"> — {{ oferta.version
+                            }}</span>
+                    </p>
+                    <p class="text-gray-500 text-sm">{{ oferta.anio }} · {{ oferta.kilometros | number }} km · {{
+                        oferta.combustible }}</p>
+                    <p class="text-[#00ff80] font-bold mt-1">{{ oferta.precio | currency:'EUR':'symbol':'1.0-0' }}</p>
+                </div>
+
+                <!-- Vendedor -->
+                <div class="md:col-span-1">
+                    <p class="text-white text-sm font-semibold">{{ oferta.nombreVendedor }}</p>
+                    <p class="text-gray-500 text-xs">{{ oferta.telefonoVendedor }}</p>
+                    <p class="text-gray-500 text-xs">{{ oferta.emailVendedor }}</p>
+                </div>
+
+                <!-- Estado + fecha -->
+                <div class="md:col-span-1 flex flex-col items-end gap-2">
+                    <span class="text-xs px-3 py-1 rounded-full border font-bold"
+                        [ngClass]="getBadgeClass(oferta.estado)">
+                        {{ oferta.estado }}
+                    </span>
+                    <p class="text-gray-600 text-xs">{{ oferta.fechaSolicitud | date:'dd/MM/yyyy HH:mm' }}</p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- MODAL DETALLE -->
+<div *ngIf="ofertaSeleccionada()" class="fixed inset-0 bg-black/80 z-50 flex items-start justify-center
+            overflow-y-auto py-10 px-4">
+    <div class="bg-[#111] border border-[#333] rounded-2xl p-6 w-full max-w-2xl">
+
+        <div class="flex justify-between items-center mb-6">
+            <h2 class="text-white text-lg font-bold">
+                {{ ofertaSeleccionada()!.marca }} {{ ofertaSeleccionada()!.modelo }}
+                <span class="text-gray-500 font-normal text-sm ml-2">{{ ofertaSeleccionada()!.anio }}</span>
+            </h2>
+            <button (click)="cerrarDetalle()" class="text-gray-500 hover:text-white text-xl">✕</button>
+        </div>
+
+        <!-- Fotos -->
+        <div *ngIf="getFotos(ofertaSeleccionada()!.fotosJson).length > 0" class="grid grid-cols-3 gap-2 mb-5">
+            <img *ngFor="let foto of getFotos(ofertaSeleccionada()!.fotosJson)" [src]="foto"
+                class="w-full h-28 object-cover rounded-lg border border-[#333]">
+        </div>
+
+        <!-- Datos vehículo -->
+        <div class="grid grid-cols-2 gap-3 mb-5 text-sm">
+            <div class="bg-[#1a1a1a] rounded-lg p-3">
+                <p class="text-gray-500 text-xs">Kilómetros</p>
+                <p class="text-white font-semibold">{{ ofertaSeleccionada()!.kilometros | number }} km</p>
+            </div>
+            <div class="bg-[#1a1a1a] rounded-lg p-3">
+                <p class="text-gray-500 text-xs">Combustible</p>
+                <p class="text-white font-semibold">{{ ofertaSeleccionada()!.combustible }}</p>
+            </div>
+            <div class="bg-[#1a1a1a] rounded-lg p-3">
+                <p class="text-gray-500 text-xs">Transmisión</p>
+                <p class="text-white font-semibold">{{ ofertaSeleccionada()!.transmision }}</p>
+            </div>
+            <div class="bg-[#1a1a1a] rounded-lg p-3">
+                <p class="text-gray-500 text-xs">Potencia</p>
+                <p class="text-white font-semibold">{{ ofertaSeleccionada()!.potencia ?? '—' }}</p>
+            </div>
+            <div class="bg-[#1a1a1a] rounded-lg p-3">
+                <p class="text-gray-500 text-xs">Matrícula</p>
+                <p class="text-white font-semibold">{{ ofertaSeleccionada()!.matricula ?? '—' }}</p>
+            </div>
+            <div class="bg-[#1a1a1a] rounded-lg p-3">
+                <p class="text-gray-500 text-xs">ITV</p>
+                <p class="text-white font-semibold">{{ ofertaSeleccionada()!.itv ?? '—' }}</p>
+            </div>
+            <div class="bg-[#1a1a1a] rounded-lg p-3 col-span-2">
+                <p class="text-gray-500 text-xs">Precio estimado vendedor</p>
+                <p class="text-[#00ff80] font-bold text-lg">
+                    {{ ofertaSeleccionada()!.precio | currency:'EUR':'symbol':'1.0-0' }}
+                </p>
+            </div>
+        </div>
+
+        <!-- Descripción -->
+        <div *ngIf="ofertaSeleccionada()!.descripcion" class="bg-[#1a1a1a] rounded-lg p-3 mb-5 text-sm">
+            <p class="text-gray-500 text-xs mb-1">Descripción</p>
+            <p class="text-gray-300">{{ ofertaSeleccionada()!.descripcion }}</p>
+        </div>
+
+        <!-- Vendedor -->
+        <div class="bg-[#1a1a1a] rounded-lg p-4 mb-5">
+            <p class="text-gray-500 text-xs mb-2">Datos del vendedor</p>
+            <p class="text-white font-semibold">{{ ofertaSeleccionada()!.nombreVendedor }}</p>
+            <div class="flex gap-4 mt-1">
+                <a [href]="'tel:' + ofertaSeleccionada()!.telefonoVendedor"
+                    class="text-[#00ff80] text-sm hover:underline">
+                    📞 {{ ofertaSeleccionada()!.telefonoVendedor }}
+                </a>
+                <a [href]="'mailto:' + ofertaSeleccionada()!.emailVendedor"
+                    class="text-[#00ff80] text-sm hover:underline">
+                    ✉️ {{ ofertaSeleccionada()!.emailVendedor }}
+                </a>
+            </div>
+            <p *ngIf="ofertaSeleccionada()!.provincia" class="text-gray-500 text-xs mt-1">
+                📍 {{ ofertaSeleccionada()!.provincia }}
+            </p>
+        </div>
+
+        <!-- Cambiar estado -->
+        <div class="mb-4">
+            <label class="text-gray-400 text-xs mb-1 block">Estado</label>
+            <select [(ngModel)]="estadoTemp" class="w-full px-3 py-2 bg-[#1a1a1a] border border-[#333] text-white
+                     rounded-lg text-sm focus:outline-none focus:border-[#00ff80]">
+                <option *ngFor="let e of estados" [value]="e">{{ e }}</option>
+            </select>
+        </div>
+
+        <!-- Notas admin -->
+        <div class="mb-5">
+            <label class="text-gray-400 text-xs mb-1 block">Notas internas</label>
+            <textarea [(ngModel)]="notasTemp" rows="3" placeholder="Anotaciones internas sobre esta oferta..." class="w-full px-3 py-2 bg-[#1a1a1a] border border-[#333] text-white
+                       rounded-lg text-sm focus:outline-none focus:border-[#00ff80] resize-none">
+      </textarea>
+        </div>
+
+        <!-- Acciones -->
+        <div class="flex gap-3">
+            <button (click)="eliminar(ofertaSeleccionada()!.id)" class="px-4 py-2 border border-red-700 text-red-400
+                     hover:bg-red-950 rounded-lg transition text-sm">
+                🗑️ Eliminar
+            </button>
+            <button (click)="cerrarDetalle()" class="flex-1 py-2 border border-[#333] text-gray-400
+                     hover:text-white rounded-lg transition text-sm">
+                Cancelar
+            </button>
+            <button (click)="guardarCambios()" [disabled]="guardando" class="flex-1 py-2 bg-[#00ff80] hover:bg-[#00cc66] disabled:opacity-50
+                    text-black font-bold rounded-lg transition text-sm">
+                {{ guardando ? 'Guardando...' : '💾 Guardar' }}
+            </button>
+
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,235 @@
+<div class="cosmic-container min-h-screen">
+
+  <!-- Fondo cósmico animado -->
+  <div class="cosmic-background">
+    <div class="stars"></div>
+    <div class="nebula"></div>
+    <div class="particles"></div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="relative hero-section py-20">
+    <div class="cosmic-overlay"></div>
+    <div class="container mx-auto px-4 relative z-10 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">
+        Tu coche ideal al mejor precio
+      </h1>
+      <p class="text-xl text-white mb-8">
+        Descubre los mejores coches de segunda mano y nuevos en nuestra plataforma
+      </p>
+
+      <div class="flex flex-col md:flex-row gap-4 justify-center">
+        <a [routerLink]="['/nuestroscoches']"
+           class="bg-[#00ff80] hover:bg-[#00cc66] text-black font-bold
+                  px-8 py-3 rounded-lg transition text-base">
+          🇪🇸 Nuestros Coches
+        </a>
+        <a [routerLink]="['/importacion']"
+           class="bg-[#0a2e1a] hover:bg-[#0d3d22] border border-[#00ff80]
+                  text-[#00ff80] font-bold px-8 py-3 rounded-lg transition text-base">
+          🇩🇪 Coches Importados
+        </a>
+        <a [routerLink]="['/vendetucoche']"
+           class="bg-transparent hover:bg-white/5 border border-white/30
+                  hover:border-[#00ff80] text-white hover:text-[#00ff80]
+                  font-bold px-8 py-3 rounded-lg transition text-base">
+          💶 Vende tu Coche
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Carousel de Coches Destacados -->
+  <section class="carousel-section py-20 relative">
+    <div class="container mx-auto px-4 relative z-10">
+
+      <div class="text-center mb-16">
+        <h2 class="section-title text-4xl md:text-5xl font-bold mb-6">
+          Coches Destacados
+        </h2>
+        <p class="section-subtitle text-xl">
+          Los mejores vehículos seleccionados para ti
+        </p>
+      </div>
+
+      <div *ngIf="cargando()" class="text-center py-12">
+        <div class="cosmic-loader"></div>
+        <p class="cosmic-text mt-6 text-lg">Conectando con la galaxia...</p>
+      </div>
+
+      <div *ngIf="error()" class="text-center py-12">
+        <div class="cosmic-error-card">
+          <p class="font-medium text-lg">🛸 {{ error() }}</p>
+        </div>
+      </div>
+
+      <div *ngIf="!cargando() && !error() && coches().length > 0"
+           class="relative overflow-hidden">
+
+        <button *ngIf="currentIndex() > 0"
+                (click)="moverIzquierda()"
+                class="cosmic-nav-btn cosmic-nav-left">
+          <div class="nav-arrow-left"></div>
+          <span class="nav-glow"></span>
+        </button>
+
+        <button *ngIf="currentIndex() < coches().length - 1"
+                (click)="moverDerecha()"
+                class="cosmic-nav-btn cosmic-nav-right">
+          <div class="nav-arrow-right"></div>
+          <span class="nav-glow"></span>
+        </button>
+
+        <div #scrollContainer
+             class="carousel-container"
+             (mousedown)="startDrag($event)" (mousemove)="drag($event)" (mouseup)="stopDrag()"
+             (touchstart)="startDrag($event)" (touchmove)="drag($event)" (touchend)="stopDrag()"
+             (dragstart)="preventDrag($event)">
+
+          <ng-container *ngFor="let coche of cochesVisibles; let i = index">
+            <div *ngIf="coche" class="carousel-item">
+              <app-card-coche [coche]="coche" [isCenter]="i === 1"
+                              (cocheClick)="verDetalleCoche($event)" class="block">
+              </app-card-coche>
+            </div>
+            <div *ngIf="!coche" class="carousel-item opacity-0">
+              <div class="w-80 h-96"></div>
+            </div>
+          </ng-container>
+        </div>
+
+        <div class="flex justify-center mt-8 space-x-3">
+          <button *ngFor="let coche of coches(); let i = index"
+                  (click)="currentIndex.set(i)"
+                  class="carousel-indicator"
+                  [class.active]="i === currentIndex()">
+          </button>
+        </div>
+      </div>
+
+      <div *ngIf="!cargando() && !error() && coches().length === 0"
+           class="text-center py-16">
+        <h3 class="text-2xl font-bold mb-4 text-white">Cargando vehículos...</h3>
+        <p class="text-gray-300">Pronto tendremos los mejores coches disponibles</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Por qué elegirnos -->
+  <section class="features-section py-20 relative">
+    <div class="container mx-auto px-4 relative z-10">
+      <div class="text-center mb-16">
+        <h2 class="section-title text-3xl md:text-4xl font-bold mb-6">
+          ¿Por qué elegirnos?
+        </h2>
+        <p class="section-subtitle text-lg text-gray-300">
+          Experiencia y confianza en el mercado automotriz
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="feature-card">
+          <div class="feature-icon">🔍</div>
+          <h3 class="text-xl font-bold text-white mb-4">Búsqueda Avanzada</h3>
+          <p class="text-gray-300">
+            Sistema inteligente que encuentra el vehículo perfecto según tus necesidades y presupuesto
+          </p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🛡️</div>
+          <h3 class="text-xl font-bold text-white mb-4">Garantía de Calidad</h3>
+          <p class="text-gray-300">
+            Inspección rigurosa de cada vehículo para garantizar la máxima calidad y seguridad
+          </p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">💶</div>
+          <h3 class="text-xl font-bold text-white mb-4">Mejores Precios</h3>
+          <p class="text-gray-300">
+            Precios competitivos y transparentes sin sorpresas ni comisiones ocultas
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section class="contact-section py-20 relative">
+    <div class="container mx-auto px-4 relative z-10">
+      <div class="text-center mb-16">
+        <h2 class="section-title text-3xl md:text-4xl font-bold mb-6">Contáctanos</h2>
+        <p class="section-subtitle text-lg text-gray-300">
+          Estamos aquí para ayudarte a encontrar tu próximo vehículo
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
+
+        <div>
+          <h3 class="text-2xl font-bold text-white mb-8">Información de Contacto</h3>
+          <div class="space-y-6">
+            <div class="contact-item">
+              <div class="contact-icon">📞</div>
+              <div>
+                <h4 class="font-semibold text-white mb-1">Teléfono</h4>
+                <p class="text-gray-300">+34 XXX XXX XXX</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">✉️</div>
+              <div>
+                <h4 class="font-semibold text-white mb-1">Email</h4>
+                <p class="text-gray-300">info&#64;autoimport.es</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📍</div>
+              <div>
+                <h4 class="font-semibold text-white mb-1">Dirección</h4>
+                <p class="text-gray-300">Crevillente, Alicante, España</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">🕐</div>
+              <div>
+                <h4 class="font-semibold text-white mb-1">Horario</h4>
+                <p class="text-gray-300">Lun - Vie: 9:00 - 19:00<br>Sáb: 9:00 - 14:00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="text-2xl font-bold text-white mb-8">Síguenos</h3>
+          <div class="flex gap-4 mb-6">
+            <a href="#" class="social-link facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-link twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link linkedin"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+          <p class="text-gray-300 text-sm mb-8">
+            Mantente al día con nuestras últimas ofertas y novedades
+          </p>
+
+          <div class="space-y-4">
+            <a [routerLink]="['/register']"
+               class="action-btn action-btn-primary block w-full text-center">
+              Crear Cuenta
+            </a>
+            <a [routerLink]="['/nuestroscoches']"
+               class="action-btn action-btn-secondary block w-full text-center">
+              Ver Todos los Coches
+            </a>
+            <a [routerLink]="['/vendetucoche']"
+               class="action-btn action-btn-outline block w-full text-center">
+              Vender mi Coche
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</div>

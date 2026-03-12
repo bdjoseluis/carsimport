@@ -1,0 +1,14 @@
+{
+    "/auth": {
+        "target": "https://bodycraft.josbotdev.es",
+        "secure": false,
+        "changeOrigin": true,
+        "logLevel": "debug"
+    },
+    "/api": {
+        "target": "https://bodycraft.josbotdev.es",
+        "secure": false,
+        "changeOrigin": true,
+        "logLevel": "debug"
+    }
+}

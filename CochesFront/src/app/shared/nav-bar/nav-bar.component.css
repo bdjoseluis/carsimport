@@ -1,0 +1,36 @@
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 12px;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  color: #9ca3af;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+  background-color: #111;
+}
+
+.nav-active {
+  color: #00ff80 !important;
+  font-weight: 700;
+  background-color: #0a2e1a !important;
+}
+/* Negro sólido — rutas normales */
+.nav-solido {
+  background: #0a0a0a;
+  border-bottom: 1px solid #1a1a1a;
+}
+
+/* Cósmico — home y vendetucoche */
+.nav-glassmorphism {
+  background: linear-gradient(135deg,
+    rgba(15, 5, 30, 0.82) 0%,
+    rgba(22, 10, 46, 0.78) 50%,
+    rgba(15, 5, 30, 0.82) 100%);
+  border-bottom: 1px solid rgba(120, 80, 180, 0.15);
+}

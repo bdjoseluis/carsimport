@@ -1,0 +1,83 @@
+<div class="min-h-screen bg-[#0a0a0a]">
+  <div class="container mx-auto px-4 py-10 max-w-xl">
+
+    <button (click)="volver()"
+            class="flex items-center gap-2 text-gray-400 hover:text-[#00ff80]
+                   mb-8 transition text-sm">
+      ← Volver al coche
+    </button>
+
+    <!-- ÉXITO -->
+    <div *ngIf="exito()"
+         class="bg-[#0a2e1a] border border-[#00ff8044] rounded-2xl p-8 text-center">
+      <div class="text-5xl mb-4">✅</div>
+      <h2 class="text-white text-xl font-bold mb-2">¡Reserva enviada!</h2>
+      <p class="text-gray-400 text-sm mb-6">
+        Nos pondremos en contacto contigo lo antes posible.
+      </p>
+      <button (click)="volver()"
+              class="bg-[#00ff80] hover:bg-[#00cc66] text-black font-bold
+                     px-6 py-2 rounded-lg transition text-sm">
+        Volver al coche
+      </button>
+    </div>
+
+    <!-- FORMULARIO -->
+    <div *ngIf="!exito()"
+         class="bg-[#111] border border-[#222] rounded-2xl p-6">
+
+      <h1 class="text-white text-xl font-bold mb-1">Reservar vehículo</h1>
+      <p class="text-gray-500 text-sm mb-6">
+        Rellena el formulario y nos pondremos en contacto contigo.
+      </p>
+
+      <!-- Error -->
+      <div *ngIf="error()"
+           class="bg-red-950/50 border border-red-800 text-red-400
+                  rounded-xl px-4 py-3 text-sm mb-4">
+        {{ error() }}
+      </div>
+
+      <div class="flex flex-col gap-4">
+
+        <div>
+          <label class="text-gray-400 text-xs mb-1 block">Nombre completo *</label>
+          <input [(ngModel)]="form.nombre" type="text" placeholder="Tu nombre"
+                 class="w-full px-3 py-2 bg-[#1a1a1a] border border-[#333] text-white
+                        rounded-lg text-sm focus:outline-none focus:border-[#00ff80]">
+        </div>
+
+        <div>
+          <label class="text-gray-400 text-xs mb-1 block">Teléfono *</label>
+          <input [(ngModel)]="form.telefono" type="tel" placeholder="600 000 000"
+                 class="w-full px-3 py-2 bg-[#1a1a1a] border border-[#333] text-white
+                        rounded-lg text-sm focus:outline-none focus:border-[#00ff80]">
+        </div>
+
+        <div>
+          <label class="text-gray-400 text-xs mb-1 block">Email *</label>
+          <input [(ngModel)]="form.email" type="email" placeholder="tu@email.com"
+                 class="w-full px-3 py-2 bg-[#1a1a1a] border border-[#333] text-white
+                        rounded-lg text-sm focus:outline-none focus:border-[#00ff80]">
+        </div>
+
+        <div>
+          <label class="text-gray-400 text-xs mb-1 block">Comentario (opcional)</label>
+          <textarea [(ngModel)]="form.comentario" rows="3"
+                    placeholder="¿Tienes alguna pregunta o preferencia horaria?"
+                    class="w-full px-3 py-2 bg-[#1a1a1a] border border-[#333] text-white
+                           rounded-lg text-sm focus:outline-none focus:border-[#00ff80] resize-none">
+          </textarea>
+        </div>
+
+        <button (click)="enviar()" [disabled]="enviando()"
+                class="w-full bg-[#00ff80] hover:bg-[#00cc66] disabled:opacity-50
+                       text-black font-bold py-3 rounded-lg transition text-sm mt-2">
+          {{ enviando() ? 'Enviando...' : 'Confirmar reserva →' }}
+        </button>
+
+      </div>
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,26 @@
+{
+  "/auth": {
+    "target": "https://bodycraft.josbotdev.es",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug"
+  },
+  "/api": {
+    "target": "https://bodycraft.josbotdev.es",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug"
+  },
+  "/img-proxy/google": {
+    "target": "https://lh3.googleusercontent.com",
+    "changeOrigin": true,
+    "pathRewrite": { "^/img-proxy/google": "" },
+    "secure": false
+  },
+  "/img-proxy/wiki": {
+    "target": "https://upload.wikimedia.org",
+    "changeOrigin": true,
+    "pathRewrite": { "^/img-proxy/wiki": "" },
+    "secure": false
+  }
+}
