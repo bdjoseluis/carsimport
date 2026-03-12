@@ -1,0 +1,229 @@
+.coche-card {
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  animation: slideIn 0.5s ease-out;
+}
+
+.coche-card:hover {
+  border-color: rgba(0, 255, 128, 0.3);        /* ← verde */
+  box-shadow: 0 8px 30px rgba(0, 255, 128, 0.15); /* ← verde */
+  transform: translateY(-5px);
+}
+
+/* Tarjeta central */
+.center-card {
+  transform: scale(1.1);
+  z-index: 10;
+  min-width: 320px;
+  max-width: 350px;
+  border-color: rgba(0, 255, 128, 0.4);         /* ← verde */
+  box-shadow: 0 8px 35px rgba(0, 255, 128, 0.2); /* ← verde */
+}
+
+/* Tarjetas laterales */
+.side-card {
+  opacity: 0.8;
+  z-index: 5;
+  min-width: 280px;
+  max-width: 300px;
+  filter: blur(1px);
+}
+
+.side-card:hover {
+  opacity: 1;
+  filter: blur(0);
+}
+
+/* Imagen */
+.coche-imagen {
+  position: relative;
+  overflow: hidden;
+  border-radius: 18px 18px 0 0;
+}
+
+.coche-imagen::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: linear-gradient(135deg,
+    rgba(0, 255, 128, 0.08) 0%,   /* ← verde */
+    transparent 50%,
+    rgba(0, 212, 255, 0.08) 100%);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  z-index: 2;
+}
+
+.coche-card:hover .coche-imagen::before {
+  opacity: 1;
+}
+
+.coche-imagen img {
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  filter: brightness(0.9) contrast(1.1);
+}
+
+.coche-card:hover .coche-imagen img {
+  transform: scale(1.1);
+  filter: brightness(1.1) contrast(1.2);
+}
+
+/* Badge estado */
+.estado-badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.estado-badge.nuevo     { background: #00ff80; color: #000; }  /* ← verde */
+.estado-badge.seminuevo { background: rgba(0,0,0,0.65); color: #d1d5db; }
+.estado-badge.usado     { background: rgba(0,0,0,0.65); color: #d1d5db; }
+
+/* Info */
+.coche-info { padding: 1rem; }
+
+.coche-titulo h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 0.5rem;
+}
+
+.coche-titulo .version {
+  font-size: 0.9rem;
+  color: #6b7280;
+  font-weight: 500;
+}
+
+/* Detalles */
+.coche-detalles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  margin: 0.75rem 0;
+}
+
+.detalle-item {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  background: #f3f4f6;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+  color: #6b7280;
+  font-weight: 500;
+}
+
+.detalle-item i {
+  width: 0.75rem;
+  height: 0.75rem;
+  color: #00cc55;  /* ← verde */
+}
+
+/* Características */
+.coche-caracteristicas {
+  font-size: 0.8rem;
+  margin: 1rem 0;
+}
+
+.caracteristica {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  padding: 0.25rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.caracteristica .label { color: #9ca3af; font-weight: 600; }
+.caracteristica .value { color: #1f2937; font-weight: 700; }
+
+/* Precio */
+.coche-precio {
+  text-align: center;
+  margin: 0.75rem 0;
+}
+
+.precio {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #00aa55;  /* ← verde */
+}
+
+/* Vendedor */
+.vendedor-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.75rem;
+  color: #9ca3af;
+  padding-top: 0.5rem;
+  border-top: 1px solid #f3f4f6;
+}
+
+.vendedor, .fecha-publicacion {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+/* Botón */
+.card-actions { padding-top: 0.75rem; }
+
+.btn-ver-detalles {
+  width: 100%;
+  background: #00ff80;   /* ← verde */
+  color: #000;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-ver-detalles:hover {
+  background: #00cc66;   /* ← verde oscuro */
+}
+
+/* Iconos */
+.icon-año::before        { content: "📅"; }
+.icon-km::before         { content: "🛣️"; }
+.icon-combustible::before { content: "⛽"; }
+.icon-usuario::before    { content: "👤"; }
+.icon-fecha::before      { content: "📆"; }
+
+/* Transición suave */
+.transition-suave { transition: all 0.3s ease-in-out; }
+
+/* Animación entrada */
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(20px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .center-card {
+    min-width: 260px;
+    max-width: 280px;
+    transform: scale(1.05);
+  }
+  .side-card {
+    min-width: 220px;
+    max-width: 240px;
+  }
+}

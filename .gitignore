@@ -1,0 +1,23 @@
+# Secretos personales
+contraseñas.txt
+*.txt
+images.jpg
+kleinwagen.jpg
+kleinwagen2.jpg
+
+# Backend compilado
+backend/target/
+backend/.mvn/
+
+# Frontend
+CochesFront/node_modules/
+CochesFront/dist/
+CochesFront/.angular/
+
+# IDEs
+.vscode/
+.idea/
+
+# Env files
+.env
+*.env

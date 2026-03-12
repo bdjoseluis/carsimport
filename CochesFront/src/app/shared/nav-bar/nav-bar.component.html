@@ -1,0 +1,124 @@
+<nav [class.nav-glassmorphism]="rutaCosmica" [class.nav-solido]="!rutaCosmica" class="sticky top-0 z-50">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-3">
+
+    <!-- Logo -->
+    <a [routerLink]="['/home']" class="flex items-center gap-3">
+      <svg width="44" height="44" viewBox="0 0 44 44">
+        <rect width="44" height="44" rx="8" fill="#0a0a0a" stroke="#00ff80" stroke-width="1.5" />
+        <text x="22" y="30" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="18" font-weight="900"
+          fill="#00ff80" filter="url(#glow)">CC</text>
+        <defs>
+          <filter id="glow">
+            <feGaussianBlur stdDeviation="2" result="blur" />
+            <feMerge>
+              <feMergeNode in="blur" />
+              <feMergeNode in="SourceGraphic" />
+            </feMerge>
+          </filter>
+        </defs>
+      </svg>
+      <span class="text-white text-lg font-bold tracking-wider">
+        Auto<span class="text-[#00ff80]">Import</span>
+      </span>
+    </a>
+
+    <!-- Zona derecha -->
+    <div class="flex items-center md:order-2 gap-3">
+
+      <!-- LOGUEADO: Avatar + Dropdown -->
+      <div *ngIf="isLoggedIn" class="relative">
+        <button type="button" (click)="toggleDropdown()" class="flex border-2 border-[#00ff80] rounded-full focus:ring-2
+                       focus:ring-[#00ff80] transition">
+          <img class="w-8 h-8 rounded-full" src="usuario.png" alt="user">
+        </button>
+
+        <div *ngIf="dropdownOpen" class="fixed inset-0 z-40" (click)="dropdownOpen = false"></div>
+
+        <div *ngIf="dropdownOpen" class="absolute right-0 mt-2 w-52 bg-[#111] border border-[#222]
+                    rounded-lg shadow-xl shadow-black z-50">
+          <div class="px-4 py-3 border-b border-[#222]">
+            <span class="block text-sm text-[#00ff80] font-bold">{{ userName }}</span>
+            <span class="block text-xs text-gray-500 truncate">{{ email }}</span>
+            <span *ngIf="isAdmin" class="inline-block mt-1 text-xs text-yellow-400 font-semibold">
+              👑 Administrador
+            </span>
+          </div>
+          <ul class="py-1">
+            <li>
+              <button (click)="logout()" class="w-full text-left px-4 py-2 text-sm text-gray-400
+                             hover:text-[#00ff80] hover:bg-[#1a1a1a] transition">
+                🚪 Desconectar
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- NO LOGUEADO -->
+      <ng-container *ngIf="!isLoggedIn">
+        <a [routerLink]="['/login']" routerLinkActive="nav-active" class="nav-link hidden md:block text-sm">
+          Sign In
+        </a>
+        <a [routerLink]="['/register']" class="hidden md:block py-2 px-4 rounded-lg text-sm font-bold text-black
+                  bg-[#00ff80] hover:bg-[#00cc66] transition whitespace-nowrap">
+          Sign Up
+        </a>
+      </ng-container>
+
+      <!-- Hamburger -->
+      <button data-collapse-toggle="navbar-main" type="button" class="md:hidden p-2 text-gray-400 rounded-lg hover:bg-[#1a1a1a]
+                     focus:ring-2 focus:ring-[#00ff80]">
+        <svg class="w-5 h-5" fill="none" viewBox="0 0 17 14">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M1 1h15M1 7h15M1 13h15" />
+        </svg>
+      </button>
+    </div>
+
+    <!-- Links -->
+    <div class="hidden w-full md:flex md:w-auto md:order-1" id="navbar-main">
+      <ul class="flex flex-col md:flex-row md:gap-1 font-medium mt-4 md:mt-0
+                 border border-[#1a1a1a] md:border-0 rounded-lg bg-[#111]
+                 md:bg-transparent p-4 md:p-0 md:items-center">
+
+        <li>
+          <a [routerLink]="['/home']" routerLinkActive="nav-active" class="nav-link">
+            🏠 Home
+          </a>
+        </li>
+        <li>
+          <a [routerLink]="['/nuestroscoches']" routerLinkActive="nav-active" class="nav-link">
+            🇪🇸 Nuestros Coches
+          </a>
+        </li>
+        <li>
+          <a [routerLink]="['/importacion']" routerLinkActive="nav-active" class="nav-link">
+            🇩🇪 Coches Importados
+          </a>
+        </li>
+        <li>
+          <a [routerLink]="['/vendetucoche']" routerLinkActive="nav-active" class="nav-link">
+            💶 Vende tu Coche
+            <span class="inline-block w-1.5 h-1.5 rounded-full bg-[#00ff80] mb-2"></span>
+          </a>
+        </li>
+
+        <!-- Solo ADMIN -->
+        <li *ngIf="isAdmin">
+          <a [routerLink]="['/admin/publicar-coche']" routerLinkActive="nav-active" class="nav-link">
+            🛻 Publicar Coche
+            <span class="inline-block w-1.5 h-1.5 rounded-full bg-yellow-400 mb-2"></span>
+          </a>
+        </li>
+        <li *ngIf="isAdmin">
+          <a [routerLink]="['/admin/ofertas']" routerLinkActive="nav-active" class="nav-link">
+            📋 Ofertas Venta
+            <span class="inline-block w-1.5 h-1.5 rounded-full bg-yellow-400 mb-2"></span>
+          </a>
+        </li>
+
+      </ul>
+    </div>
+
+  </div>
+</nav>

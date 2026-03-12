@@ -1,0 +1,3011 @@
+[{
+  "title": "BMW 420 i Coupe|HUD|LED|M-PAKET|WHITE|H&K|LM",
+  "previewImage": "https://img.classistatic.de/api/v1/mo-prod/images/d9/d9542044-084c-43fd-8f20-4c3f75113b59?rule=mo-1600.jpg",
+  "category": "SportsCar",
+  "brand": "BMW",
+  "model": "420",
+  "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=445524249",
+  "price.total.amount": 20950,
+  "priceRating": {
+    "rating": "Fair price",
+    "priceRanges": {
+      "Very good price": {
+        "start": 13601,
+        "end": 17700
+      },
+      "Good price": {
+        "start": 17701,
+        "end": 19000
+      },
+      "Fair price": {
+        "start": 19001,
+        "end": 21100
+      },
+      "Increased price": {
+        "start": 21101,
+        "end": 22700
+      },
+      "High price": {
+        "start": 22701,
+        "end": 25200
+      }
+    }
+  },
+  "description": "HERZLICH WILLKOMMEN IM AUTOHAUS HINTER DEM SALZE\n\nUnsere umfassenden Serviceleistungen umfassen: \n12 Monate Gewährleistung und Gebrauchtwagengarantie: Wir bieten eine einjährige Gewährleistung für Ihre Sicherheit und Zufriedenheit.\nUnschlagbare Finanzierungsangebote: Nutzen Sie unsere attraktiven Finanzierungsmöglichkeiten, die auf Ihre individuellen Bedürfnisse zugeschnitten sind.\nInzahlungnahme Ihres Altfahrzeuges: Gerne nehmen wir Ihr aktuelles Fahrzeug in Zahlung, um den Kauf Ihres neuen Fahrzeugs zu erleichtern.\nScheckheftgepflegte Fahrzeuge: Alle unsere Fahrzeuge wurden sorgfältig nach Herstellervorgaben gewartet und verfügen über vollständige Servicehistorien.\nFahrzeugprüfung durch Fachwerkstatt: Unsere Fahrzeuge wurden von einer Fachwerkstatt gründlich geprüft, um höchste Qualität und Zuverlässigkeit zu gewährleisten.\nHU/AU mit einer Mindestlaufzeit von 12 Monaten: Die Hauptuntersuchung (HU) und Abgasuntersuchung (AU) sind für mindestens 12 Monate gültig, um Ihnen eine sorgenfreie Fahrzeugnutzung zu ermöglichen.\nAbholservice vom Flughafen/Bahnhof (auf Anfrage): Für Ihren Komfort bieten wir einen Abholservice vom Flughafen oder Bahnhof nach vorheriger Absprache an.\n\nFür weitere Informationen oder zur Vereinbarung von Dienstleistungen erreichen Sie uns unter der Telefonnummer: +49 152 25222227 \n\nHIGHLIGHTS: \nHEAD-UP DISPLAY\nM SPORTPAKET\n\nINNENAUSSTATTUNG UND KOMFORT: \nLORDOSENSTUETZE FAHRER/BEIFAHRER\nM LEDERLENKRAD\nSPORTSITZE FUER FAHRER/BEIFAHRER\n\nMULTIMEDIA UND KOMMUNIKATION: \nHARMAN/KARDON SURROUND SOUND SYSTEM\n\nSICHERHEIT: \nFERNLICHTASSISTENT\nINTELLIGENTER NOTRUF\nPARK DISTANCE CONTROL (PDC)\nSPEED LIMIT INFO\n\n\n\n\nBitte beachten Sie, dass die oben aufgeführte Ausstattungsliste lediglich der allgemeinen Identifizierung des Fahrzeugs dient und keine zugesicherte Eigenschaft im kaufrechtlichen Sinne darstellt. Sie ist somit nicht Vertragsgegenstand und sollte vor Abschluss des Kaufvertrags von jedem Interessenten vor Ort am Fahrzeug überprüft werden. Wir behalten uns das Recht vor, Änderungen vorzunehmen, Irrtümer zu korrigieren und das Fahrzeug anderweitig zu verkaufen.",
+  "dealerDetails": {
+    "id": 25825701,
+    "name": "AUTOHAUS HINTER DEM SALZE SALZGITTER",
+    "sellerType": "Dealer",
+    "phones": [
+      "+49 (0)5341 862652949"
+    ],
+    "messengers": {
+      "WHATS_APP": "+49 (0)172 5984155"
+    },
+    "languages": [
+      "Deutsch",
+      "English"
+    ],
+    "country": "DE",
+    "address": "Hinter dem Salze 97, DE-38259 Salzgitter",
+    "location": {
+      "latitude": 52.0418815,
+      "longitude": 10.3639703
+    },
+    "activeSince": "2021-06-21T00:00:00.000Z",
+    "homepageUrl": "https://home.mobile.de/home/redirect.html?customerId=25825701",
+    "iconUrl": "https://img.classistatic.de/api/v1/mo-prod/images/e2/e22a5009-ec19-4a2e-aa59-612c6109e44b?rule=mo-640.jpg",
+    "reviewPageUrl": "https://www.mobile.de/bewertungen/CCTradingLogisticGmbH?lang=en",
+    "score": {
+      "total": 4.9,
+      "responseTime": 4.9,
+      "friendliness": 5,
+      "advice": 4.8
+    },
+    "activeRatingCount": 28,
+    "vehicleAsDescribedPercentage": 96,
+    "recommendPercentage": 96,
+    "soldVehicleCount": null,
+    "reviews": []
+  },
+  "attributes": {
+    "Vehicle condition": "Used vehicle, Accident-free",
+    "Category": "Sports Car/Coupe",
+    "Model range": "3N21",
+    "Trim line": "420 i",
+    "Vehicle Number": "303109",
+    "Availability": "Now",
+    "Origin": "German edition",
+    "Mileage": "77,250 km",
+    "Cubic Capacity": "1,998 ccm",
+    "Power": "135 kW (184 hp)",
+    "Drive type": "Internal combustion engine",
+    "Fuel": "Petrol, E10-enabled",
+    "Number of Seats": "4",
+    "Door Count": "2/3",
+    "Transmission": "Automatic",
+    "Emission Class": "Euro6",
+    "Emissions Sticker": "4 (Green)",
+    "First Registration": "05/2014",
+    "Number of Vehicle Owners": "2",
+    "HU": "06/2027",
+    "Climatisation": "Automatic air conditioning",
+    "Parking sensors": "Rear, Front",
+    "Airbags": "Front Airbags",
+    "Colour (Manufacturer)": "ALPINWEISS III",
+    "Colour": "White",
+    "Interior Design": "Cloth, Black",
+    "Weight": "1,570 kg",
+    "Cylinders": "4"
+  },
+  "features": [
+    "ABS",
+    "Alloy wheels",
+    "Ambient lighting",
+    "Arm rest",
+    "Autom. dimming interior mirror",
+    "Bluetooth",
+    "CD player",
+    "Central locking",
+    "Cruise control",
+    "Electric side mirror",
+    "Electric windows",
+    "Emergency call system",
+    "ESP",
+    "Fog lamps",
+    "Full Service History",
+    "Hands-free kit",
+    "Headlight washer system",
+    "Head-up display",
+    "High beam assist",
+    "Immobilizer",
+    "Isofix",
+    "Leather steering wheel",
+    "LED headlights",
+    "LED running lights",
+    "Light sensor",
+    "Lumbar support",
+    "Multifunction steering wheel",
+    "Navigation preparation",
+    "Navigation system",
+    "New service",
+    "Non-smoker vehicle",
+    "On-board computer",
+    "Paddle shifters",
+    "Particulate filter",
+    "Power Assisted Steering",
+    "Rain sensor",
+    "Rear wheel drive",
+    "Smoker's package",
+    "Sound system",
+    "Speed limit control system",
+    "Sport seats",
+    "Sports package",
+    "Sports suspension",
+    "Start-stop system",
+    "Summer tyres",
+    "Traction control",
+    "Tuner/radio",
+    "Tyre pressure monitoring",
+    "USB port",
+    "Warranty"
+  ]
+},
+{
+  "title": "BMW 220 i Cabrio Aut. M Sport-Paket ,Xen,Navi,Leder",
+  "previewImage": "https://img.classistatic.de/api/v1/mo-prod/images/2b/2b62844b-ce87-489c-abb9-69d4a7d7dd59?rule=mo-1600.jpg",
+  "category": "Cabrio",
+  "brand": "BMW",
+  "model": "220",
+  "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=447782235",
+  "price.total.amount": 17750,
+  "priceRating": {
+    "rating": "Fair price",
+    "priceRanges": {
+      "Very good price": {
+        "start": 12701,
+        "end": 16500
+      },
+      "Good price": {
+        "start": 16501,
+        "end": 17700
+      },
+      "Fair price": {
+        "start": 17701,
+        "end": 19700
+      },
+      "Increased price": {
+        "start": 19701,
+        "end": 21200
+      },
+      "High price": {
+        "start": 21201,
+        "end": 23500
+      }
+    }
+  },
+  "description": "Besichtigung nur mit Termin!\n\nTelefon: 01796994103 - Herr Hinterthan\nTelefon: 01715614734 - Herr Richter-Stuwe\n\nTelefonisch ereichbar MO-Sa von 09:00 Uhr - 20:00 Uhr / auch Whatsapp oder SMS\nBesichtigung nur nach telefonischer Kontaktaufnahme möglich, alle Fahrzeuge stehen in einer geschlossenen Halle!\n\nDas Fahrzeug steht in unserer Gebrauchtwagenhalle , 22087 Hamburg, Mühlendamm\n\n( ca. 2 min von der Alsterschwimmhalle entfernt.)\n\nFür weitere Informationen und Terminabsprache zum Fahrzeug.\n\nBitte kontaktieren Sie uns per Handy bevor sie sich auf den Weg zu uns machen, da wir nicht Ständig vor Ort sind und unsere Fahrzeuge in abgeschlossenen Räumlichkeiten stehen!\n___________________________________________\n\nAngeboten wird ein sehr schöner und gepflegter BMW 220i Aut Cabrio M-Sportpaket\n\nScheckheft\nEuro 6\n1 Jahr Real Garant Gebrauchtwagen Garantie gegen Aufpreis möglich\n\nSonderausstattung:\nAudio-Navigationssystem Business,\nAusstattungs-Paket: ConnectedDrive Services,\nBi-Xenon-Scheinwerfer,\nDurchladeeinrichtung (Mittelarmlehne hinten),\nFahrassistenz-System: Fernlichtassistent,\nFreisprecheinrichtung Bluetooth mit erweiterte Smartphone-Anbindung,\nHiFi-Lautsprechersystem,\nInnenausstattung: Interieurleisten Alu Längsschliff fein mit Akzentleiste,\nInnenspiegel mit Abblendautomatik,\nInstrumentenkombination (erweiterter Umfang),\nKlimaautomatik 2-Zonen mit autom. Umluft-Control,\nLenkrad heizbar,\nLM-Felgen vorn/hinten: 7,5x18 / 8x18 (Doppelspeiche 461 M),\nMetallic-Lackierung,\nPark-Distance-Control (PDC) vorn und hinten,\nSitzbezug / Polsterung: Leder Dakota,\nSitzheizung vorn,\nVerdeck Anthrazit,\n\n\nWeitere Ausstattung:\n3. Bremsleuchte,\nAblage-Paket,\nAerodynamik-Paket M-Technic,\nAirbag Beifahrerseite abschaltbar,\nAirbag Fahrer-/Beifahrerseite,\nAmbiente-Beleuchtung,\nAudiosystem BMW Professional (Radio/CD-Player MP3-fähig),\nAuspuffanlage (1-Rohr-Anlage) mit Blende,\nAusstiegsleuchten in Türverkleidung unten,\nAußenausstattung: Shadow-Line Hochglanz,\nAußenspiegel elektr. verstell- und heizbar,\nAußenspiegel M Wagenfarbe,\nAußenspiegel Wagenfarbe,\nAußentemperaturanzeige,\nBlinkleuchte in Außenspiegel integriert,\nBlinkleuchten LED,\nBordcomputer,\nBremsassistent,\nCheck-Control-System,\nDynamische Bremsleuchte,\nDynamische Tractions Control (DTC),\nEinstiegsleisten mit Schriftzug M-Technic,\nErste Hilfe-Kasten / Verbandkasten,\nFahrassistenz-System: Fahrerlebnisschalter,\nFarbmonitor (6,5 Zoll),\nFreisprecheinrichtung Bluetooth mit USB-/Audio-Schnittstelle,\nFußmatten Velours,\nFußraumbeleuchtung vorn,\nGepäckraumbeleuchtung,\nIsofix-Aufnahmen für Kindersitz an Rücksitz,\nKarosserie: 2-türig,\nLenkrad (Sport/Leder M-Technic) mit Multifunktion,\nLeseleuchten hinten,\nLeseleuchten vorn,\nLicht-Paket,\nM Sport, Motor 2,0 Ltr. - 135 kW,\nNichtraucher-Paket,\nPersonalisierungssystem (Personal Profile),\nReifendruck-Kontrollsystem,\nReifensystem Run-Flat (mit Notlaufeigenschaften),\nSchadstoffarm nach Abgasnorm Euro 6,\nSchalt-/Wählhebelgriff Leder (Walknappa),\nSchaltpunktanzeige,\nScheibenwaschdüsen heizbar,\nSeitenairbag, Service-System: Intelligenter Notruf inkl. TeleServices,\nSitze vorn mechanisch verstellbar,\nSport-Fahrwerk (M-Technic),\nSportsitze vorn,\nStart-Stop-Knopf, Start/Stop-Anlage (Funktion),\nSteckdose (12V-Anschluß) in Mittelkonsole und Koffer-/Laderaum (4-fach),\nWarndreieck,\nWärmeschutzverglasung getönt,\nÜberschlag-Schutzsystem (aktiver Überrollbügel)\n\nInzahlungnahme Ihres jetzigen Fahrzeug möglich, gerne auch höherwertigere Fahrzeuge\n\nUnsere Fahrzeugbeschreibung dient nur der allgemeinen Identifizierung des Fahrzeuges.\nDie Angaben erheben nicht den Anspruch auf Vollständigkeit.\nDie gemachten Angaben und Beschreibungen sowie Bilder dienen nicht als zugesicherte Eigenschaften.\nDer Verkäufer übernimmt keine Haftung für Datenübermittlungsfehler durch Dritte. Die Ausstattungen sind ggf Monate. gesondert zu prüfen.\nDie Angaben zur Ausstattung wurden teilweise über die Herstellerschnittstelle (VIN-Abfrage) ermittelt. Daher können die Angaben zur Fahrzeugausstattung abweichen.\nIrrtümer und auch der Zwischenverkauf bleibt vorbehalten.\n\nEs handelt sich ein Gewerbe Angebot - - Gerwebe/Händler bevorzugt..\n\nBesichtigung und Probefahrt nur nach Vereinbarung.\nIm Lieferumfang nicht enthalten ist die dauerhafte Bereitstellung digitaler Elemente, deren Updates oder Produktverbesserungen.",
+  "dealerDetails": {
+    "id": 12734722,
+    "name": "Ronald Richter - Stuwe e.k Automobile",
+    "sellerType": "Dealer",
+    "phones": [
+      "+49 (0)40 6077618859"
+    ],
+    "messengers": {
+      "WHATS_APP": "+49 (0)171 5614734"
+    },
+    "languages": [
+      "Deutsch",
+      "English"
+    ],
+    "country": "DE",
+    "address": "Mühlendamm ., DE-22087 Hamburg",
+    "location": {
+      "latitude": 53.5612679,
+      "longitude": 10.0252739
+    },
+    "activeSince": "2015-02-16T00:00:00.000Z",
+    "homepageUrl": "https://home.mobile.de/home/redirect.html?customerId=12734722",
+    "iconUrl": "https://img.classistatic.de/api/v1/mo-prod/images/18/18a0a9b3-bdbc-4dbc-8428-1812d6c67c3f?rule=mo-640.jpg",
+    "reviewPageUrl": "https://www.mobile.de/bewertungen/RONALDRICHTERSTUWE?lang=en",
+    "score": {
+      "total": 4.6,
+      "responseTime": 4.7,
+      "friendliness": 4.7,
+      "advice": 4.4
+    },
+    "activeRatingCount": 36,
+    "vehicleAsDescribedPercentage": 93,
+    "recommendPercentage": 90,
+    "soldVehicleCount": null,
+    "reviews": []
+  },
+  "attributes": {
+    "Vehicle condition": "Used vehicle, Accident-free",
+    "Category": "Convertible/Roadster",
+    "Model range": "F23",
+    "Trim line": "220 i M Sport",
+    "Mileage": "113,000 km",
+    "Cubic Capacity": "1,998 ccm",
+    "Power": "135 kW (184 hp)",
+    "Drive type": "Internal combustion engine",
+    "Fuel": "Petrol",
+    "Fuel consumption": [
+      "5.7 l/100km (combined)"
+    ],
+    "Number of Seats": "4",
+    "Door Count": "2/3",
+    "Transmission": "Automatic",
+    "Emission Class": "Euro6",
+    "Emissions Sticker": "4 (Green)",
+    "First Registration": "10/2015",
+    "Number of Vehicle Owners": "3",
+    "HU": "11/2026",
+    "Climatisation": "Automatic climatisation, 2 zones",
+    "Parking sensors": "Rear",
+    "Airbags": "Front and Side Airbags",
+    "Colour (Manufacturer)": "MINERALWEISS",
+    "Colour": "White Metallic",
+    "Interior Design": "Full leather, Black",
+    "Trailer load braked": "1,500 kg",
+    "Trailer load unbraked": "750 kg",
+    "Weight": "1,615 kg",
+    "Cylinders": "4",
+    "Tank capacity": "52 l",
+    "Energy consumption (comb.)": "5.7 l/100km",
+    "CO₂ emissions (comb.)": "131 g/km"
+  },
+  "features": [
+    "ABS",
+    "Alarm system",
+    "Alloy wheels",
+    "Arm rest",
+    "Autom. dimming interior mirror",
+    "Bi-xenon headlights",
+    "Bluetooth",
+    "CD player",
+    "Central locking",
+    "Cruise control",
+    "Electric side mirror",
+    "Emergency tyre repair kit",
+    "ESP",
+    "Fog lamps",
+    "Full Service History",
+    "Hands-free kit",
+    "Heated seats",
+    "Heated steering wheel",
+    "High beam assist",
+    "Hill-start assist",
+    "Immobilizer",
+    "Isofix",
+    "Leather steering wheel",
+    "LED running lights",
+    "Light sensor",
+    "Multifunction steering wheel",
+    "Navigation system",
+    "On-board computer",
+    "Power Assisted Steering",
+    "Rain sensor",
+    "Rear wheel drive",
+    "Sound system",
+    "Sport seats",
+    "Sports package",
+    "Sports suspension",
+    "Start-stop system",
+    "Summer tyres",
+    "Traction control",
+    "Tuner/radio",
+    "Tyre pressure monitoring",
+    "USB port",
+    "Winter tyres"
+  ]
+},
+{
+  "title": "Volkswagen Golf VII 2.0TDI Alltrack 4Motion AHK/DISCOVER/AC",
+  "previewImage": "https://img.classistatic.de/api/v1/mo-prod/images/25/251cc810-4c41-4144-8746-04cd39709cb7?rule=mo-1600.jpg",
+  "category": "EstateCar",
+  "brand": "Volkswagen",
+  "model": "Golf",
+  "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=431508409",
+  "price.total.amount": 17900,
+  "priceRating": {
+    "rating": "Fair price",
+    "priceRanges": {
+      "Very good price": {
+        "start": 11601,
+        "end": 15000
+      },
+      "Good price": {
+        "start": 15001,
+        "end": 16200
+      },
+      "Fair price": {
+        "start": 16201,
+        "end": 18000
+      },
+      "Increased price": {
+        "start": 18001,
+        "end": 19300
+      },
+      "High price": {
+        "start": 19301,
+        "end": 21500
+      }
+    }
+  },
+  "description": "Angeboten wird ein sehr gut ausgestatteter Golf Variant Alltrack mit starker und sparsamer Dieselmotorisierung.\n\nSonderausstattung:\nAudiosystem Composition Media (Touchscreen, Radio/CD-Player, MP3, Bluetooth), Bi-Xenon-Scheinwerfer, Dachhimmel Stoff, schwarz, Fahrassistenz-System: Autom. Distanzregelung (ACC) mit Umfeldbeobachtungssystem (Front assist), Fahrassistenz-System: Fernlichtregulierung (Light Assist), Fahrassistenz-System: Parklenkassistent (Park Assist), Gepäckraum-Abtrennung (Netztrennwand), Insassen-Schutzsystem proaktiv, Licht- und Sicht-Paket 1, Metallic-Lackierung, Mobiltelefon Schnittstelle Comfort (inkl. Bluetooth-/Audio-Schnittstelle), Multimediabuchse MEDIA-IN mit Adapterkabel iPod und USB, Navigationsmodul Discover Media (für Audiosystem), Raucher-Paket, Verglasung hinten abgedunkelt (65 %)\n\nWeitere Ausstattung:\n3-Punkt-Sicherheitsgurt hinten mitte, Ablagefach am Dachhimmel, Ablagetasche an Vordersitzlehnen, Airbag Beifahrerseite abschaltbar, Airbag Fahrer-/Beifahrerseite, Ambiente-Beleuchtung Türverkleidung, Außenspiegel asphärisch, links, Außenspiegel elektr. verstell- und heizbar, beide, Außenspiegel verchromt, Blinkleuchte in Außenspiegel integriert, Bremsassistent, Bremsbelagverschleissanzeige, Chrom-Paket (1), Chromleisten an Seitenfenstern, Dachreling silber eloxiert, Einparkhilfe vorn und hinten, Einstiegsleisten (Edelstahl), Elektron. Differentialsperre (XDS), Fahrassistenz-System: Fahrprofilauswahl, Fahrassistenz-System: Multikollisionsbremse (Multi Collision Brake), Fahrassistenz-System: Müdigkeitserkennung, Fahrassistenz-System: Off-Road-Fahrprogramm, Fensterheber elektrisch vorn und hinten, Frontscheibe Verbundglas getönt, Fußmatten Textil, Fußraumbeleuchtung vorn, Gepäckraumabdeckung / Rollo, Getränkehalter vorn, Handschuhfach mit Kühlfunktion, Heckleuchten dunkel getönt, Heckscheibenwischer, Innenausstattung: Dekoreinlagen Dark Magnesium, Innenraumfilter: Staub- und Pollenfilter, Isofix-Aufnahmen für Kindersitz an Rücksitz, Karosserie: 4-türig, Kennzeichenbeleuchtung LED, Klimaanlage Climatronic 2-Zonen, Knieairbag Fahrerseite, Kopf-Airbag-System vorn und hinten inkl. Seitenairbag vorn, Kopfstützen hinten (3-fach), Kühlergrill schwarz mit Chromleiste unten, matt, Lendenwirbelstützen vorn, Lenksäule (Lenkrad) mechan. verstellbar, Höhen-/Längsverstellung, Leseleuchten vorn und hinten LED, LM-Felgen, Motor 2,0 Ltr. - 110 kW TDI, Multifunktionsanzeige Plus, Nebelschlussleuchte, Parkbremse elektrisch, Pedale Edelstahl / Aluminium-Design, Reifen-Reparaturkit (Tire Mobility Set), Reifenkontroll-Anzeige, Rücksitzlehne geteilt, Schadstoffarm nach Abgasnorm Euro 6, Schalt-/Wählhebelgriff Leder, Schlechtwege-Fahrwerk, Schublade / Ablagefach unter Sitz vorn links, Schublade / Ablagefach unter Sitz vorn rechts, Sitz vorn links höhenverstellbar, Sitzbezug / Polsterung: Stoff, Sitzlehne vorn rechts umklappbar, Sonnenblenden mit Spiegel (beleuchtet), Start/Stop-Anlage, Steckdose 12V im Koffer-/Laderaum, Türgriffe außen Wagenfarbe, Unterfahrschutz Triebwerk (Motor und Getriebe), Unterfahrschutz vorn, Verbandkasten und Warndreieck, Warnanlage für Sicherheitsgurte vorn, Wärmeschutzverglasung grün getönt\n\nÄnderungen, Irrtümer und Zwischenverkauf sind ausdrücklich vorbehalten. Die Fahrzeugbeschreibung dient lediglich der allgemeinen Identifizierung des Fahrzeuges und stellt keine Gewährleistung im kaufrechtlichen Sinne da. Die Vereinbarungen in der Auftragsbestätigung oder im Kaufvertrag sind einzig und allein ausschlaggebend.",
+  "dealerDetails": {
+    "id": 23969694,
+    "name": "Andreas Zimmermann Kraftfahrzeughandelsgesellschaft mbH",
+    "sellerType": "Dealer",
+    "phones": [
+      "+49 (0)2131 751007728"
+    ],
+    "languages": [
+      "Deutsch",
+      "English"
+    ],
+    "country": "DE",
+    "address": "Bruchweg 140, DE-41564 Kaarst",
+    "location": {
+      "latitude": 51.21339,
+      "longitude": 6.63432
+    },
+    "activeSince": "2020-06-25T00:00:00.000Z",
+    "homepageUrl": "https://home.mobile.de/home/redirect.html?customerId=23969694",
+    "iconUrl": "https://img.classistatic.de/api/v1/mo-prod/images/70/70c822be-a350-461b-8e84-cb76caca8e88?rule=mo-640.jpg",
+    "reviewPageUrl": "https://www.mobile.de/bewertungen/AndreasZimmermannKraftfahrzeughandelsgesellschaftmbH?lang=en",
+    "score": {
+      "total": 4.6,
+      "responseTime": 4.7,
+      "friendliness": 4.7,
+      "advice": 4.4
+    },
+    "activeRatingCount": 30,
+    "vehicleAsDescribedPercentage": 91,
+    "recommendPercentage": 92,
+    "soldVehicleCount": null,
+    "reviews": []
+  },
+  "attributes": {
+    "Vehicle condition": "Used vehicle",
+    "Category": "Estate car",
+    "Model range": "Golf VII Alltrack Variant (BA5)(11.2014->2017)",
+    "Trim line": "BMT 4Motion",
+    "Vehicle Number": "26",
+    "Origin": "German edition",
+    "Mileage": "76,588 km",
+    "Cubic Capacity": "1,968 ccm",
+    "Power": "110 kW (150 hp)",
+    "Drive type": "Internal combustion engine",
+    "Fuel": "Diesel",
+    "Fuel consumption": [
+      "4.9 l/100km (combined)"
+    ],
+    "Number of Seats": "5",
+    "Door Count": "4/5",
+    "Transmission": "Manual gearbox",
+    "Emission Class": "Euro6",
+    "Emissions Sticker": "4 (Green)",
+    "First Registration": "07/2015",
+    "Number of Vehicle Owners": "2",
+    "HU": "New",
+    "Climatisation": "Automatic climatisation, 2 zones",
+    "Parking sensors": "Self-steering systems, Front, Rear",
+    "Airbags": "Front and Side and More Airbags",
+    "Colour (Manufacturer)": "TUNGSTEN SILVER",
+    "Colour": "Silver Metallic",
+    "Interior Design": "Cloth, Black",
+    "Trailer load braked": "2,000 kg",
+    "Trailer load unbraked": "750 kg",
+    "Weight": "1,555 kg",
+    "Cylinders": "4",
+    "Tank capacity": "55 l",
+    "Energy consumption (comb.)": "4.9 l/100km",
+    "CO₂ emissions (comb.)": "127 g/km"
+  },
+  "features": [
+    "ABS",
+    "Adaptive cornering lights",
+    "Adaptive Cruise Control",
+    "Alloy wheels",
+    "Ambient lighting",
+    "Arm rest",
+    "Autom. dimming interior mirror",
+    "Bi-xenon headlights",
+    "Bluetooth",
+    "Cargo barrier",
+    "CD player",
+    "Central locking",
+    "Distance warning system",
+    "Electric side mirror",
+    "Electric windows",
+    "Emergency brake assist",
+    "Emergency call system",
+    "Emergency tyre repair kit",
+    "ESP",
+    "Fatigue warning system",
+    "Fog lamps",
+    "Fold flat passenger seat",
+    "Folding exterior mirrors",
+    "Four-wheel drive",
+    "Full Service History",
+    "Hands-free kit",
+    "Headlight washer system",
+    "Heated seats",
+    "High beam assist",
+    "Hill-start assist",
+    "Immobilizer",
+    "Integrated music streaming",
+    "Isofix",
+    "Leather steering wheel",
+    "LED running lights",
+    "Light sensor",
+    "Lumbar support",
+    "Multifunction steering wheel",
+    "Navigation system",
+    "New service",
+    "Non-smoker vehicle",
+    "On-board computer",
+    "Particulate filter",
+    "Power Assisted Steering",
+    "Rain sensor",
+    "Roof rack",
+    "Smoker's package",
+    "Sound system",
+    "Speed limit control system",
+    "Sport seats",
+    "Start-stop system",
+    "Summer tyres",
+    "Tinted windows",
+    "Touchscreen",
+    "Traction control",
+    "Trailer coupling, swiveling",
+    "Tuner/radio",
+    "Tyre pressure monitoring",
+    "USB port",
+    "Voice control",
+    "Warranty",
+    "Winter package"
+  ]
+},
+{
+  "title": "Volkswagen Passat Variant Highline BMT/Start-Stopp",
+  "previewImage": "https://img.classistatic.de/api/v1/mo-prod/images/4d/4d6511df-e1a1-44a5-8885-b29feed8279d?rule=mo-1600.jpg",
+  "category": "EstateCar",
+  "brand": "Volkswagen",
+  "model": "Passat Variant",
+  "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=443301126",
+  "price.total.amount": 17690,
+  "priceRating": {
+    "rating": "Good price",
+    "priceRanges": {
+      "Very good price": {
+        "start": 12701,
+        "end": 16600
+      },
+      "Good price": {
+        "start": 16601,
+        "end": 17800
+      },
+      "Fair price": {
+        "start": 17801,
+        "end": 19800
+      },
+      "Increased price": {
+        "start": 19801,
+        "end": 21300
+      },
+      "High price": {
+        "start": 21301,
+        "end": 23700
+      }
+    }
+  },
+  "description": "Sonderausstattung:\nAmbiente-Beleuchtung, Audio-Navigationssystem Discover Pro (Touchscreen, CD/DVD, MP3, Festplattenspeicher, Bluetooth), Business-Paket Premium mit Navigation, Dachhimmel, weiß (St. Tropez), Fahrassistenz-System: Adaptive Fahrwerksregelung (DCC), Innenausstattung: Dekoreinlagen Edelholz Olivesche, Insassen-Schutzsystem proaktiv, Knieairbag Fahrerseite, Seitenairbag und Gurtstraffer hinten außen, LM-Felgen 8x18 (Marseille, schwarz glanzgedreht), Mobile Online Dienste MirrorLink, Mobiltelefon Schnittstelle Comfort (inkl. Bluetooth-/Audio-Schnittstelle), Panorama Schiebe-/Hebedach vorn elektrisch, mit Panoramadach hinten, R-Line Sport-Paket, Raucher-Paket, Reifendruck-Kontrollsystem, Sonderlackierung Crimson Red Metallic, Sound-System DYNAUDIO, Spiegel-Paket, Winterbereifung zusätzlich (Kundenangabe erforderlich)\n\nWeitere Ausstattung:\n3-Punkt-Sicherheitsgurt hinten mitte, Ablagetasche an Vordersitzlehnen, Airbag Beifahrerseite abschaltbar, Airbag Fahrer-/Beifahrerseite, Antriebs-Schlupfregelung (ASR), Anzeige für Waschwasserstand, Ausstattung Highline, Ausstattungs-Paket: Licht + Sicht, Außenspiegel asphärisch, links, Außenspiegel elektr. verstell- und heizbar, Außenspiegel lackiert, Außentemperaturanzeige, Blinkleuchte in Außenspiegel integriert, Bremsassistent, Chrom-Paket 2, Chromleisten an Seitenfenstern, Dachreling silber, Doppeltonhorn, Durchladeeinrichtung (Mittelarmlehne hinten), Einparkhilfe vorn und hinten, Einstiegsleisten vorn und hinten (Edelstahl), Einstiegsleuchten in den Türen vorn und hinten LED, Elektron. Differentialsperre (EDS), Fahrassistenz-System: Anhänger-Stabilisierungs-Programm, Fahrassistenz-System: Berganfahr-Assistent, Fahrassistenz-System: Multikollisionsbremse (Multi Collision Brake), Fahrassistenz-System: Müdigkeitserkennung, Fahrassistenz-System: Umfeldbeobachtungssystem (Front assist) mit City-Notbremsfunktion, Fensterheber elektrisch vorn und hinten, Fernentriegelung Heckklappe, Frontscheibe Verbundglas getönt, Fußmatten Textil, Gepäckraum-Abtrennung (Netztrennwand), Gepäckraumabdeckung / Rollo, Gepäckraumbeleuchtung, Handschuhfach mit Kühlfunktion, Heckleuchten LED, dunkelrot, Heckscheibenwischer, Innenraumfilter: Staub- und Pollenfilter mit Aktivkohlefilter, Isofix-Aufnahmen für Kindersitz an Rücksitz, Karosserie: 4-türig, Kennzeichenbeleuchtung LED, Kindersicherung im Fahrgastraum, Klimaanlage Climatronic 3-Zonen, Kopf-Airbag-System vorn und hinten inkl. Seitenairbag vorn, Kopfstützen hinten (3-fach), Lendenwirbelstütze und Einstellung Lehnenneigung vorn, links elektr. verstellbar, Lendenwirbelstützen vorn, Lenksäule (Lenkrad) mechan. verstellbar, Höhen-/Längsverstellung, Mittelarmlehne hinten, Motor 2,0 Ltr. - 140 kW TDI, Multifunktionsanzeige Premium (Farbdisplay), Multimediabuchse AUX-IN, Nebelschlussleuchte, Parkbremse elektrisch, Rücksitzlehne geteilt mit Mittelarmlehne, Rücksitzlehnen mit Fernentriegelung umklappbar, Schadstoffarm nach Abgasnorm Euro 6, Schalt-/Wählhebelgriff Leder, Scheinwerfer LED, Sicherheitsgurte vorn mit Gurtstraffer, höhenverstellbar, Sitzbezug / Polsterung: Alcantara/Leder, Sitze vorn höhenverstellbar, Sitze: Top-Komfortsitze vorn, Start/Stop-Anlage, Steckdose 12V im Koffer-/Laderaum, Stoßfänger Wagenfarbe, mit Chromleisten, Türgriffe außen Wagenfarbe, Türschutzleisten unten verchromt, Verbandkasten und Warndreieck, Warnanlage für Sicherheitsgurte vorn\n\n\nSonstiges\nTelefonische Terminvereinbarung zwecks Besichtigung und Probefahrt..\n01732529545 - 0231 98667553\nIhren Gebrauchten nehmen wir gerne zum fairen Preis in Zahlung.\n12 Monate Gewährleistung,\nGebrauchtwagengarantie / Finanzierung möglich.\nTrotz größter Sorgfalt können Inserat - oder Eingabefehler leider vorkommen.\nIrrtum und Zwischenverkauf vorbehalten\nHandy: 01627225555",
+  "dealerDetails": {
+    "id": 37594948,
+    "name": "Autohaus Hinter dem Salze Dortmund",
+    "sellerType": "Dealer",
+    "phones": [
+      "+49 (0)231 9977815824"
+    ],
+    "messengers": {
+      "WHATS_APP": "+49 (0)162 7225555"
+    },
+    "languages": [
+      "Deutsch"
+    ],
+    "country": "DE",
+    "address": "Arminiusstraße 54, DE-44149 Dortmund",
+    "location": {
+      "latitude": 51.519255,
+      "longitude": 7.419761100000001
+    },
+    "activeSince": "2024-11-18T00:00:00.000Z",
+    "homepageUrl": "https://home.mobile.de/home/redirect.html?customerId=37594948",
+    "iconUrl": "https://img.classistatic.de/api/v1/mo-prod/images/9b/9b2e4ad8-ee7f-466b-afdf-0ae7811df713?rule=mo-640.jpg",
+    "reviewPageUrl": "https://www.mobile.de/bewertungen/AutohausHinterdemSalzeDortmund?lang=en",
+    "score": {
+      "total": 3.9,
+      "responseTime": 4.4,
+      "friendliness": 4.2,
+      "advice": 3
+    },
+    "activeRatingCount": 9,
+    "vehicleAsDescribedPercentage": 100,
+    "recommendPercentage": 57,
+    "soldVehicleCount": null,
+    "reviews": []
+  },
+  "attributes": {
+    "Vehicle condition": "Used vehicle, Accident-free",
+    "Category": "Estate car",
+    "Model range": "3G5",
+    "Trim line": "Highline BMT/Start-Stopp",
+    "Vehicle Number": "DI0928",
+    "Mileage": "106,000 km",
+    "Cubic Capacity": "1,968 ccm",
+    "Power": "140 kW (190 hp)",
+    "Drive type": "Internal combustion engine",
+    "Fuel": "Diesel",
+    "Fuel consumption": [
+      "4.6 l/100km (combined)"
+    ],
+    "Number of Seats": "5",
+    "Door Count": "4/5",
+    "Transmission": "Automatic",
+    "Emission Class": "Euro6",
+    "Emissions Sticker": "4 (Green)",
+    "First Registration": "04/2015",
+    "Number of Vehicle Owners": "2",
+    "HU": "New",
+    "Climatisation": "Automatic air conditioning",
+    "Parking sensors": "Front, Rear",
+    "Airbags": "Front and Side and More Airbags",
+    "Colour (Manufacturer)": "CRIMSON RED",
+    "Colour": "Red Metallic",
+    "Interior Design": "Alcantara, Beige",
+    "Trailer load braked": "2,000 kg",
+    "Trailer load unbraked": "750 kg",
+    "Weight": "1,581 kg",
+    "Cylinders": "4",
+    "Tank capacity": "66 l",
+    "Energy consumption (comb.)": "4.6 l/100km",
+    "CO₂ emissions (comb.)": "119 g/km"
+  },
+  "features": [
+    "ABS",
+    "Adaptive Cruise Control",
+    "Adaptive lighting",
+    "Alarm system",
+    "Alloy wheels",
+    "Ambient lighting",
+    "Arm rest",
+    "Bluetooth",
+    "Cargo barrier",
+    "Central locking",
+    "Distance warning system",
+    "Electric seat adjustment",
+    "Electric side mirror",
+    "Electric windows",
+    "Emergency brake assist",
+    "ESP",
+    "Front wheel drive",
+    "Hands-free kit",
+    "Heated seats",
+    "Heated steering wheel",
+    "Immobilizer",
+    "Isofix",
+    "Keyless central locking",
+    "Leather steering wheel",
+    "LED headlights",
+    "Light sensor",
+    "Massage seats",
+    "Multifunction steering wheel",
+    "Navigation preparation",
+    "Navigation system",
+    "New service",
+    "On-board computer",
+    "Paddle shifters",
+    "Panoramic roof",
+    "Particulate filter",
+    "Rain sensor",
+    "Roof rack",
+    "Smoker's package",
+    "Sound system",
+    "Sport seats",
+    "Start-stop system",
+    "Summer tyres",
+    "Sunroof",
+    "Tinted windows",
+    "Touchscreen",
+    "Traffic sign recognition",
+    "Trailer coupling, detachable",
+    "USB port",
+    "Voice control",
+    "Winter package",
+    "Winter tyres",
+    "WLAN / Wi-Fi hotspot"
+  ]
+},
+{
+  "title": "BMW X3 xDrive 3,5 d Aut,M-Sport, AHK,Headup,Tüv3-27",
+  "previewImage": "https://img.classistatic.de/api/v1/mo-prod/images/f9/f9170c95-8ca0-40a8-8500-db299457a061?rule=mo-1600.jpg",
+  "category": "OffRoad",
+  "brand": "BMW",
+  "model": "X3",
+  "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=448227791",
+  "price.total.amount": 21850,
+  "priceRating": {
+    "rating": "Fair price",
+    "priceRanges": {
+      "Very good price": {
+        "start": 15401,
+        "end": 20000
+      },
+      "Good price": {
+        "start": 20001,
+        "end": 21600
+      },
+      "Fair price": {
+        "start": 21601,
+        "end": 24000
+      },
+      "Increased price": {
+        "start": 24001,
+        "end": 25700
+      },
+      "High price": {
+        "start": 25701,
+        "end": 28600
+      }
+    }
+  },
+  "description": "Besichtigung nur mit Termin!\n\nTelefon: 01796994103 - Herr Hinterthan\nTelefon: 01715614734 - Herr Richter-Stuwe\n\nTelefonisch ereichbar Mo-Sa. 09:00 - 20:00 Uhr / auch Whatsapp oder SMS\nBesichtigung nur nach telefonischer Kontaktaufnahme möglich, alle Fahrzeuge stehen in einer geschlossenen Halle!\n\nDas Fahrzeug steht in unserer Gebrauchtwagenhalle , 22087 Hamburg, Mühlendamm\n\n( ca. 2 min von der Alsterschwimmhalle entfernt.)\n\nFür weitere Informationen und Terminabsprache zum Fahrzeug.\n\nBitte kontaktieren Sie uns per Handy bevor sie sich auf den Weg zu uns machen, da wir nicht Ständig vor Ort sind und unsere Fahrzeuge in abgeschlossenen Räumlichkeiten stehen!\n___________________________________________\n\nAngeboten wird ein schöner und gepflegter BMW X3 xDrive 35d Aut M-Sport\n\nScheckheft elektronisch vollständig\nTÜV & AU bis 04/2027\nEuro 5, AHK, deutsches Auto\nALU 19 Zoll, HeadUp\nGarantie ist gegen Aufpreis möglich.\n\nSonderausstattung:\n\nAblage-Paket,\nAußen-/Innenspiegel mit Abblendautomatik,\nBi-Xenon-Scheinwerfer,\nDAB-Tuner (Radioempfang digital),\nDynamische Dämpfer Control (Dynamic Damping Control),\nFahrassistenz-System: Speed-Limit-Anzeige,\nHead-up-Display,\nHeckklappenbetätigung automatisch,\nHiFi-Lautsprechersystem Professional,\nLicht-Paket,\nLM-Felgen vorn/hinten: 8,5x19 / 9,5x19 (Doppelspeiche 369 M),\nMultimedia Apple iPhone Applikationen (Apps),\nNavigations-Paket ConnectedDrive,\nPanoramadach (Glas),\nPark-Distance-Control (PDC) vorn und hinten,\nRückfahrkamera, Sitzbezug / Polsterung: Leder Nevada,\nSitzheizung vorn,\nSonnenschutzverglasung (hinten abgedunkelt),\nSport-Paket M / M-Technic\n\nWeitere Ausstattung:\n\nAirbag Fahrer-/Beifahrerseite,\nAktive Kopfstützen,\nAuspuffanlage (2-Rohr-Anlage) mit Chromblenden,\nAUX-IN-Anschluss (AUX-IN),\nAußenspiegel elektr. verstell- und heizbar,\nAußentemperaturanzeige,\nBlinkleuchten Weiß, Bordcomputer,\nBremsassistent,\nBremsenergierückgewinnung (Rekuperationssystem),\nCheck-Control-System,\nDynamische Bremsleuchte,\nFahrassistenz-System: Bergabfahrkontrolle (HDC),\nFahrassistenz-System: Fahrerlebnisschalter,\nFensterheber elektrisch vorn + hinten,\nFußmatten Velours,\nGepäckraum-Abtrennung (Netz),\nGetränkehalter vorn und hinten,\nHeckscheibenwischer, Innenausstattung: Interieurleisten Aluminium Längsschliff fein,\nIsofix-Aufnahmen für Kindersitz,\nKarosserie: 5-türig,\nKlimaautomatik 2-Zonen mit autom. Umluft-Control,\nKopf-Airbag-System hinten,\nKopf-Airbag-System vorn,\nLenksäule (Lenkrad) mechan. verstellbar,\nMittelarmlehne hinten,\nMotor 3,0 Ltr. - 230 kW Turbodiesel,\nNichtraucher-Paket,\nParkbremse elektrisch,\nRadstand 2810 mm,\nReifenpannen-Anzeige,\nReifensystem Run-Flat (mit Notlaufeigenschaften),\nRücksitzlehne geteilt/klappbar,\nSchadstoffarm nach Abgasnorm Euro 5,\nScheibenwaschdüsen heizbar,\nSeitenairbag vorn,\nSitze vorn elektr. verstellbar (links mit Memory),\nStart-Stop-Knopf,\nStart/Stop-Anlage (Funktion),\nWärmeschutzverglasung getönt\n\nInzahlungnahme Ihres jetzigen Fahrzeug möglich, gerne auch höherwertigere Fahrzeuge\n\nUnsere Fahrzeugbeschreibung dient nur der allgemeinen Identifizierung des Fahrzeuges.\nDie Angaben erheben nicht den Anspruch auf Vollständigkeit.\nDie gemachten Angaben und Beschreibungen sowie Bilder dienen nicht als zugesicherte Eigenschaften.\nDer Verkäufer übernimmt keine Haftung für Datenübermittlungsfehler durch Dritte. Die Ausstattungen sind ggf Monate. gesondert zu prüfen.\nDie Angaben zur Ausstattung wurden teilweise über die Herstellerschnittstelle (VIN-Abfrage) ermittelt. Daher können die Angaben zur Fahrzeugausstattung abweichen.\nIrrtümer und auch der Zwischenverkauf bleibt vorbehalten.\n\nEs handelt sich hier um ein Gewerbeangebot.\n\nBesichtigung und Probefahrt nur nach Vereinbarung.\nIm Lieferumfang nicht enthalten ist die dauerhafte Bereitstellung digitaler Elemente, deren Updates oder Produktverbesserungen.",
+  "dealerDetails": {
+    "id": 12734722,
+    "name": "Ronald Richter - Stuwe e.k Automobile",
+    "sellerType": "Dealer",
+    "phones": [
+      "+49 (0)40 2263458515"
+    ],
+    "messengers": {
+      "WHATS_APP": "+49 (0)171 5614734"
+    },
+    "languages": [
+      "Deutsch",
+      "English"
+    ],
+    "country": "DE",
+    "address": "Mühlendamm ., DE-22087 Hamburg",
+    "location": {
+      "latitude": 53.5612679,
+      "longitude": 10.0252739
+    },
+    "activeSince": "2015-02-16T00:00:00.000Z",
+    "homepageUrl": "https://home.mobile.de/home/redirect.html?customerId=12734722",
+    "iconUrl": "https://img.classistatic.de/api/v1/mo-prod/images/18/18a0a9b3-bdbc-4dbc-8428-1812d6c67c3f?rule=mo-640.jpg",
+    "reviewPageUrl": "https://www.mobile.de/bewertungen/RONALDRICHTERSTUWE?lang=en",
+    "score": {
+      "total": 4.6,
+      "responseTime": 4.7,
+      "friendliness": 4.7,
+      "advice": 4.4
+    },
+    "activeRatingCount": 36,
+    "vehicleAsDescribedPercentage": 93,
+    "recommendPercentage": 90,
+    "soldVehicleCount": null,
+    "reviews": []
+  },
+  "attributes": {
+    "Vehicle condition": "Used vehicle",
+    "Category": "SUV/Off-road Vehicle/Pickup Truck",
+    "Model range": "Baureihe X3 (F25)(09.2010->)",
+    "Trim line": "xDrive 35 d",
+    "Origin": "German edition",
+    "Mileage": "119,830 km",
+    "Cubic Capacity": "2,993 ccm",
+    "Power": "230 kW (313 hp)",
+    "Drive type": "Internal combustion engine",
+    "Fuel": "Diesel",
+    "Fuel consumption": [
+      "6.1 l/100km (combined)"
+    ],
+    "Number of Seats": "5",
+    "Door Count": "4/5",
+    "Transmission": "Automatic",
+    "Emission Class": "Euro5",
+    "Emissions Sticker": "4 (Green)",
+    "First Registration": "03/2014",
+    "Number of Vehicle Owners": "2",
+    "HU": "03/2027",
+    "Climatisation": "Automatic climatisation, 2 zones",
+    "Parking sensors": "Rear, Camera, Front",
+    "Airbags": "Front and Side and More Airbags",
+    "Colour (Manufacturer)": "ALPINWEISS III",
+    "Colour": "White",
+    "Interior Design": "Full leather, Black",
+    "Trailer load braked": "2,400 kg",
+    "Trailer load unbraked": "750 kg",
+    "Weight": "1,925 kg",
+    "Date of last service (date)": "03/2025",
+    "Last service (mileage)": "117,802 km",
+    "Cylinders": "6",
+    "Tank capacity": "67 l",
+    "Energy consumption (comb.)": "6.1 l/100km",
+    "CO₂ emissions (comb.)": "162 g/km"
+  },
+  "features": [
+    "ABS",
+    "Alloy wheels",
+    "Arm rest",
+    "Autom. dimming interior mirror",
+    "Bi-xenon headlights",
+    "Bluetooth",
+    "Cargo barrier",
+    "CD player",
+    "Central locking",
+    "Cruise control",
+    "DAB radio",
+    "Electric seat adjustment",
+    "Electric side mirror",
+    "Electric tailgate",
+    "Electric windows",
+    "Eletric seat adjustment with memory function",
+    "Emergency call system",
+    "Emergency tyre repair kit",
+    "ESP",
+    "Fatigue warning system",
+    "Fog lamps",
+    "Four-wheel drive",
+    "Full Service History",
+    "Hands-free kit",
+    "Headlight washer system",
+    "Head-up display",
+    "Heated seats",
+    "Hill-start assist",
+    "Immobilizer",
+    "Isofix",
+    "Keyless central locking",
+    "Leather steering wheel",
+    "LED running lights",
+    "Light sensor",
+    "Lumbar support",
+    "Multifunction steering wheel",
+    "Navigation system",
+    "Non-smoker vehicle",
+    "On-board computer",
+    "Paddle shifters",
+    "Panoramic roof",
+    "Particulate filter",
+    "Power Assisted Steering",
+    "Rain sensor",
+    "Sound system",
+    "Speed limit control system",
+    "Sport seats",
+    "Sports package",
+    "Sports suspension",
+    "Start-stop system",
+    "Summer tyres",
+    "Sunroof",
+    "Tinted windows",
+    "Traction control",
+    "Trailer coupling, detachable",
+    "Tuner/radio",
+    "Tyre pressure monitoring",
+    "USB port",
+    "Voice control",
+    "Winter package"
+  ]
+},
+{
+  "title": "Volkswagen Golf R 4Motion 2.0 16V TSI |DYNAUDIO|LUFT|VOSSEN",
+  "previewImage": "https://img.classistatic.de/api/v1/mo-prod/images/75/753f7c17-2d60-4ba9-ad4e-1895268961cc?rule=mo-1600.jpg",
+  "category": "Limousine",
+  "brand": "Volkswagen",
+  "model": "Golf",
+  "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=437274009",
+  "price.total.amount": 21950,
+  "priceRating": {
+    "rating": "Fair price",
+    "priceRanges": {
+      "Very good price": {
+        "start": 14101,
+        "end": 18400
+      },
+      "Good price": {
+        "start": 18401,
+        "end": 19800
+      },
+      "Fair price": {
+        "start": 19801,
+        "end": 22000
+      },
+      "Increased price": {
+        "start": 22001,
+        "end": 23600
+      },
+      "High price": {
+        "start": 23601,
+        "end": 26300
+      }
+    }
+  },
+  "description": "HERZLICH WILLKOMMEN IM AUTOHAUS HINTER DEM SALZE\n\nUnsere umfassenden Serviceleistungen umfassen: \n12 Monate Gewährleistung und Gebrauchtwagengarantie: Wir bieten eine einjährige Gewährleistung für Ihre Sicherheit und Zufriedenheit.\nUnschlagbare Finanzierungsangebote: Nutzen Sie unsere attraktiven Finanzierungsmöglichkeiten, die auf Ihre individuellen Bedürfnisse zugeschnitten sind.\nInzahlungnahme Ihres Altfahrzeuges: Gerne nehmen wir Ihr aktuelles Fahrzeug in Zahlung, um den Kauf Ihres neuen Fahrzeugs zu erleichtern.\nScheckheftgepflegte Fahrzeuge: Alle unsere Fahrzeuge wurden sorgfältig nach Herstellervorgaben gewartet und verfügen über vollständige Servicehistorien.\nFahrzeugprüfung durch Fachwerkstatt: Unsere Fahrzeuge wurden von einer Fachwerkstatt gründlich geprüft, um höchste Qualität und Zuverlässigkeit zu gewährleisten.\nHU/AU mit einer Mindestlaufzeit von 12 Monaten: Die Hauptuntersuchung (HU) und Abgasuntersuchung (AU) sind für mindestens 12 Monate gültig, um Ihnen eine sorgenfreie Fahrzeugnutzung zu ermöglichen.\nAbholservice vom Flughafen/Bahnhof (auf Anfrage): Für Ihren Komfort bieten wir einen Abholservice vom Flughafen oder Bahnhof nach vorheriger Absprache an.\n\nFür weitere Informationen oder zur Vereinbarung von Dienstleistungen erreichen Sie uns unter der Telefonnummer: +49 152 25222227 \n\nINNENAUSSTATTUNG UND KOMFORT: \nChromeinfassung am Lichtdrehschalter, Chrom-Applikationen am Spiegeleinstell- und am Fensterheberschalter\nFensterheber elektrisch\nLendenwirbelstützen vorn\nMittelarmlehne vorn mit Ablagebox, 2 Luftausströmern und 2 Becherhaltern hinten\nHandbremshebelgriff in Leder\nMultifunktions-Lederlenkrad\nKlimaanlage \"Climatronic\" mit 2-Zonen-Temperaturregelung, links und rechts getrennt regelbar\nRaucherausführung - Aschenbecher vorn - Zigarettenanzünder vorn\nSitzbezüge in Flachgewebe Dessin \"Kyalami mit \"R-Logo in d. Kopfstützen\nVordersitze beheizbar\nTop-Sportsitze vorn\nVordersitze mit Höheneinstellung\n\nSICHERHEIT: \nAirbag für Fahrer und Beifahrer, mit Beifahrerairbag-Deaktivierung inkl. Knieairbag auf der Fahrerseite\nAllradantrieb\nBerganfahrassistent\nDiebstahlwarnanlage mit Wegfahrsperre elektronisch, Innenraumüberwachung, Back-up-Horn und Abschleppschutz\nElektronisches Stabilisierungsprogramm mit Gegenlenkunterstützung inkl. Komfortbremsassistent,ABS,EDS und ASR\nKopfairbagsystem für Front- und Fondpassagiere inkl. Seitenairbags vorn\nFußgängerschutzmaßnahmen erweitert\nServolenkung, geschwindigkeitsabhängig (Servotronic) mit Lenkhubeinschränkung\nParkPilot - akustische Warnsignale bei Hindernissen im Front- und Heckbereich\nTagfahrlicht\n\n\n\n\nBitte beachten Sie, dass die oben aufgeführte Ausstattungsliste lediglich der allgemeinen Identifizierung des Fahrzeugs dient und keine zugesicherte Eigenschaft im kaufrechtlichen Sinne darstellt. Sie ist somit nicht Vertragsgegenstand und sollte vor Abschluss des Kaufvertrags von jedem Interessenten vor Ort am Fahrzeug überprüft werden. Wir behalten uns das Recht vor, Änderungen vorzunehmen, Irrtümer zu korrigieren und das Fahrzeug anderweitig zu verkaufen.",
+  "dealerDetails": {
+    "id": 25825701,
+    "name": "AUTOHAUS HINTER DEM SALZE SALZGITTER",
+    "sellerType": "Dealer",
+    "phones": [
+      "+49 (0)5341 862366636"
+    ],
+    "messengers": {
+      "WHATS_APP": "+49 (0)172 5984155"
+    },
+    "languages": [
+      "Deutsch",
+      "English"
+    ],
+    "country": "DE",
+    "address": "Hinter dem Salze 97, DE-38259 Salzgitter",
+    "location": {
+      "latitude": 52.0418815,
+      "longitude": 10.3639703
+    },
+    "activeSince": "2021-06-21T00:00:00.000Z",
+    "homepageUrl": "https://home.mobile.de/home/redirect.html?customerId=25825701",
+    "iconUrl": "https://img.classistatic.de/api/v1/mo-prod/images/e2/e22a5009-ec19-4a2e-aa59-612c6109e44b?rule=mo-640.jpg",
+    "reviewPageUrl": "https://www.mobile.de/bewertungen/CCTradingLogisticGmbH?lang=en",
+    "score": {
+      "total": 4.9,
+      "responseTime": 4.9,
+      "friendliness": 5,
+      "advice": 4.8
+    },
+    "activeRatingCount": 28,
+    "vehicleAsDescribedPercentage": 96,
+    "recommendPercentage": 96,
+    "soldVehicleCount": null,
+    "reviews": []
+  },
+  "attributes": {
+    "Vehicle condition": "Used vehicle, Accident-free",
+    "Category": "Saloon",
+    "Model range": "5K1RT6",
+    "Trim line": "R 4Motion",
+    "Vehicle Number": "228379",
+    "Availability": "Now",
+    "Origin": "German edition",
+    "Mileage": "41,500 km",
+    "Cubic Capacity": "1,984 ccm",
+    "Power": "199 kW (271 hp)",
+    "Drive type": "Internal combustion engine",
+    "Fuel": "Petrol",
+    "Number of Seats": "5",
+    "Door Count": "4/5",
+    "Transmission": "Manual gearbox",
+    "Emission Class": "Euro5",
+    "Emissions Sticker": "4 (Green)",
+    "First Registration": "01/2012",
+    "Number of Vehicle Owners": "3",
+    "HU": "New",
+    "Climatisation": "Automatic air conditioning",
+    "Parking sensors": "Rear, Front",
+    "Airbags": "Driver Airbag",
+    "Colour (Manufacturer)": "Rising Blue Metallic",
+    "Colour": "Blue Metallic",
+    "Interior Design": "Cloth, Grey",
+    "Weight": "1,521 kg",
+    "Cylinders": "4"
+  },
+  "features": [
+    "ABS",
+    "Alarm system",
+    "Alloy wheels",
+    "Arm rest",
+    "Bluetooth",
+    "CD player",
+    "Central locking",
+    "Electric side mirror",
+    "Electric windows",
+    "Emergency tyre repair kit",
+    "ESP",
+    "Four-wheel drive",
+    "Full Service History",
+    "Headlight washer system",
+    "Heated seats",
+    "Hill-start assist",
+    "Immobilizer",
+    "Isofix",
+    "Leather steering wheel",
+    "LED running lights",
+    "Lumbar support",
+    "Multifunction steering wheel",
+    "Navigation preparation",
+    "Navigation system",
+    "Non-smoker vehicle",
+    "On-board computer",
+    "Power Assisted Steering",
+    "Smoker's package",
+    "Sound system",
+    "Sport seats",
+    "Sports suspension",
+    "Tinted windows",
+    "Traction control",
+    "Tuner/radio",
+    "Tyre pressure monitoring",
+    "USB port",
+    "Warranty",
+    "Winter package",
+    "Xenon headlights"
+  ]
+},
+{
+  "title": "Mercedes-Benz E 200 Amg Coupe *105TKM*Kamera*Burmester*Wide*",
+  "previewImage": "https://img.classistatic.de/api/v1/mo-prod/images/4d/4d5abcb8-33cb-410d-bf57-fa93baf1bb64?rule=mo-1600.jpg",
+  "category": "SportsCar",
+  "brand": "Mercedes-Benz",
+  "model": "E 200",
+  "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=448982097",
+  "price.total.amount": 19500,
+  "priceRating": {
+    "rating": "No rating",
+    "priceRanges": null
+  },
+  "description": "Irrtümer und Zwischenverkauf vorbehalten.- Das Fahrzeug ist voll funktionsfähig.\n- Sternenhimmel\nSonderausstattung:\nAblage-Paket, Adaptive Scheibenwischeranlage (Magic Vision Control) beheizt, Ambiente-Beleuchtung, AMG-Line Interieur, Audio-Navigationssystem: COMAND Online, Außenspiegel mit Totwinkel-Assistent, Bereifung mit Notlaufsystem, DAB-Tuner (Radioempfang digital), Fahrassistenz-System: aktiver Park-Assistent, Kombiinstrument mit Variabler Anzeige (Widescreen Cockpit), Kommunikationsmodul (LTE) Vorbereitung Mercedes me connect, Kraftstofftank: vergrößert, Metallic-Lackierung, Mittelkonsole Edelholz Esche, schwarz, Multibeam LED, Sitzheizung vorn, Spiegel-Paket, Sport-Auspuffanlage, Surround-System Burmester, Vorrüstung Mobiltelefon/Handy / Komfort-Telefonie / LTE-fähig\n\nWeitere Ausstattung:\nAirbag Beifahrerseite abschaltbar, Airbag Fahrer-/Beifahrerseite, Außenspiegel elektr. verstell- und heizbar, beide, Außenspiegel Wagenfarbe, Außentemperaturanzeige, Beckenairbag vorn (Pelvisbag), Blinkleuchte in Außenspiegel integriert, Design- und Ausstattungslinie AMG Line, Drehzahlmesser, Einschaltautomatik für Fahrlicht, Fahrassistenz-System: Agility Select / Dynamic Select (Fahrmodusschalter), Fahrassistenz-System: aktiver Bremsassistent, Fahrassistenz-System: Berganfahrhilfe, Innenausstattung: Zierteile Aluminium mit Kristallschliff, hell, Isofix-Aufnahmen für Kindersitz an Rücksitz, Karosserie: 2-türig, Klimaautomatik (Thermatic 2-Zonen), Knieairbag Fahrerseite, Kopf-Airbag-System (Windowbag), Mercedes-Benz Notrufsystem, Motor 2,0 Ltr. - 135 kW CGI KAT, PRE-SAFE-System, Reifendruck-Kontrollsystem, Reiserechner, Rücksitzbank geteilt/klappbar (40:20:40), Schadstoffarm nach Abgasnorm Euro 6, Seitenairbag (Sidebag) vorn, Türgriffe außen Wagenfarbe\n\n, Ambiente-Beleuchtung, Sitzheizung vorn, Regensensor\n\nKeine Haftung / Keine Gewährleistung für Tipp- und Datenübermittlungsfehler.\nDie Angaben erheben keinen Anspruch auf Vollständigkeit und Richtigkeit.\nDie Fahrzeugbeschreibung stellt keine Gewährleistung im kaufrechtlichen Sinne dar, sie dient lediglich der allgemeinen Identifizierung des Fahrzeuges.\n\nTrotz großer Sorgfalt und Bemühung sind Inseratsfehler nicht auszuschließen, es wird keine Haftung übernommen",
+  "dealerDetails": {
+    "id": 29178565,
+    "name": "Baker Automobile GmbH",
+    "sellerType": "Dealer",
+    "phones": [
+      "+49 (0)2632 939395234"
+    ],
+    "messengers": {
+      "WHATS_APP": "+49 (0)174 8378136"
+    },
+    "languages": [
+      "Deutsch"
+    ],
+    "country": "DE",
+    "address": "Gewerbegebiet A61/L117 2b, DE-56637 Plaidt",
+    "location": {
+      "latitude": 50.3800396,
+      "longitude": 7.386198399999999
+    },
+    "activeSince": "2022-06-21T00:00:00.000Z",
+    "homepageUrl": "https://home.mobile.de/home/redirect.html?customerId=29178565",
+    "iconUrl": "https://img.classistatic.de/api/v1/mo-prod/images/84/84ad26ed-7803-419a-a4b1-a9b89a64b676?rule=mo-640.jpg",
+    "reviewPageUrl": null,
+    "score": null,
+    "activeRatingCount": null,
+    "vehicleAsDescribedPercentage": null,
+    "recommendPercentage": null,
+    "soldVehicleCount": null,
+    "reviews": []
+  },
+  "attributes": {
+    "Vehicle condition": "Used vehicle, Damaged, Accident-damaged vehicle",
+    "Category": "Sports Car/Coupe",
+    "Model range": "C238",
+    "Trim line": "E 200 (238.342)",
+    "Mileage": "105,230 km",
+    "Cubic Capacity": "1,991 ccm",
+    "Power": "135 kW (184 hp)",
+    "Drive type": "Internal combustion engine",
+    "Fuel": "Petrol",
+    "Fuel consumption": [
+      "6.0 l/100km (combined)"
+    ],
+    "Number of Seats": "4",
+    "Door Count": "2/3",
+    "Transmission": "Automatic",
+    "Emission Class": "Euro6",
+    "Emissions Sticker": "4 (Green)",
+    "First Registration": "06/2017",
+    "Number of Vehicle Owners": "2",
+    "HU": "08/2026",
+    "Climatisation": "Automatic air conditioning",
+    "Parking sensors": "Rear, Camera, Front",
+    "Airbags": "Front and Side and More Airbags",
+    "Colour (Manufacturer)": "OBSIDIANSCHWARZ",
+    "Colour": "Black Metallic",
+    "Interior Design": "Alcantara, Black",
+    "Trailer load braked": "1,800 kg",
+    "Trailer load unbraked": "750 kg",
+    "Weight": "1,655 kg",
+    "Cylinders": "4",
+    "Tank capacity": "50 l",
+    "Energy consumption (comb.)": "6.0 l/100km",
+    "CO₂ emissions (comb.)": "136 g/km"
+  },
+  "features": [
+    "ABS",
+    "Alarm system",
+    "Alloy wheels",
+    "Ambient lighting",
+    "Blind spot assist",
+    "Bluetooth",
+    "Central locking",
+    "Cruise control",
+    "DAB radio",
+    "Digital cockpit",
+    "Electric seat adjustment",
+    "Electric side mirror",
+    "Electric windows",
+    "ESP",
+    "Fog lamps",
+    "Folding exterior mirrors",
+    "Hands-free kit",
+    "Heated seats",
+    "Heated windshield",
+    "Hill-start assist",
+    "Immobilizer",
+    "Isofix",
+    "Keyless central locking",
+    "Leather steering wheel",
+    "LED headlights",
+    "Multifunction steering wheel",
+    "Navigation system",
+    "On-board computer",
+    "Paddle shifters",
+    "Power Assisted Steering",
+    "Rain sensor",
+    "Rear wheel drive",
+    "Sport seats",
+    "Sports package",
+    "Start-stop system",
+    "Tuner/radio",
+    "USB port",
+    "Voice control"
+  ]
+},
+{
+  "title": "Mercedes-Benz GLA 250 AMG Line Rückfahrkamera *Garantie*",
+  "previewImage": "https://img.classistatic.de/api/v1/mo-prod/images/df/df7e0ba2-f231-4aef-b48e-b72b7517a661?rule=mo-1600.jpg",
+  "category": "OffRoad",
+  "brand": "Mercedes-Benz",
+  "model": "GLA 250",
+  "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=444849102",
+  "price.total.amount": 19990,
+  "priceRating": {
+    "rating": "Increased price",
+    "priceRanges": {
+      "Very good price": {
+        "start": 12801,
+        "end": 16700
+      },
+      "Good price": {
+        "start": 16701,
+        "end": 17900
+      },
+      "Fair price": {
+        "start": 17901,
+        "end": 19900
+      },
+      "Increased price": {
+        "start": 19901,
+        "end": 21400
+      },
+      "High price": {
+        "start": 21401,
+        "end": 23800
+      }
+    }
+  },
+  "description": "Ausstattungspakete:\nBi-Xenon-Scheinwerfer: Scheinwerfer-Reinigungsanlage (SRA)\nDesign- und Ausstattungslinie AMG Line: Lenkrad (Leder), Steckdose (12V-Anschluß) im Koffer-/Laderaum, LM-Felgen, Sportsitze vorn, Dachreling (Aluminium), Lenkrad (Sport) mit Multifunktion, Sitzbezug / Polsterung: Ledernachbildung Artico / Dinamica, sitz-komfort-paket, Innenhimmel Stoff, Innenausstattung: Zierteile Aluminium, Edelstahlpedale Sportdesign, Styling-Paket (AMG / Exterieur), Fahrwerk tiefergelegt, Sport Direktlenkung, Fußmatten Teppich / Rips, Fahrdynamik-Paket, Ladekantenschutz (verchromt)\nFahrassistenz-Paket: Spur: Fahrassistenz-System: Spurhalteassistent, Außenspiegel mit Totwinkel-Assistent\nFahrassistenz-System: aktiver Bremsassistent: BREMSASSISTENT\nGetriebe 7-Gang - Doppelkupplungsgetriebe DCT: Lenkrad mit Schaltwippen/-tasten, Tempomat\nKlima-Komfort-Paket: Sitzheizung vorn, Scheibenwaschanlage beheizt, Klimaautomatik (Thermotronik)\nLM-Felgen 8x19 (AMG, 5-Speichen): LM-Felgen\nSpiegel-Paket: Außenspiegel elektr. anklappbar, Außen-/Innenspiegel mit Abblendautomatik, Außenspiegel mit Umfeldleuchte\nWeitere Ausstattungen:\nGetriebe: Automatik\nTechnik: Bordcomputer, Adaptives Daempfungssystem, Start-Stop-Automatik, Schaltwippen\nAssistenten: Totwinkel-Assistent, Müdigkeitserkennung, Fernlichtassistent, Lichtsensor, Notbremsassistent, Spurhalteassistent, Spurwechselassistent, Abstands-/Kollisionswarner\nKomfort: Klimaautomatik, Servolenkung, Zentralverriegelung, Elektrischer Fensterheber, Lederausstattung, Sitzheizung, Elektrische Aussenspiegel, Teilbare Ruecksitzlehne, Tempomat, Multifunktionslenkrad, Elektrische Sitze, Innenspiegel autom. abblendbar, Mittelarmlehne, Innenraumfilter, Sportsitze, ParkDistanceControl vorne und hinten, Elektrische Heckklappe, Memory Sitze, Lordosenstütze, Lederlenkrad, Geschwindigkeitsbegrenzungsanlage, Klimaautomatik-2-Zonen, Funkfernbedienung\nSicht: Bi-Xenon, LED-Tagfahrlicht, Scheinwerferregulierung, Colorverglasung, Scheinwerferreinigung, Aussenspiegel beheizbar, Rückfahrkamera, Privacyverglasung\nSicherheit: ABS, Airbag, Beifahrer-Airbag, Wegfahrsperre, Seitenairbags, ESP, Antriebsschlupfregelung, Reifendruckkontrolle, Traktionskontrolle, Kopfairbag, Knieairbag, Kindersitzbefestigung, Pannenkit\nEntertainment: CD, Radio, Telefonvorbereitung, MP3, Bluetooth, Freisprecheinrichtung\nUmwelt: Abgasnorm Euro 6, Grüne Umweltplakette\nQualität: Garantie, Scheckheftgepflegt, HUAU neu, Nichtraucherfahrzeug, Inspektion neu\nSonstiges: Katalysator, Sportausstattung, Alufelgen, Dachreling, Gepaeckraumabdeckung, Stossfaenger in Wagenfarbe, Sportpaket, Sportfahrwerk, Elektrische Parkbremse, Allwetterreifen, Gepäckraumabtrennung\nWeiteres: Antriebs-Schlupfregelung (ASR), Reifendruck-Kontrollsystem, Isofix-Aufnahmen für Kindersitz an Rücksitz, Knieairbag Fahrerseite, Außenspiegel elektr. verstell- und heizbar, beide, Kopf-Airbag-System (Windowbag), Seitenairbag (Sidebag) vorn, Reifen-Reparaturset (Tirefit), Rückfahrkamera, Airbag Fahrer-/Beifahrerseite, Anti-Blockier-System (ABS), Stoßfänger Wagenfarbe, Wegfahrsperre, Gepäckraumabdeckung / Rollo, Mittelarmlehne vorn mit Fach, Rücksitzlehne geteilt / klappbar, 12V-Steckdose im Laderaum, Adaptives Bremslicht, Aktive Motorhaube, aktiver Bremsassistent, Antriebsart: Frontantrieb, Attention-Assist (Müdigkeitserkennungs-Sensor), Audiosystem Audio 20 CD (Radio/CD-Player/Telefontastatur), Auffahrwarnsystem mit Bremsfunktion (Collision Prevention Assist), Außenspiegel Wagenfarbe, Außentemperaturanzeige, Beckenairbag vorn (Pelvisbag), Bereifung mit Notlaufsystem, Blinkleuchte in Außenspiegel integriert, Bremsassistent, Dachhimmel schwarz, Einschaltautomatik für Fahrlicht, Elektron. Stabilitäts-Programm, Euro 6, Fahrersitz elektr. verstellbar/Memory, Fensterheber elektrisch vorn und hinten, Feststellbremse elektrisch, getönte Scheiben - Privacy Glass, Gurtwarner hinten, Heckklappe mit automatischem Öffnungs- und Schließsystem, Lederlenkrad, Lendenwirbelstützen elektr. verstellbar, Motor 2,0 Ltr. - 155 kW CGI KAT, Reiserechner, Sitzbelegungserkennung für Airbag Beifahrerseite, Sitzhöhenverstellung Fahrersitz, Sitz-Komfort-Paket, Sport-Fahrwerk, Sportlenkrad, Spur, Spurhalteassistent, Start/Stop-Anlage, Türgriffe lackiert, Unterfahrschutz, Wärmeschutzverglasung, Zierteile Aluminium, ZV mit Fernbedienung\nInt.KnNr: A-088775\nÄnderungen, Zwischenverkauf und Irrtümer vorbehalten.",
+  "dealerDetails": {
+    "id": 25334534,
+    "name": "Rock Automobil GmbH",
+    "sellerType": "Dealer",
+    "phones": [
+      "+49 (0)8207 311990336"
+    ],
+    "languages": [
+      "Deutsch",
+      "English"
+    ],
+    "country": "DE",
+    "address": "Neuburger Str. 27, DE-86444 Affing (bei Augsburg)",
+    "location": {
+      "latitude": 48.4618778,
+      "longitude": 10.9820108
+    },
+    "activeSince": "2016-04-29T00:00:00.000Z",
+    "homepageUrl": "https://home.mobile.de/home/redirect.html?customerId=25334534",
+    "iconUrl": "https://img.classistatic.de/api/v1/mo-prod/images/0f/0ff58ce4-606d-432a-9e74-b4d392459cc3?rule=mo-640.jpg",
+    "reviewPageUrl": "https://www.mobile.de/bewertungen/ROCKAUTOMOBILGMBH?lang=en",
+    "score": {
+      "total": 4.7,
+      "responseTime": 4.7,
+      "friendliness": 4.8,
+      "advice": 4.7
+    },
+    "activeRatingCount": 12,
+    "vehicleAsDescribedPercentage": 100,
+    "recommendPercentage": 100,
+    "soldVehicleCount": null,
+    "reviews": []
+  },
+  "attributes": {
+    "Vehicle condition": "Used vehicle, Accident-free",
+    "Category": "SUV/Off-road Vehicle/Pickup Truck",
+    "Model range": "X156",
+    "Trim line": "amg line",
+    "Vehicle Number": "A-088775",
+    "Availability": "Now",
+    "Origin": "German edition",
+    "Mileage": "106,568 km",
+    "Cubic Capacity": "1,991 ccm",
+    "Power": "155 kW (211 hp)",
+    "Drive type": "Internal combustion engine",
+    "Fuel": "Petrol",
+    "Number of Seats": "5",
+    "Door Count": "4/5",
+    "Transmission": "Automatic",
+    "Emission Class": "Euro6",
+    "Emissions Sticker": "4 (Green)",
+    "First Registration": "12/2014",
+    "Construction Year": "2014",
+    "Number of Vehicle Owners": "3",
+    "HU": "New",
+    "Climatisation": "Automatic climatisation, 2 zones",
+    "Parking sensors": "Front, Camera, Rear",
+    "Airbags": "Front and Side and More Airbags",
+    "Colour (Manufacturer)": "CALCITWEISS",
+    "Colour": "White",
+    "Interior Design": "Part leather, Black",
+    "Cylinders": "4"
+  },
+  "features": [
+    "ABS",
+    "Alloy wheels",
+    "All season tyres",
+    "Arm rest",
+    "Autom. dimming interior mirror",
+    "Bi-xenon headlights",
+    "Blind spot assist",
+    "Bluetooth",
+    "Cargo barrier",
+    "CD player",
+    "Central locking",
+    "Cruise control",
+    "Distance warning system",
+    "Dynamic chassis control",
+    "Electric seat adjustment",
+    "Electric side mirror",
+    "Electric tailgate",
+    "Electric windows",
+    "Eletric seat adjustment with memory function",
+    "Emergency brake assist",
+    "Emergency tyre repair kit",
+    "ESP",
+    "Fatigue warning system",
+    "Folding exterior mirrors",
+    "Front wheel drive",
+    "Full Service History",
+    "Hands-free kit",
+    "Headlight washer system",
+    "Heated seats",
+    "High beam assist",
+    "Immobilizer",
+    "Isofix",
+    "Lane change assist",
+    "Leather steering wheel",
+    "LED running lights",
+    "Light sensor",
+    "Lumbar support",
+    "Multifunction steering wheel",
+    "New service",
+    "Non-smoker vehicle",
+    "On-board computer",
+    "Paddle shifters",
+    "Power Assisted Steering",
+    "Roof rack",
+    "Speed limit control system",
+    "Sport seats",
+    "Sports package",
+    "Sports suspension",
+    "Start-stop system",
+    "Tinted windows",
+    "Traction control",
+    "Tuner/radio",
+    "Tyre pressure monitoring",
+    "Warranty"
+  ]
+},
+{
+  "title": "Mercedes-Benz B 180 7G-DCT Automatik *Garantie*",
+  "previewImage": "https://img.classistatic.de/api/v1/mo-prod/images/fc/fc024e24-74ec-4163-b119-9413eaeb41a4?rule=mo-1600.jpg",
+  "category": "Van",
+  "brand": "Mercedes-Benz",
+  "model": "B 180",
+  "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=445302021",
+  "price.total.amount": 16990,
+  "priceRating": {
+    "rating": "High price",
+    "priceRanges": {
+      "Very good price": {
+        "start": 9701,
+        "end": 12600
+      },
+      "Good price": {
+        "start": 12601,
+        "end": 13500
+      },
+      "Fair price": {
+        "start": 13501,
+        "end": 15000
+      },
+      "Increased price": {
+        "start": 15001,
+        "end": 16100
+      },
+      "High price": {
+        "start": 16101,
+        "end": 17900
+      }
+    }
+  },
+  "description": "Herzlich willkommen bei der Rock Automobil GmbH. Gerne beraten wir Sie zu unseren Fahrzeugen und bieten Ihnen kurzfristig eine Besichtigung mit einer Probefahrt an. Finanzierung und Leasing sind bei uns zu attraktiven Konditionen mit und ohne Anzahlung möglich. Sie möchten Ihr Fahrzeug verkaufen? Kein Problem, sprechen Sie uns gerne darauf an.\nBei weiteren Fragen steht Ihnen unser Team vor Ort jederzeit zur Verfügung. Wir freuen uns auf Ihre Kontaktaufnahme!\n\n\nINNENAUSSTATTUNG UND KOMFORT:\nZentralverriegelung, Außenspiegel elektrisch verstellbar, Außenspiegel beheizbar, Außenspiegel elektrisch anklappbar, Elektrische Fensterheber, Polsterstoff, Sitzheizung vorne, Fahrersitz höhenverstellbar, Mittelarmlehne, Kindersitzvorbereitung (ISOFIX), Rücksitzbank teilbar, Chromleistenpaket, Multifunktionslenkrad, Lederlenkrad, Klimaanlage.\n\nMULTIMEDIA UND KOMMUNIKATION:\nRadio, CD-Player, Soundsystem, Freisprecheinrichtung, Bluetooth, USB Anschluss, Musikstreaming (integriert), Navigationssystem, Touchscreen, Sprachsteuerung, Außentemperaturanzeige.\n\nSICHERHEIT:\nABS, ESP, Stabilitätskontrolle, ASC (Traktionskontrolle), ASR (Antriebsschlupfregelung), Servolenkung, Start-/Stopp-Automatik, Lichtsensor, Regensensor, Innenspiegel automatisch abblendbar, Berganfahrassistent, Abstandswarner, Notbremsassistent (F.A.), Müdigkeitswarner, Bremsassistent (EBS), Abstandstempomat (Adaptive Cruise Control), Geschwindigkeitsbegrenzer, Elektrische Wegfahrsperre, Parklenkassistent, Einparkhilfe hinten, Einparkhilfe vorne, Einparkhilfe Kamera, Fahrer-/Beifahrer Airbag, Knie-Airbag, Seiten-Airbags.\n\nEXTRAS:\nColorverglasung, Abgedunkelte Seiten-/Heckscheibe, Gepäckraumabdeckung, Gepäckraumabtrennung, LM-Felgen, Winterreifen, Tire-Mobility Set, Reifendruckkontrolle, LED-Tagfahrlicht, Scheinwerferreinigungsanlage, Scheibenwaschdüsen beheizt, Kurven-/Abbiegelicht, Garantie, Scheckheftgepflegt, Nichtraucherfahrzeug, Licht- und Sichtpaket.\n\n\n\nAlle Angebote sind freibleibend, unverbindlich und ohne Gewähr. Irrtümer, Änderungen und Zwischenverkäufe vorbehalten.\n... Änderungen, Zwischenverkauf und Irrtümer vorbehalten. Herzlich willkommen bei der Rock Automobil GmbH. Lassen Sie sich von unserer erlesenen Fahrzeugauswahl begeistern – gepflegt, unfallfrei und mit einer lückenlosen Historie. Genießen Sie unsere kostenfreie Hauptuntersuchung, Inspektion sowie eine exklusive Premium Garantie. Unsere maßgeschneiderten Finanzierungs- und Leasinglösungen sind präzise auf Ihre individuellen Wünsche abgestimmt. Wir freuen uns auf Sie und darauf, Ihren automobilen Traum Wirklichkeit werden zu lassen.",
+  "dealerDetails": {
+    "id": 25334534,
+    "name": "Rock Automobil GmbH",
+    "sellerType": "Dealer",
+    "phones": [
+      "+49 (0)8207 311000447"
+    ],
+    "languages": [
+      "Deutsch",
+      "English"
+    ],
+    "country": "DE",
+    "address": "Neuburger Str. 27, DE-86444 Affing (bei Augsburg)",
+    "location": {
+      "latitude": 48.4618778,
+      "longitude": 10.9820108
+    },
+    "activeSince": "2016-04-29T00:00:00.000Z",
+    "homepageUrl": "https://home.mobile.de/home/redirect.html?customerId=25334534",
+    "iconUrl": "https://img.classistatic.de/api/v1/mo-prod/images/0f/0ff58ce4-606d-432a-9e74-b4d392459cc3?rule=mo-640.jpg",
+    "reviewPageUrl": "https://www.mobile.de/bewertungen/ROCKAUTOMOBILGMBH?lang=en",
+    "score": {
+      "total": 4.7,
+      "responseTime": 4.7,
+      "friendliness": 4.8,
+      "advice": 4.7
+    },
+    "activeRatingCount": 12,
+    "vehicleAsDescribedPercentage": 100,
+    "recommendPercentage": 100,
+    "soldVehicleCount": null,
+    "reviews": []
+  },
+  "attributes": {
+    "Vehicle condition": "Used vehicle, Accident-free",
+    "Category": "Van/Minibus",
+    "Model range": "W242/W246",
+    "Trim line": "-",
+    "Vehicle Number": "A-270466",
+    "Availability": "Now",
+    "Origin": "German edition",
+    "Mileage": "89,990 km",
+    "Cubic Capacity": "1,595 ccm",
+    "Power": "90 kW (122 hp)",
+    "Drive type": "Internal combustion engine",
+    "Fuel": "Petrol",
+    "Number of Seats": "5",
+    "Door Count": "4/5",
+    "Transmission": "Automatic",
+    "Emission Class": "Euro6",
+    "Emissions Sticker": "4 (Green)",
+    "First Registration": "05/2014",
+    "Construction Year": "2014",
+    "Number of Vehicle Owners": "2",
+    "HU": "New",
+    "Climatisation": "A/C (man.)",
+    "Parking sensors": "Rear, Self-steering systems, Camera, Front",
+    "Airbags": "Front and Side and More Airbags",
+    "Colour (Manufacturer)": "MOUNTAINGRAU - MET.",
+    "Colour": "Grey Metallic",
+    "Interior Design": "Cloth, Black",
+    "Cylinders": "4"
+  },
+  "features": [
+    "ABS",
+    "Adaptive Cruise Control",
+    "Adaptive lighting",
+    "Alarm system",
+    "Alloy wheels",
+    "Arm rest",
+    "Autom. dimming interior mirror",
+    "Bluetooth",
+    "Cargo barrier",
+    "CD player",
+    "Central locking",
+    "Distance warning system",
+    "Electric side mirror",
+    "Electric windows",
+    "Emergency brake assist",
+    "Emergency tyre repair kit",
+    "ESP",
+    "Fatigue warning system",
+    "Fog lamps",
+    "Folding exterior mirrors",
+    "Front wheel drive",
+    "Full Service History",
+    "Hands-free kit",
+    "Headlight washer system",
+    "Heated seats",
+    "Hill-start assist",
+    "Immobilizer",
+    "Integrated music streaming",
+    "Isofix",
+    "Leather steering wheel",
+    "LED running lights",
+    "Light sensor",
+    "Multifunction steering wheel",
+    "Navigation preparation",
+    "Navigation system",
+    "New service",
+    "Non-smoker vehicle",
+    "On-board computer",
+    "Paddle shifters",
+    "Power Assisted Steering",
+    "Rain sensor",
+    "Sound system",
+    "Speed limit control system",
+    "Sports package",
+    "Start-stop system",
+    "Touchscreen",
+    "Traction control",
+    "Tuner/radio",
+    "Tyre pressure monitoring",
+    "USB port",
+    "Voice control",
+    "Warranty",
+    "Winter tyres"
+  ]
+},
+{
+  "title": "Volkswagen Golf  VII 2.0 TSI GTI BlueMotion#SCHALTER#",
+  "previewImage": "https://img.classistatic.de/api/v1/mo-prod/images/94/94085699-babd-4eed-8ce5-bf3fd5663b52?rule=mo-1600.jpg",
+  "category": "Limousine",
+  "brand": "Volkswagen",
+  "model": "Golf",
+  "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=436185588",
+  "price.total.amount": 16500,
+  "priceRating": {
+    "rating": "Fair price",
+    "priceRanges": {
+      "Very good price": {
+        "start": 10601,
+        "end": 13700
+      },
+      "Good price": {
+        "start": 13701,
+        "end": 14800
+      },
+      "Fair price": {
+        "start": 14801,
+        "end": 16500
+      },
+      "Increased price": {
+        "start": 16501,
+        "end": 17700
+      },
+      "High price": {
+        "start": 17701,
+        "end": 19600
+      }
+    }
+  },
+  "description": "Ihr Fahrzeug – unser Service. Professionell. Transparent. Zuverlässig.\n\nDer angegebene Verkaufspreis versteht sich inklusive 1 Jahre Gebrauchtwagengarantie sowie einem frisch durchgeführten Service laut Herstellervorgabe – damit Sie sorgenfrei durchstarten können.\n\nUnsere Leistungen auf einen Blick:\n\n- Verkauf von Fahrzeugen an Privatkunden, Händler, Gewerbe u. Exporteure\n- Kommissionsverkauf im Kundenauftrag\n- Finanzierung u. Inzahlungnahme\n- Fahrzeugbewertung zum fairen Marktpreis\n\nWichtig für Ihren Besuch: Bitte vereinbaren Sie vorab einen Termin zur Besichtigung oder Probefahrt, damit wir sicherstellen können, dass Ihr Wunschfahrzeug verfügbar ist und sich nicht an unserem Zweitstandort befindet.\n\nKontaktieren Sie uns jetzt – wir freuen uns auf Ihre Anfrage!\n\n# 2.-Hand\n# scheckheftgepflegt\n# Winterräder auf Alufelgen\n# top geplegt\n\nSonderausstattung:\nAudiosystem Composition Media (Touchscreen, Radio/CD-Player, MP3, Bluetooth), Multimedia-Schnittstelle USB (iPhone / iPod) mit AUX-IN, Navigationsmodul Discover Media (für Audiosystem), Perleffekt-Lackierung, Verglasung hinten abgedunkelt (65 %)\n\nWeitere Ausstattung:\n3-Punkt-Sicherheitsgurt hinten mitte, Ablagefach am Dachhimmel, Airbag Beifahrerseite abschaltbar, Airbag Fahrer-/Beifahrerseite, Ambiente-Beleuchtung, Antriebs-Schlupfregelung (ASR), Ausstattung GTI, Auto-Hold-Funktion, Außenspiegel asphärisch, links, Außenspiegel elektr. verstell- und heizbar, Außenspiegel lackiert, Bi-Xenon-Scheinwerfer, Blinkleuchte in Außenspiegel integriert, Bremsassistent, Bremssättel Rot lackiert, Chrom-Paket (1), Dachhimmel Stoff, schwarz, Dachspoiler, Durchladeeinrichtung (Mittelarmlehne hinten), Einparkhilfe vorn und hinten, Einstiegshilfe Easy-Entry, Einstiegsleisten (Edelstahl) beleuchtet, Elektron. Differentialsperre (EDS), Elektron. Differentialsperre (XDS), Fahrassistenz-System: Müdigkeitserkennung, Fußmatten Textil, Gepäckraumabdeckung / Rollo, Getränkehalter vorn, Handschuhfach abschließbar und beleuchtet, Handschuhfach mit Kühlfunktion, Heckleuchten LED, abgedunkelt, Heckscheibenwischer, Innenausstattung: Dekoreinlagen Checkered Black, Innenraumfilter: Staub- und Pollenfilter mit Aktivkohlefilter, Innenspiegel abblendbar, Isofix-Aufnahmen für Kindersitz an Rücksitz, Karosserie: 2-türig, Klimaanlage Climatronic 2-Zonen, Knieairbag Fahrerseite, Kopf-Airbag-System vorn und hinten inkl. Seitenairbag vorn, Kopfstützen hinten (3-fach), Kühlergrill schwarz, Lenksäule (Lenkrad) mechan. verstellbar, Höhen-/Längsverstellung, LM-Felgen, Motor 2,0 Ltr. - 162 kW TSI, Multifunktionsanzeige / Bordcomputer, Multifunktionsanzeige Premium (Farbdisplay), Nebelschlussleuchte, Nichtraucher-Paket, Parkbremse elektrisch, Pedale Edelstahl / Aluminium-Design, Progressivlenkung, Reifen-Reparaturkit (Tire Mobility Set), Reifenkontroll-Anzeige, Rücksitzlehne geteilt, Schadstoffarm nach Abgasnorm Euro 6, Schalt-/Wählhebelgriff Leder, Scheibenwischer mit Intervallschaltung, regulierbar, Sicherheitsgurte vorn mit Gurtstraffer, höhenverstellbar, Sitzbezug / Polsterung: Stoff, Sitze: Sportsitze, Sonnenblenden mit Spiegel (beleuchtet), Sport-Fahrwerk, Start/Stop-Anlage, Steckdose 12V im Koffer-/Laderaum, Stoßfänger Sport-Design, lackiert, Türgriffe außen Wagenfarbe, Warnanlage für Sicherheitsgurte vorn, Wärmeschutzverglasung grün getönt\n\n\nStandort:\nSuhl liegt direkt am Autobahnkreuz A71/A73\nNÜRNBERG ca.150 KM\nFRANKFURT ca.250 KM\nBERLIN ca. 300 KM\nHAMBURG ca. 450 KM\n\nMit freundlichen Grüßen\n\nWerner Automobile aus Suhl",
+  "dealerDetails": {
+    "id": 22766532,
+    "name": "WERNER AUTOMOBILE",
+    "sellerType": "Dealer",
+    "phones": [
+      "+49 (0)36846 14000333"
+    ],
+    "messengers": {
+      "WHATS_APP": "+49 (0)1511 4141414"
+    },
+    "languages": [
+      "Deutsch",
+      "English"
+    ],
+    "country": "DE",
+    "address": "Obere Aue 2, DE-98529 Suhl/Wichtshausen",
+    "location": {
+      "latitude": 50.60206,
+      "longitude": 10.58103
+    },
+    "activeSince": "2020-01-14T00:00:00.000Z",
+    "homepageUrl": "https://home.mobile.de/home/redirect.html?customerId=22766532",
+    "iconUrl": "https://img.classistatic.de/api/v1/mo-prod/images/3c/3cf08fec-c2aa-425a-b185-a2bda42b2c34?rule=mo-640.jpg",
+    "reviewPageUrl": "https://www.mobile.de/bewertungen/WERNERAUTOMOBILESUHLWICHTSHAUSEN?lang=en",
+    "score": {
+      "total": 5,
+      "responseTime": 5,
+      "friendliness": 5,
+      "advice": 4.9
+    },
+    "activeRatingCount": 7,
+    "vehicleAsDescribedPercentage": 100,
+    "recommendPercentage": 100,
+    "soldVehicleCount": null,
+    "reviews": []
+  },
+  "attributes": {
+    "Vehicle condition": "Used vehicle, Accident-free",
+    "Category": "Saloon",
+    "Model range": "Golf VII Lim. (5G1/BE1)(09.2012->2017)",
+    "Trim line": "GTI BMT",
+    "Origin": "German edition",
+    "Mileage": "116,950 km",
+    "Cubic Capacity": "1,984 ccm",
+    "Power": "162 kW (220 hp)",
+    "Drive type": "Internal combustion engine",
+    "Fuel": "Petrol",
+    "Fuel consumption": [
+      "6.0 l/100km (combined)"
+    ],
+    "Number of Seats": "5",
+    "Door Count": "2/3",
+    "Transmission": "Manual gearbox",
+    "Emission Class": "Euro6",
+    "Emissions Sticker": "4 (Green)",
+    "First Registration": "08/2014",
+    "Number of Vehicle Owners": "2",
+    "HU": "New",
+    "Climatisation": "Automatic air conditioning",
+    "Parking sensors": "Rear",
+    "Airbags": "Front and Side and More Airbags",
+    "Colour": "Black Metallic",
+    "Interior Design": "Velour, Grey",
+    "Trailer load braked": "1,500 kg",
+    "Trailer load unbraked": "640 kg",
+    "Weight": "1,370 kg",
+    "Date of last service (date)": "03/2025",
+    "Last service (mileage)": "114,368 km",
+    "Cylinders": "4",
+    "Tank capacity": "50 l",
+    "Energy consumption (comb.)": "6.0 l/100km",
+    "CO₂ emissions (comb.)": "139 g/km"
+  },
+  "features": [
+    "ABS",
+    "Alloy wheels",
+    "Arm rest",
+    "CD player",
+    "Central locking",
+    "Cruise control",
+    "Daytime running lights",
+    "Electric side mirror",
+    "Electric windows",
+    "ESP",
+    "Front wheel drive",
+    "Full Service History",
+    "Immobilizer",
+    "Isofix",
+    "Leather steering wheel",
+    "Multifunction steering wheel",
+    "Navigation system",
+    "New service",
+    "Non-smoker vehicle",
+    "Sport seats",
+    "Sports suspension",
+    "Start-stop system",
+    "Warranty",
+    "Winter package"
+  ]
+},
+{
+  "title": "Volkswagen Golf VII 1.4 TSI DSG/TEILLEDER/NAVI/SHZ/ALU/PDC",
+  "previewImage": "https://img.classistatic.de/api/v1/mo-prod/images/3c/3c44cde3-c04a-47e4-a51e-e6d85d8e3793?rule=mo-1600.jpg",
+  "category": "Limousine",
+  "brand": "Volkswagen",
+  "model": "Golf",
+  "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=448419293",
+  "price.total.amount": 13333,
+  "priceRating": {
+    "rating": "Fair price",
+    "priceRanges": {
+      "Very good price": {
+        "start": 9001,
+        "end": 11700
+      },
+      "Good price": {
+        "start": 11701,
+        "end": 12600
+      },
+      "Fair price": {
+        "start": 12601,
+        "end": 14100
+      },
+      "Increased price": {
+        "start": 14101,
+        "end": 15100
+      },
+      "High price": {
+        "start": 15101,
+        "end": 16800
+      }
+    }
+  },
+  "description": "EIN FAIRES ANGEBOT // MIT GUTER AUSSTATTUNG // SCHECKHEFT // KUNDENDIENST NEU //\nSonderausstattung:\nBusiness-Paket Premium mit Navigation, Lenkrad (Leder) mit Multifunktion und Schaltfunktion, Life-Paket, Metallic-Lackierung\n\nWeitere Ausstattung:\n3-Punkt-Sicherheitsgurt hinten mitte, Ablagefach am Dachhimmel, Ablagetasche an Vordersitzlehnen, Airbag Beifahrerseite abschaltbar, Airbag Fahrer-/Beifahrerseite, Antriebs-Schlupfregelung (ASR), Auto-Hold-Funktion, Außenspiegel asphärisch, links, Außenspiegel elektr. verstell- und heizbar, Außenspiegel lackiert, Blinkleuchte in Außenspiegel integriert, Bremsassistent, Chrom-Paket (1), Doppeltonhorn, Durchladeeinrichtung (Mittelarmlehne hinten), Einparkhilfe vorn und hinten, Elektron. Differentialsperre (EDS), Elektron. Differentialsperre (XDS), Fahrassistenz-System: Müdigkeitserkennung, Fensterheber elektrisch vorn und hinten, Fußmatten Textil, Gepäckraumabdeckung / Rollo, Getränkehalter vorn, Handschuhfach abschließbar und beleuchtet, Handschuhfach mit Kühlfunktion, Heckscheibenwischer, Innenausstattung: Dekoreinlagen Dark Silver brushed, Innenraumfilter: Staub- und Pollenfilter mit Aktivkohlefilter, Isofix-Aufnahmen für Kindersitz an Rücksitz, Karosserie: 4-türig, Knieairbag Fahrerseite, Kopf-Airbag-System vorn und hinten inkl. Seitenairbag vorn, Kopfstützen hinten (3-fach), Kühlergrill schwarz mit Chromleiste unten, Lendenwirbelstützen vorn, Lenksäule (Lenkrad) mechan. verstellbar, Höhen-/Längsverstellung, Leseleuchten vorn und hinten, Leuchtweitenregelung, LM-Felgen, Motor 1,4 Ltr. - 90 kW 16V TSI (1395 ccm), Multifunktionsanzeige Plus, Nebelschlussleuchte, Nichtraucher-Paket, Parkbremse elektrisch, Reifen-Reparaturkit (Tire Mobility Set), Reifenkontroll-Anzeige, Rücksitzlehne geteilt, Schadstoffarm nach Abgasnorm Euro 5, Schublade / Ablagefach unter Sitze vorn, Sicherheitsgurte vorn mit Gurtstraffer, höhenverstellbar, Sitz vorn links höhenverstellbar, Sitz vorn rechts höhenverstellbar, Sonnenblenden mit Spiegel (beleuchtet), Start/Stop-Anlage, Steckdose 12V im Koffer-/Laderaum, Stoßfänger lackiert, Türgriffe außen Wagenfarbe, Warnanlage für Sicherheitsgurte vorn, Wärmeschutzverglasung grün getönt\n\nIrrtümer, Eingabefehler und Zwischenverkauf vorbehalten\nINCLUSIVE 1 JAHR GEBRAUCHTWAGEN-GARANTIE GEMÄSS BEDINGUNGEN\nFÜR BESICHTIGUNG UND PROBEFAHRT BITTEN WIR UM TELEFONISCHE TERMINVEREINBARUNG !!!!!!!!!!!!!!!\n\nDie Fahrzeugbeschreibung dient lediglich der allgemeinen Identifizierung des Fahrzeuges und stellt keine Gewährleistung im kaufrechtlichen Sinne dar. Die Angaben erheben nicht den Anspruch auf Vollständigkeit. Die gemachten Angaben/Beschreibungen und Bilder sind unverbindlich und dienen nicht als zugesicherte Eigenschaften. Ausstattungen sind ggfs. gesondert zu prüfen.\n\n\nHandy-Nr. 0172-8511666",
+  "dealerDetails": {
+    "id": 451423,
+    "name": "Norbert Forster Automobile",
+    "sellerType": "Dealer",
+    "phones": [
+      "+49 (0)8193 363991929"
+    ],
+    "messengers": {
+      "WHATS_APP": "+49 (0)172 8511666"
+    },
+    "languages": [
+      "Deutsch"
+    ],
+    "country": "DE",
+    "address": "Hangstr. 2, DE-86926 Pflaumdorf",
+    "location": {
+      "latitude": 48.0889101,
+      "longitude": 11.0559552
+    },
+    "activeSince": "2001-03-06T00:00:00.000Z",
+    "homepageUrl": "https://home.mobile.de/home/redirect.html?customerId=451423",
+    "iconUrl": null,
+    "reviewPageUrl": "https://www.mobile.de/bewertungen/FORSTER-AUTOMOBILE?lang=en",
+    "score": {
+      "total": 5,
+      "responseTime": 5,
+      "friendliness": 5,
+      "advice": 5
+    },
+    "activeRatingCount": 68,
+    "vehicleAsDescribedPercentage": 100,
+    "recommendPercentage": 100,
+    "soldVehicleCount": null,
+    "reviews": []
+  },
+  "attributes": {
+    "Vehicle condition": "Used vehicle",
+    "Category": "Saloon",
+    "Model range": "5G1/BE1",
+    "Trim line": "Comfortline Life",
+    "Mileage": "105,730 km",
+    "Cubic Capacity": "1,395 ccm",
+    "Power": "90 kW (122 hp)",
+    "Drive type": "Internal combustion engine",
+    "Fuel": "Petrol",
+    "Fuel consumption": [
+      "5.0 l/100km (combined)"
+    ],
+    "Number of Seats": "5",
+    "Door Count": "4/5",
+    "Transmission": "Automatic",
+    "Emission Class": "Euro5",
+    "Emissions Sticker": "4 (Green)",
+    "First Registration": "03/2014",
+    "HU": "07/2027",
+    "Climatisation": "Automatic climatisation, 2 zones",
+    "Parking sensors": "Front, Self-steering systems, Rear",
+    "Airbags": "Front and Side and More Airbags",
+    "Colour (Manufacturer)": "REFLEXSILBER",
+    "Colour": "Silver Metallic",
+    "Interior Design": "Part leather, Black",
+    "Trailer load braked": "1,700 kg",
+    "Trailer load unbraked": "700 kg",
+    "Weight": "1,249 kg",
+    "Cylinders": "4",
+    "Tank capacity": "50 l",
+    "Energy consumption (comb.)": "5.0 l/100km",
+    "CO₂ emissions (comb.)": "116 g/km"
+  },
+  "features": [
+    "ABS",
+    "Adaptive cornering lights",
+    "Alloy wheels",
+    "Arm rest",
+    "Autom. dimming interior mirror",
+    "Bluetooth",
+    "CD player",
+    "Central locking",
+    "Cruise control",
+    "Daytime running lights",
+    "Electric side mirror",
+    "Electric windows",
+    "ESP",
+    "Fatigue warning system",
+    "Fog lamps",
+    "Front wheel drive",
+    "Full Service History",
+    "Hands-free kit",
+    "Headlight washer system",
+    "Heated seats",
+    "Hill-start assist",
+    "Immobilizer",
+    "Isofix",
+    "Leather steering wheel",
+    "Light sensor",
+    "Lumbar support",
+    "Massage seats",
+    "Multifunction steering wheel",
+    "Navigation system",
+    "New service",
+    "Non-smoker vehicle",
+    "On-board computer",
+    "Paddle shifters",
+    "Power Assisted Steering",
+    "Rain sensor",
+    "Ski bag",
+    "Sport seats",
+    "Start-stop system",
+    "Summer tyres",
+    "Tinted windows",
+    "Touchscreen",
+    "Traction control",
+    "Tuner/radio",
+    "USB port",
+    "Warranty"
+  ]
+},
+{
+  "title": "BMW 435*INDIVIDUAL*HEADUP*8 FACHBEREIFT*M-SPORT",
+  "previewImage": "https://img.classistatic.de/api/v1/mo-prod/images/4f/4f6e068f-2555-4cae-abf0-2661daadc181?rule=mo-1600.jpg",
+  "category": "Cabrio",
+  "brand": "BMW",
+  "model": "435",
+  "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=443653801",
+  "price.total.amount": 28900,
+  "priceRating": {
+    "rating": "Fair price",
+    "priceRanges": {
+      "Very good price": {
+        "start": 19701,
+        "end": 25700
+      },
+      "Good price": {
+        "start": 25701,
+        "end": 27600
+      },
+      "Fair price": {
+        "start": 27601,
+        "end": 30700
+      },
+      "Increased price": {
+        "start": 30701,
+        "end": 33000
+      },
+      "High price": {
+        "start": 33001,
+        "end": 36700
+      }
+    }
+  },
+  "description": "Sonderausstattung:\nAirbag Beifahrerseite abschaltbar, Außen-/Innenspiegel mit Abblendautomatik, Comfort-Paket, Fahrassistenz-System: Speed-Limit-Anzeige, Innenausstattung: Erweiterte Lederausstattung Individual Merino, Innovations-Paket, LM-Felgen vorn/hinten: 8x19 / 8,5x19 (Doppelspeiche 442 M, Bicolor), Metallic-Lackierung, Navigations-Paket ConnectedDrive, Reifensystem Run-Flat (mit Notlaufeigenschaften), Rückfahrkamera, Service-System: Internet, Sicherheitssystem Active Protection, Sound-System Harman-Kardon, Sport-Paket M / M-Technic, Variable Sportlenkung\n\nWeitere Ausstattung:\nAirbag Fahrer-/Beifahrerseite, Auspuffanlage (links/rechts) mit Chromblenden, Automatische Fahrlichtschaltung, AUX-IN-Anschluss (AUX-IN), Außenspiegel elektr. verstell- und heizbar, Außenspiegel Wagenfarbe, Blinkleuchte in Außenspiegel integriert, Bordcomputer, Bremsassistent, Bremsenergierückgewinnung (Rekuperationssystem), Check-Control-System, Dachhimmel Anthrazit (BMW Individual), Diebstahlsicherung für Räder (Felgenschlösser), Drehzahlmesser, Dynamische Bremsleuchte, Dynamische Tractions Control (DTC), Easy-Entry-Funktion, Erste Hilfe-Kasten / Verbandkasten, Exterieurumfänge Wagenfarbe, Fahrassistenz-System: Fahrerlebnisschalter, Farbmonitor (6,5 Zoll), Fernentriegelung Heckklappe, Frontscheibe heizbar, Frontscheibe mit Bandfilter oben, Fußmatten Velours, Getränkehalter, Hardtopdach (elektr. versenkbar), Heckklappenbetätigung automatisch, Heckleuchten LED, Isofix-Aufnahmen für Kindersitz an Rücksitz, Karosserie: 2-türig, Kopf-Airbag-System vorn, Kopfstützen hinten, Lenksäule (Lenkrad) mechan. verstellbar, Leuchtweitenregelung (automatisch), Licht-Paket, Motor 3,0 Ltr. - 225 kW 24V, Multifunktion für Lenkrad, Nichtraucher-Paket, Personalisierungssystem (Personal Profile), Reifenpannen-Anzeige, Rücksitzlehne geteilt/klappbar, Schadstoffarm nach Abgasnorm Euro 6, Schaltpunktanzeige, Scheibenwaschdüsen heizbar, Scheibenwaschdüsen und Außenspiegel beheizt, Seitenairbag vorn, Service-System: Intelligenter Notruf inkl. TeleServices, Sitzausstattung: 4-Sitzer, Sitze vorn elektr. verstellbar (links mit Memory), Soft-Close-Automatik für Kofferraum / Heckklappe, Start/Stop-Anlage (Funktion), Steckdose (12V-Anschluß) zusätzlich, Stoßfänger Wagenfarbe, Verdeckbetätigung vollautomatisch, Warndreieck, Wärmeschutzverglasung (Frontscheibe mit Bandfilter oben), Wärmeschutzverglasung getönt, Überrollbügel\n\nSonstiges\nTelefonische Terminvereinbarung zwecks Besichtigung und Probefahrt..\n01732529545 - 0231 98667553\nIhren Gebrauchten nehmen wir gerne zum fairen Preis in Zahlung.\n12 Monate Gewährleistung,\nGebrauchtwagengarantie / Finanzierung möglich.\nTrotz größter Sorgfalt können Inserat - oder Eingabefehler leider vorkommen.\nIrrtum und Zwischenverkauf vorbehalten\nHandy: 01627225555",
+  "dealerDetails": {
+    "id": 37594948,
+    "name": "Autohaus Hinter dem Salze Dortmund",
+    "sellerType": "Dealer",
+    "phones": [
+      "+49 (0)231 9999413607"
+    ],
+    "messengers": {
+      "WHATS_APP": "+49 (0)162 7225555"
+    },
+    "languages": [
+      "Deutsch"
+    ],
+    "country": "DE",
+    "address": "Arminiusstraße 54, DE-44149 Dortmund",
+    "location": {
+      "latitude": 51.519255,
+      "longitude": 7.419761100000001
+    },
+    "activeSince": "2024-11-18T00:00:00.000Z",
+    "homepageUrl": "https://home.mobile.de/home/redirect.html?customerId=37594948",
+    "iconUrl": "https://img.classistatic.de/api/v1/mo-prod/images/9b/9b2e4ad8-ee7f-466b-afdf-0ae7811df713?rule=mo-640.jpg",
+    "reviewPageUrl": "https://www.mobile.de/bewertungen/AutohausHinterdemSalzeDortmund?lang=en",
+    "score": {
+      "total": 3.9,
+      "responseTime": 4.4,
+      "friendliness": 4.2,
+      "advice": 3
+    },
+    "activeRatingCount": 9,
+    "vehicleAsDescribedPercentage": 100,
+    "recommendPercentage": 57,
+    "soldVehicleCount": null,
+    "reviews": []
+  },
+  "attributes": {
+    "Vehicle condition": "Used vehicle",
+    "Category": "Convertible/Roadster",
+    "Model range": "F33",
+    "Trim line": "M-Sportpaket",
+    "Vehicle Number": "5057",
+    "Origin": "German edition",
+    "Mileage": "93,300 km",
+    "Cubic Capacity": "2,979 ccm",
+    "Power": "225 kW (306 hp)",
+    "Drive type": "Internal combustion engine",
+    "Fuel": "Petrol",
+    "Fuel consumption": [
+      "7.5 l/100km (combined)"
+    ],
+    "Number of Seats": "4",
+    "Door Count": "2/3",
+    "Transmission": "Automatic",
+    "Emission Class": "Euro6",
+    "Emissions Sticker": "4 (Green)",
+    "First Registration": "05/2015",
+    "Number of Vehicle Owners": "3",
+    "HU": "New",
+    "Climatisation": "Automatic climatisation, 4 zones",
+    "Parking sensors": "Camera, Front, Rear",
+    "Airbags": "Front and Side and More Airbags",
+    "Colour (Manufacturer)": "MINERALGRAU",
+    "Colour": "Grey Metallic",
+    "Interior Design": "Full leather, Beige",
+    "Trailer load braked": "1,700 kg",
+    "Trailer load unbraked": "750 kg",
+    "Weight": "1,825 kg",
+    "Cylinders": "6",
+    "Tank capacity": "60 l",
+    "Energy consumption (comb.)": "7.5 l/100km",
+    "CO₂ emissions (comb.)": "176 g/km"
+  },
+  "features": [
+    "ABS",
+    "Alarm system",
+    "Alloy wheels",
+    "Arm rest",
+    "Autom. dimming interior mirror",
+    "Bluetooth",
+    "Cargo barrier",
+    "CD player",
+    "Central locking",
+    "Cruise control",
+    "DAB radio",
+    "Digital cockpit",
+    "Distance warning system",
+    "Dynamic chassis control",
+    "Electric seat adjustment",
+    "Electric side mirror",
+    "Electric tailgate",
+    "Electric windows",
+    "Eletric seat adjustment with memory function",
+    "Emergency brake assist",
+    "Emergency call system",
+    "ESP",
+    "Fog lamps",
+    "Fold flat passenger seat",
+    "Folding exterior mirrors",
+    "Full Service History",
+    "Glare-free high beam headlights",
+    "Hands-free kit",
+    "Headlight washer system",
+    "Head-up display",
+    "Heated seats",
+    "Heated steering wheel",
+    "Heated windshield",
+    "High beam assist",
+    "Hill-start assist",
+    "Immobilizer",
+    "Isofix",
+    "Keyless central locking",
+    "Leather steering wheel",
+    "LED running lights",
+    "Light sensor",
+    "Multifunction steering wheel",
+    "Navigation preparation",
+    "Navigation system",
+    "New service",
+    "Non-smoker vehicle",
+    "On-board computer",
+    "Paddle shifters",
+    "Passenger seat Isofix point",
+    "Power Assisted Steering",
+    "Rain sensor",
+    "Rear traffic alert",
+    "Rear wheel drive",
+    "Sound system",
+    "Speed limit control system",
+    "Sport seats",
+    "Sports package",
+    "Sports suspension",
+    "Start-stop system",
+    "Summer tyres",
+    "Traction control",
+    "Traffic sign recognition",
+    "Tuner/radio",
+    "Tyre pressure monitoring",
+    "USB port",
+    "Virtual side mirror",
+    "Voice control",
+    "Warranty",
+    "Winter package",
+    "Winter tyres",
+    "Xenon headlights"
+  ]
+},
+{
+  "title": "Volkswagen T5 Transporter Bus Multivan Highline",
+  "previewImage": "https://img.classistatic.de/api/v1/mo-prod/images/72/722848e4-2deb-4e21-88cd-fede6703b62c?rule=mo-1600.jpg",
+  "category": "Van",
+  "brand": "Volkswagen",
+  "model": "T5 Transporter",
+  "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=449061390",
+  "price.total.amount": 27900,
+  "priceRating": {
+    "rating": "No rating",
+    "priceRanges": null
+  },
+  "description": "Volkswagen Multivan Highline 2.0 TSI DSG – Premium-Bus mit Luxusausstattung und variabler Innenraumgestaltung204 PS (150 kW) | 2.0 TSI Benzin | 7-Gang DSG | Multivan Highline | Euro 6Dieser Volkswagen Multivan Highline steht für maximalen Komfort, hochwertige Verarbeitung und außergewöhnliche Variabilität. Als Multivan vereint er die Alltagstauglichkeit eines Familien- und Businessfahrzeugs mit dem Komfortniveau einer gehobenen Limousine. Die Highline-Ausstattung unterstreicht den Premium-Anspruch mit zahlreichen Komfort-, Sicherheits- und Designmerkmalen.Der 2.0 TSI Benzinmotor mit 204 PS bietet kraftvolle Leistungsentfaltung, kultivierten Lauf und souveräne Fahrleistungen. In Verbindung mit dem 7-Gang Doppelkupplungsgetriebe (DSG) überzeugt der Multivan durch sanfte Gangwechsel und entspanntes, komfortables Reisen – sowohl im Stadtverkehr als auch auf der Langstrecke.Fahrzeug-Highlights\n2.0 TSI Benzinmotor mit 204 PS\n7-Gang DSG Automatikgetriebe\nAusführung Multivan Highline\nKomfort-Innenraum mit Alcantara/Leder\nElektrische Schiebetüren links & rechts mit Zuziehhilfe\nMultifunktionstisch im Fond\nKlimaautomatik Climatronic für Fahrer- und Fahrgastraum\nSitzheizung Fahrer & Beifahrer\nAnhängerkupplung abnehmbar\nSpurwechselassistent Side Assist\nEinparkhilfe vorne & hinten\nAbgedunkelte Verglasung im Fond\nTechnische DatenMerkmalWertMotor2.0 TSI BenzinLeistung150 kW (204 PS)Getriebe7-Gang DSGAntriebFrontantriebAbgasnormEuro 6KarosserieMultivan / BusRadstand3.000 mmSitzplätzeVariabel (Drehsitze & Sitzbank)Felgen17 Zoll LeichtmetallZul. Gesamtgewicht3.000 kgInnenraum & Komfort\nHochwertige Sitzbezüge Alcantara/Leder\nKomfortsitze Fahrer & Beifahrer, höhenverstellbar, mit Armlehnen\nSitzheizung Fahrer & Beifahrer\nMultifunktionstisch im Fahrgastraum\nDrehsitze in der 1. Sitzreihe im Fond\n3er-Sitzbank in der 2. Sitzreihe\nElektrische Schiebetüren beidseitig mit Zuziehhilfe\nZuziehhilfe für Heckklappe\nKlimaautomatik Climatronic für Fahrer- und Fondbereich\nSonnenschutzrollos im Fahrgastraum\nGepäckraumabdeckung\nMultifunktionsanzeige Premium (Farbdisplay)\nExterieur & Design\nHighline-Ausstattung\nChrom-Paket (Kühlergrill, Zierleisten, Nebelscheinwerfer mit Abbiegelicht)\nLeichtmetallfelgen 17 Zoll\nAbgedunkelte Verglasung hinten\nStoßfänger in Wagenfarbe\nDach in Normalhöhe\nEdelstahl-Ladekanten- und Trittstufenabdeckungen\nSicherheit & Assistenzsysteme\nElektronisches Stabilitätsprogramm ESP mit Berganfahrhilfe\nBremsassistent HBA\nSpurwechselassistent Side Assist\nEinparkhilfe vorne & hinten\nReifendruckkontrollsystem\nFahrer-, Beifahrer-, Seiten- und Kopfairbags vorne & hinten\nDiebstahl-Warnanlage mit Innenraumüberwachung\nMüdigkeits- und Sicherheitsgurtwarnsystem\nInfotainment & Technik\nAudiosystem RCD 310 DAB (Radio/CD/MP3)\nMultifunktionslenkrad (Radio & Telefon)\nBluetooth-Schnittstelle\nLicht- und Sicht-Paket\nRegensensor & Innenspiegel automatisch abblendend\nTempomat\nServotronic-Servolenkung\nWeitere Ausstattung\nAnhängerkupplung abnehmbar\nElektrisch anklappbare Außenspiegel\nAktivkohle-Innenraumfilter\nReserverad in Fahrbereifung\nSchubladen unter Sitzbank & Abfallbehälter\nWärmeschutzverglasung\nRaucher-Paket\nZustand & EinordnungDer Volkswagen Multivan befindet sich in einem sehr gepflegten, hochwertigen Gesamtzustand und überzeugt durch seine umfangreiche Highline-Ausstattung sowie die besonders flexible Innenraumgestaltung. Ideal geeignet als Familienfahrzeug, Business-Shuttle oder komfortabler Reisebus.FazitDieser VW Multivan Highline 2.0 TSI DSG bietet erstklassigen Komfort, kraftvolle Benzinmotorisierung und maximale Variabilität. Ein Premium-Bus für Fahrer, die Raum, Qualität und Fahrkomfort auf hohem Niveau suchen.Rechtlicher HinweisAlle Angaben ohne Gewähr.\nIrrtümer, Änderungen und Zwischenverkauf vorbehalten.",
+  "dealerDetails": {
+    "id": 45601875,
+    "name": "Ankaufsmobile.de",
+    "sellerType": "Dealer",
+    "phones": [
+      "+49 (0)1578 3013877"
+    ],
+    "messengers": {
+      "WHATS_APP": "+49 (0)1578 3013877"
+    },
+    "languages": [
+      "Deutsch",
+      "English"
+    ],
+    "country": "DE",
+    "address": "Eberhardstaße 38, DE-72762 Reutlingen",
+    "location": {
+      "latitude": 48.4916521,
+      "longitude": 9.2044264
+    },
+    "activeSince": "2025-12-19T00:00:00.000Z",
+    "homepageUrl": "https://home.mobile.de/home/redirect.html?customerId=45601875",
+    "iconUrl": null,
+    "reviewPageUrl": null,
+    "score": null,
+    "activeRatingCount": null,
+    "vehicleAsDescribedPercentage": null,
+    "recommendPercentage": null,
+    "soldVehicleCount": null,
+    "reviews": []
+  },
+  "attributes": {
+    "Vehicle condition": "Used vehicle, Accident-free",
+    "Category": "Van/Minibus",
+    "Model range": "7E",
+    "Trim line": "Multivan Highline",
+    "Origin": "German edition",
+    "Mileage": "83,500 km",
+    "Cubic Capacity": "1,984 ccm",
+    "Power": "150 kW (204 hp)",
+    "Drive type": "Internal combustion engine",
+    "Fuel": "Petrol",
+    "Fuel consumption": [
+      "9.8 l/100km (combined)"
+    ],
+    "Number of Seats": "7",
+    "Door Count": "4/5",
+    "Sliding door": "Sliding door both-sided",
+    "Transmission": "Automatic",
+    "Emission Class": "Euro5",
+    "Emissions Sticker": "4 (Green)",
+    "First Registration": "06/2014",
+    "Number of Vehicle Owners": "1",
+    "HU": "08/2027",
+    "Climatisation": "Automatic climatisation, 2 zones",
+    "Parking sensors": "Rear",
+    "Airbags": "Front and Side and More Airbags",
+    "Colour (Manufacturer)": "CANDYWEISS",
+    "Colour": "White",
+    "Interior Design": "Alcantara, Black",
+    "Trailer load braked": "2,500 kg",
+    "Trailer load unbraked": "750 kg",
+    "Weight": "2,149 kg",
+    "Cylinders": "4",
+    "Tank capacity": "80 l",
+    "Energy consumption (comb.)": "9.8 l/100km",
+    "CO₂ emissions (comb.)": "232 g/km"
+  },
+  "features": [
+    "ABS",
+    "Alarm system",
+    "Alloy wheels",
+    "Ambient lighting",
+    "Arm rest",
+    "Autom. dimming interior mirror",
+    "Bluetooth",
+    "CD player",
+    "Central locking",
+    "Cruise control",
+    "Daytime running lights",
+    "Electric side mirror",
+    "Electric windows",
+    "Emergency tyre repair kit",
+    "ESP",
+    "Front wheel drive",
+    "Full Service History",
+    "Heated seats",
+    "Hill-start assist",
+    "Immobilizer",
+    "Isofix",
+    "Leather steering wheel",
+    "Lumbar support",
+    "Multifunction steering wheel",
+    "New service",
+    "Non-smoker vehicle",
+    "On-board computer",
+    "Passenger seat Isofix point",
+    "Power Assisted Steering",
+    "Rain sensor",
+    "Roof rack",
+    "Sound system",
+    "Summer tyres",
+    "Tinted windows",
+    "Trailer coupling, detachable",
+    "Warranty",
+    "Winter package",
+    "Winter tyres"
+  ]
+},
+{
+  "title": "Volkswagen Golf Sportsvan VII Comfortline BMT*NAVI*PDC*",
+  "previewImage": "https://img.classistatic.de/api/v1/mo-prod/images/d3/d3b576fa-783d-468c-b10e-adc96d26c76a?rule=mo-1600.jpg",
+  "category": "Limousine",
+  "brand": "Volkswagen",
+  "model": "Golf",
+  "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=442943116",
+  "price.total.amount": 10790,
+  "priceRating": {
+    "rating": "Good price",
+    "priceRanges": {
+      "Very good price": {
+        "start": 7701,
+        "end": 10000
+      },
+      "Good price": {
+        "start": 10001,
+        "end": 10800
+      },
+      "Fair price": {
+        "start": 10801,
+        "end": 12000
+      },
+      "Increased price": {
+        "start": 12001,
+        "end": 12900
+      },
+      "High price": {
+        "start": 12901,
+        "end": 14300
+      }
+    }
+  },
+  "description": "Sonderausstattung:\nAudiosystem Composition Media (Touchscreen, Radio/CD-Player, MP3, Bluetooth), Klimaanlage Climatronic 2-Zonen, Metallic-Lackierung, Mobiltelefon Schnittstelle Comfort (inkl. Bluetooth-/Audio-Schnittstelle), Multimedia-Schnittstelle USB (iPhone / iPod) mit AUX-IN, Navigationsmodul Discover Media (für Audiosystem), Raucher-Paket, Reserverad als Notrad (gewichts- und platzsparend)\n\nWeitere Ausstattung:\n3-Punkt-Sicherheitsgurt hinten mitte, Ablagefach am Dachhimmel, Ablagetasche an Vordersitzlehnen, Airbag Beifahrerseite abschaltbar, Airbag Fahrer-/Beifahrerseite, Antriebs-Schlupfregelung (ASR), Ausstattung Comfortline, Außenspiegel asphärisch, links, Außenspiegel elektr. verstell- und heizbar, Außenspiegel lackiert, Außenspiegel mit autom. Absenkfunktion, rechts, Außenspiegelfuß schwarz, Außentemperaturanzeige, Blinkleuchte in Außenspiegel integriert, Bremsassistent, Bremsbelagverschleissanzeige, Chrom-Paket (1), Dachhimmel Stoff, grau, Doppeltonhorn, Einparkhilfe vorn und hinten, Elektron. Differentialsperre (EDS), Elektron. Differentialsperre (XDS), Fahrassistenz-System: Multikollisionsbremse (Multi Collision Brake), Fahrassistenz-System: Müdigkeitserkennung, Fahrassistenz-System: Umfeldbeobachtungssystem (Front assist) mit City-Notbremsfunktion, Fensterheber elektrisch vorn und hinten, Fensterzierleisten schwarz, Frontscheibe Verbundglas getönt, Funkschlüssel (2) klappbar, Fußmatten Textil, Gepäckraumabdeckung / Rollo, Gepäckraumbeleuchtung, Gepäckraumboden höhenverstellbar, Handschuhfach mit Kühlfunktion, Heckscheibenwischer, Hinterachse: Verbundlenkerachse, Innenausstattung: Dekoreinlagen Dark Silver brushed, Innenraumfilter: Staub- und Pollenfilter mit Aktivkohlefilter, Innenspiegel abblendbar, Isofix-Aufnahmen für Kindersitz an Rücksitz, Karosserie: 4-türig, Kennzeichenbeleuchtung LED, Kindersicherung im Fahrgastraum, Klapptische in Fahrer- und Beifahrersitzlehne integriert, Knieairbag Fahrerseite, Kopfstützen hinten (3-fach), Kühlergrill schwarz mit Chromleisten, Lenksäule (Lenkrad) mechan. verstellbar, Höhen-/Längsverstellung, Leseleuchten vorn und hinten, Leuchtweitenregelung, LM-Felgen, Motor 1,2 Ltr. - 81 kW TSI, Multifunktionsanzeige Plus, Nebelschlussleuchte, Parkbremse elektrisch, Reifenkontroll-Anzeige, Rücksitzlehne geteilt, Rücksitzlehnen mit Fernentriegelung umklappbar, Schadstoffarm nach Abgasnorm Euro 6, Schalt-/Wählhebelgriff Leder, Scheibenwischer mit Intervallschaltung, Scheibenwischer mit Intervallschaltung, regulierbar, Schublade / Ablagefach unter Sitze vorn, Seitenairbag vorn mit Kopf-Airbag-Einheit, Sicherheitsgurte vorn mit Gurtstraffer, höhenverstellbar, Sitz-Komfort-Paket, Sitzbezug / Polsterung: Stoff, Sitze vorn höhenverstellbar, Sitze: Komfortsitze vorn, Sonnenblenden mit Spiegel (beleuchtet), Start/Stop-Anlage, Steckdose 12V im Koffer-/Laderaum, Stoßfänger Wagenfarbe, Türgriffe außen Wagenfarbe, Verbandkasten und Warndreieck, Warnanlage für Sicherheitsgurte vorn und hinten, Wärmeschutzverglasung grün getönt\n\nSonstiges\nTelefonische Terminvereinbarung zwecks Besichtigung und Probefahrt..\n01732529545 - 0231 98667553\nIhren Gebrauchten nehmen wir gerne zum fairen Preis in Zahlung.\n12 Monate Gewährleistung,\nGebrauchtwagengarantie / Finanzierung möglich.\nTrotz größter Sorgfalt können Inserat - oder Eingabefehler leider vorkommen.\nIrrtum und Zwischenverkauf vorbehalten\nHandy: 01627225555",
+  "dealerDetails": {
+    "id": 37594948,
+    "name": "Autohaus Hinter dem Salze Dortmund",
+    "sellerType": "Dealer",
+    "phones": [
+      "+49 (0)231 9977813516"
+    ],
+    "messengers": {
+      "WHATS_APP": "+49 (0)162 7225555"
+    },
+    "languages": [
+      "Deutsch"
+    ],
+    "country": "DE",
+    "address": "Arminiusstraße 54, DE-44149 Dortmund",
+    "location": {
+      "latitude": 51.519255,
+      "longitude": 7.419761100000001
+    },
+    "activeSince": "2024-11-18T00:00:00.000Z",
+    "homepageUrl": "https://home.mobile.de/home/redirect.html?customerId=37594948",
+    "iconUrl": "https://img.classistatic.de/api/v1/mo-prod/images/9b/9b2e4ad8-ee7f-466b-afdf-0ae7811df713?rule=mo-640.jpg",
+    "reviewPageUrl": "https://www.mobile.de/bewertungen/AutohausHinterdemSalzeDortmund?lang=en",
+    "score": {
+      "total": 3.9,
+      "responseTime": 4.4,
+      "friendliness": 4.2,
+      "advice": 3
+    },
+    "activeRatingCount": 9,
+    "vehicleAsDescribedPercentage": 100,
+    "recommendPercentage": 57,
+    "soldVehicleCount": null,
+    "reviews": []
+  },
+  "attributes": {
+    "Vehicle condition": "Used vehicle",
+    "Category": "Saloon",
+    "Model range": "AM1",
+    "Trim line": "Comfortline BMT/Start-Stopp",
+    "Vehicle Number": "DI3907",
+    "Origin": "German edition",
+    "Mileage": "91,700 km",
+    "Cubic Capacity": "1,197 ccm",
+    "Power": "81 kW (110 hp)",
+    "Drive type": "Internal combustion engine",
+    "Fuel": "Petrol",
+    "Fuel consumption": [
+      "5.1 l/100km (combined)"
+    ],
+    "Number of Seats": "5",
+    "Door Count": "4/5",
+    "Transmission": "Manual gearbox",
+    "Emission Class": "Euro6",
+    "Emissions Sticker": "4 (Green)",
+    "First Registration": "01/2015",
+    "Number of Vehicle Owners": "3",
+    "HU": "New",
+    "Climatisation": "Automatic air conditioning",
+    "Parking sensors": "Rear",
+    "Airbags": "Front and Side and More Airbags",
+    "Colour (Manufacturer)": "LIMESTONE GREY",
+    "Colour": "Grey Metallic",
+    "Interior Design": "Cloth, Black",
+    "Trailer load braked": "1,300 kg",
+    "Trailer load unbraked": "660 kg",
+    "Weight": "1,324 kg",
+    "Cylinders": "4",
+    "Tank capacity": "50 l",
+    "Energy consumption (comb.)": "5.1 l/100km",
+    "CO₂ emissions (comb.)": "117 g/km"
+  },
+  "features": [
+    "ABS",
+    "Alloy wheels",
+    "All season tyres",
+    "Arm rest",
+    "Bluetooth",
+    "CD player",
+    "Central locking",
+    "Cruise control",
+    "DAB radio",
+    "Daytime running lights",
+    "Electric side mirror",
+    "Electric windows",
+    "ESP",
+    "Front wheel drive",
+    "Full Service History",
+    "Hands-free kit",
+    "Heated seats",
+    "Immobilizer",
+    "Isofix",
+    "Leather steering wheel",
+    "Multifunction steering wheel",
+    "Navigation system",
+    "New service",
+    "Non-smoker vehicle",
+    "Power Assisted Steering",
+    "Rain sensor",
+    "Smoker's package",
+    "Sound system",
+    "Start-stop system",
+    "USB port",
+    "Winter package"
+  ]
+},
+{
+  "title": "BMW Z4 Roadster sDrive 28i, 6g,Nav,Xen,Tüv 01-2028",
+  "previewImage": "https://img.classistatic.de/api/v1/mo-prod/images/13/1365caed-9e99-46b7-9e8e-377b33cd8521?rule=mo-1600.jpg",
+  "category": "Cabrio",
+  "brand": "BMW",
+  "model": "Z4",
+  "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=447219825",
+  "price.total.amount": 23450,
+  "priceRating": {
+    "rating": "Good price",
+    "priceRanges": {
+      "Very good price": {
+        "start": 17101,
+        "end": 22200
+      },
+      "Good price": {
+        "start": 22201,
+        "end": 23900
+      },
+      "Fair price": {
+        "start": 23901,
+        "end": 26600
+      },
+      "Increased price": {
+        "start": 26601,
+        "end": 28500
+      },
+      "High price": {
+        "start": 28501,
+        "end": 31700
+      }
+    }
+  },
+  "description": "Besichtigung nur mit Termin!\n\nTelefon: 01796994103 - Herr Hinterthan\nTelefon: 01715614734 - Herr Richter-Stuwe\n\nTelefonisch ereichbar Mo-Sa. 09:00 - 20:00 Uhr / auch Whatsapp oder SMS\nBesichtigung nur nach telefonischer Kontaktaufnahme möglich, alle Fahrzeuge stehen in einer geschlossenen Halle!\n\nDas Fahrzeug steht in unserer Gebrauchtwagenhalle , 22087 Hamburg, Mühlendamm\n\n( ca. 2 min von der Alsterschwimmhalle entfernt.)\n\nFür weitere Informationen und Terminabsprache zum Fahrzeug.\n\nBitte kontaktieren Sie uns per Handy bevor sie sich auf den Weg zu uns machen, da wir nicht Ständig vor Ort sind und unsere Fahrzeuge in abgeschlossenen Räumlichkeiten stehen!\n___________________________________________\n\nAngeboten wird ein BMW Z4 Roadster sDrive 28i\n\nScheckheft elektronisch vollständig\nTÜV & AU bis 01/2028 - ohne Mängel\nEuro 6\nSchalter 6 Gang\nNavigation, Xenon, Sitzheizung, Vollleder beige\n\nSonderausstattung:\n\nAußenspiegel-Paket,\nComfort-Paket Plus,\nDurchladeeinrichtung mit Transportsack integriert,\nFahrassistenz-System: Fernlichtassistent,\nFrontscheibe mit Bandfilter oben,\nFzg. ohne Modell-Schriftzug,\nInnenspiegel mit Abblendautomatik,\nIsofix-Aufnahmen für Kindersitz an Beifahrersitz,\nMetallic-Lackierung,\nMultimedia Apple iPhone Applikationen (Apps),\nNavigations-Paket ConnectedDrive,\nSport-Fahrwerk (mit adaptivem Dämpfersystem),\nSportsitze vorn,\nSprachbediensystem\n\nWeitere Ausstattung:\n\nAirbag Fahrer-/Beifahrerseite,\nAktive Motorhaube,\nAußenspiegel elektr. verstell- und heizbar,\nAußenspiegel Wagenfarbe,\nAußentemperaturanzeige,\nBordcomputer,\nBremsassistent,\nBremsenergierückgewinnung (Rekuperationssystem),\nCheck-Control-System,\nDachhimmel Anthrazit,\nFußmatten Velours,\nInnenausstattung: Interieurleisten Satin-Silber,\nKarosserie: 2-türig, Lenkrad (Sport/Leder) mit Multifunktion,\nLenksäule (Lenkrad) mechan. verstellbar,\nLM-Felgen,\nModellpflege,\nMotor 2,0 Ltr. - 180 kW KAT (N20),\nReifendruck-Kontrollsystem,\nSchadstoffarm nach Abgasnorm Euro 6,\nSeitenairbag vorn, Sitzbezug / Polsterung: Leder Kansas,\nSitze vorn mechanisch verstellbar,\nSitzheizung, Start/Stop-Anlage (Funktion),\nVerdeckbetätigung vollautomatisch,\nÜberschlag-Schutzsystem (aktiver Überrollbügel)\n\nInzahlungnahme Ihres jetzigen Fahrzeug möglich, gerne auch höherwertigere Fahrzeuge\n\nUnsere Fahrzeugbeschreibung dient nur der allgemeinen Identifizierung des Fahrzeuges.\nDie Angaben erheben nicht den Anspruch auf Vollständigkeit.\nDie gemachten Angaben und Beschreibungen sowie Bilder dienen nicht als zugesicherte Eigenschaften.\nDer Verkäufer übernimmt keine Haftung für Datenübermittlungsfehler durch Dritte. Die Ausstattungen sind ggf Monate. gesondert zu prüfen.\nDie Angaben zur Ausstattung wurden teilweise über die Herstellerschnittstelle (VIN-Abfrage) ermittelt. Daher können die Angaben zur Fahrzeugausstattung abweichen.\nIrrtümer und auch der Zwischenverkauf bleibt vorbehalten.\n\nEs handelt sich hier um ein an Gewerbeangebot.\n\nBesichtigung und Probefahrt nur nach Vereinbarung.\nIm Lieferumfang nicht enthalten ist die dauerhafte Bereitstellung digitaler Elemente, deren Updates oder Produktverbesserungen.",
+  "dealerDetails": {
+    "id": 12734722,
+    "name": "Ronald Richter - Stuwe e.k Automobile",
+    "sellerType": "Dealer",
+    "phones": [
+      "+49 (0)40 5247404527"
+    ],
+    "messengers": {
+      "WHATS_APP": "+49 (0)171 5614734"
+    },
+    "languages": [
+      "Deutsch",
+      "English"
+    ],
+    "country": "DE",
+    "address": "Mühlendamm ., DE-22087 Hamburg",
+    "location": {
+      "latitude": 53.5612679,
+      "longitude": 10.0252739
+    },
+    "activeSince": "2015-02-16T00:00:00.000Z",
+    "homepageUrl": "https://home.mobile.de/home/redirect.html?customerId=12734722",
+    "iconUrl": "https://img.classistatic.de/api/v1/mo-prod/images/18/18a0a9b3-bdbc-4dbc-8428-1812d6c67c3f?rule=mo-640.jpg",
+    "reviewPageUrl": "https://www.mobile.de/bewertungen/RONALDRICHTERSTUWE?lang=en",
+    "score": {
+      "total": 4.6,
+      "responseTime": 4.7,
+      "friendliness": 4.7,
+      "advice": 4.4
+    },
+    "activeRatingCount": 36,
+    "vehicleAsDescribedPercentage": 93,
+    "recommendPercentage": 90,
+    "soldVehicleCount": null,
+    "reviews": []
+  },
+  "attributes": {
+    "Vehicle condition": "Used vehicle, Accident-free",
+    "Category": "Convertible/Roadster",
+    "Model range": "E89",
+    "Trim line": "sDrive 28i",
+    "Origin": "German edition",
+    "Mileage": "60,183 km",
+    "Cubic Capacity": "1,997 ccm",
+    "Power": "180 kW (245 hp)",
+    "Drive type": "Internal combustion engine",
+    "Fuel": "Petrol",
+    "Fuel consumption": [
+      "6.8 l/100km (combined)"
+    ],
+    "Number of Seats": "2",
+    "Door Count": "2/3",
+    "Transmission": "Manual gearbox",
+    "Emission Class": "Euro6",
+    "Emissions Sticker": "4 (Green)",
+    "First Registration": "02/2014",
+    "Number of Vehicle Owners": "3",
+    "HU": "01/2028",
+    "Climatisation": "Automatic air conditioning",
+    "Parking sensors": "Front, Rear",
+    "Airbags": "Front and Side Airbags",
+    "Colour (Manufacturer)": "MINERALGRAU",
+    "Colour": "Grey Metallic",
+    "Interior Design": "Full leather, Beige",
+    "Weight": "1,475 kg",
+    "Date of last service (date)": "12/2025",
+    "Last service (mileage)": "59,886 km",
+    "Cylinders": "4",
+    "Tank capacity": "55 l",
+    "Energy consumption (comb.)": "6.8 l/100km",
+    "CO₂ emissions (comb.)": "161 g/km"
+  },
+  "features": [
+    "ABS",
+    "Alarm system",
+    "Alloy wheels",
+    "Arm rest",
+    "Autom. dimming interior mirror",
+    "Bluetooth",
+    "CD player",
+    "Central locking",
+    "Electric side mirror",
+    "Electric windows",
+    "Emergency tyre repair kit",
+    "ESP",
+    "Folding exterior mirrors",
+    "Full Service History",
+    "Hands-free kit",
+    "Headlight washer system",
+    "Heated seats",
+    "Heated steering wheel",
+    "High beam assist",
+    "Hill-start assist",
+    "Immobilizer",
+    "Isofix",
+    "Leather steering wheel",
+    "Light sensor",
+    "Multifunction steering wheel",
+    "Navigation system",
+    "Non-smoker vehicle",
+    "On-board computer",
+    "Passenger seat Isofix point",
+    "Power Assisted Steering",
+    "Rain sensor",
+    "Rear wheel drive",
+    "Sound system",
+    "Sport seats",
+    "Sports suspension",
+    "Start-stop system",
+    "Summer tyres",
+    "Traction control",
+    "Tuner/radio",
+    "Tyre pressure monitoring",
+    "Voice control",
+    "Winter tyres",
+    "Xenon headlights"
+  ]
+},
+{
+  "title": "Mercedes-Benz GLK 250 CDI BlueTec 4Matic|AHK|SHZG|PDC|KLIMA|",
+  "previewImage": "https://img.classistatic.de/api/v1/mo-prod/images/15/158a9a91-6905-46d7-b20a-9ecee221b0bb?rule=mo-1600.jpg",
+  "category": "OffRoad",
+  "brand": "Mercedes-Benz",
+  "model": "GLK 250",
+  "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=445628625",
+  "price.total.amount": 20950,
+  "priceRating": {
+    "rating": "Increased price",
+    "priceRanges": {
+      "Very good price": {
+        "start": 13401,
+        "end": 17400
+      },
+      "Good price": {
+        "start": 17401,
+        "end": 18700
+      },
+      "Fair price": {
+        "start": 18701,
+        "end": 20800
+      },
+      "Increased price": {
+        "start": 20801,
+        "end": 22300
+      },
+      "High price": {
+        "start": 22301,
+        "end": 24800
+      }
+    }
+  },
+  "description": "HERZLICH WILLKOMMEN IM AUTOHAUS HINTER DEM SALZE\n\nUnsere umfassenden Serviceleistungen umfassen: \n12 Monate Gewährleistung und Gebrauchtwagengarantie: Wir bieten eine einjährige Gewährleistung für Ihre Sicherheit und Zufriedenheit.\nUnschlagbare Finanzierungsangebote: Nutzen Sie unsere attraktiven Finanzierungsmöglichkeiten, die auf Ihre individuellen Bedürfnisse zugeschnitten sind.\nInzahlungnahme Ihres Altfahrzeuges: Gerne nehmen wir Ihr aktuelles Fahrzeug in Zahlung, um den Kauf Ihres neuen Fahrzeugs zu erleichtern.\nScheckheftgepflegte Fahrzeuge: Alle unsere Fahrzeuge wurden sorgfältig nach Herstellervorgaben gewartet und verfügen über vollständige Servicehistorien.\nFahrzeugprüfung durch Fachwerkstatt: Unsere Fahrzeuge wurden von einer Fachwerkstatt gründlich geprüft, um höchste Qualität und Zuverlässigkeit zu gewährleisten.\nHU/AU mit einer Mindestlaufzeit von 12 Monaten: Die Hauptuntersuchung (HU) und Abgasuntersuchung (AU) sind für mindestens 12 Monate gültig, um Ihnen eine sorgenfreie Fahrzeugnutzung zu ermöglichen.\nAbholservice vom Flughafen/Bahnhof (auf Anfrage): Für Ihren Komfort bieten wir einen Abholservice vom Flughafen oder Bahnhof nach vorheriger Absprache an.\n\nFür weitere Informationen oder zur Vereinbarung von Dienstleistungen erreichen Sie uns unter der Telefonnummer: +49 152 25222227 \n\nINNENAUSSTATTUNG UND KOMFORT: \nSITZHEIZUNG FAHRERSITZ LINKS UND RECHTS\nLENKRADSCHALTTASTEN / LENKRADSCHALTPADDEL\nKLIMAANLAGE\n\nSICHERHEIT: \nAKTIVER PARKASSISTENT\nFAHRZEUGE MIT 4-MATIC-/ALLRAD-ANTRIEB\n\n\n\n\nBitte beachten Sie, dass die oben aufgeführte Ausstattungsliste lediglich der allgemeinen Identifizierung des Fahrzeugs dient und keine zugesicherte Eigenschaft im kaufrechtlichen Sinne darstellt. Sie ist somit nicht Vertragsgegenstand und sollte vor Abschluss des Kaufvertrags von jedem Interessenten vor Ort am Fahrzeug überprüft werden. Wir behalten uns das Recht vor, Änderungen vorzunehmen, Irrtümer zu korrigieren und das Fahrzeug anderweitig zu verkaufen.",
+  "dealerDetails": {
+    "id": 25825701,
+    "name": "AUTOHAUS HINTER DEM SALZE SALZGITTER",
+    "sellerType": "Dealer",
+    "phones": [
+      "+49 (0)5341 862366656"
+    ],
+    "messengers": {
+      "WHATS_APP": "+49 (0)172 5984155"
+    },
+    "languages": [
+      "Deutsch",
+      "English"
+    ],
+    "country": "DE",
+    "address": "Hinter dem Salze 97, DE-38259 Salzgitter",
+    "location": {
+      "latitude": 52.0418815,
+      "longitude": 10.3639703
+    },
+    "activeSince": "2021-06-21T00:00:00.000Z",
+    "homepageUrl": "https://home.mobile.de/home/redirect.html?customerId=25825701",
+    "iconUrl": "https://img.classistatic.de/api/v1/mo-prod/images/e2/e22a5009-ec19-4a2e-aa59-612c6109e44b?rule=mo-640.jpg",
+    "reviewPageUrl": "https://www.mobile.de/bewertungen/CCTradingLogisticGmbH?lang=en",
+    "score": {
+      "total": 4.9,
+      "responseTime": 4.9,
+      "friendliness": 5,
+      "advice": 4.8
+    },
+    "activeRatingCount": 28,
+    "vehicleAsDescribedPercentage": 96,
+    "recommendPercentage": 96,
+    "soldVehicleCount": null,
+    "reviews": []
+  },
+  "attributes": {
+    "Vehicle condition": "Used vehicle, Accident-free",
+    "Category": "SUV/Off-road Vehicle/Pickup Truck",
+    "Model range": "204904",
+    "Trim line": "GLK 250 CDI BlueTec 4Matic (204.904)",
+    "Vehicle Number": "237697",
+    "Availability": "Now",
+    "Origin": "German edition",
+    "Mileage": "91,600 km",
+    "Cubic Capacity": "2,143 ccm",
+    "Power": "150 kW (204 hp)",
+    "Drive type": "Internal combustion engine",
+    "Fuel": "Diesel",
+    "Number of Seats": "5",
+    "Door Count": "4/5",
+    "Transmission": "Automatic",
+    "Emission Class": "Euro6",
+    "Emissions Sticker": "4 (Green)",
+    "First Registration": "11/2013",
+    "Number of Vehicle Owners": "1",
+    "HU": "02/2027",
+    "Climatisation": "Automatic climatisation, 2 zones",
+    "Parking sensors": "Self-steering systems, Front, Rear",
+    "Airbags": "Front Airbags",
+    "Colour (Manufacturer)": "PALLADIUMSILBER - METALLICLACK",
+    "Colour": "Silver Metallic",
+    "Interior Design": "Cloth, Black",
+    "Weight": "1,925 kg",
+    "Cylinders": "4"
+  },
+  "features": [
+    "ABS",
+    "Alloy wheels",
+    "CD player",
+    "Central locking",
+    "Cruise control",
+    "DAB radio",
+    "Electric seat adjustment",
+    "Electric side mirror",
+    "Electric windows",
+    "ESP",
+    "Fixed trailer coupling",
+    "Four-wheel drive",
+    "Full Service History",
+    "Heated seats",
+    "Hill-start assist",
+    "Immobilizer",
+    "Isofix",
+    "LED running lights",
+    "Light sensor",
+    "New service",
+    "Non-smoker vehicle",
+    "On-board computer",
+    "Paddle shifters",
+    "Particulate filter",
+    "Power Assisted Steering",
+    "Rain sensor",
+    "Roof rack",
+    "Start-stop system",
+    "Traction control",
+    "Tuner/radio",
+    "Tyre pressure monitoring",
+    "Warranty"
+  ]
+},
+{
+  "title": "Audi A5 Sportback 2.0 TFSI Aut. quattro S-Line-Plus",
+  "previewImage": "https://img.classistatic.de/api/v1/mo-prod/images/44/44fff1ef-868a-4549-85a8-e84edcccc82b?rule=mo-1600.jpg",
+  "category": "Limousine",
+  "brand": "Audi",
+  "model": "A5",
+  "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=448521751",
+  "price.total.amount": 19999,
+  "priceRating": {
+    "rating": "Fair price",
+    "priceRanges": {
+      "Very good price": {
+        "start": 13401,
+        "end": 17500
+      },
+      "Good price": {
+        "start": 17501,
+        "end": 18800
+      },
+      "Fair price": {
+        "start": 18801,
+        "end": 20900
+      },
+      "Increased price": {
+        "start": 20901,
+        "end": 22500
+      },
+      "High price": {
+        "start": 22501,
+        "end": 25000
+      }
+    }
+  },
+  "description": "Besichtigung nur mit Termin!\n\nTelefon: 01796994103 - Herr Hinterthan\nTelefon: 01715614734 - Herr Richter-Stuwe\n\nTelefonisch ereichbar Mo-Sa von 09:00 Uhr - 20:00 Uhr / auch Whatsapp oder SMS\nBesichtigung nur nach telefonischer Kontaktaufnahme möglich, alle Fahrzeuge stehen in einer geschlossenen Halle!\n\nDas Fahrzeug steht in unserer Gebrauchtwagenhalle , 22087 Hamburg, Mühlendamm\n\n( ca. 2 min von der Alsterschwimmhalle entfernt.)\n\nFür weitere Informationen und Terminabsprache zum Fahrzeug.\n\nBitte kontaktieren Sie uns per Handy bevor sie sich auf den Weg zu uns machen, da wir nicht Ständig vor Ort sind und unsere Fahrzeuge in abgeschlossenen Räumlichkeiten stehen!\n___________________________________________\n\nAngeboten wird ein Audi A5 Sportback 2.0 TFSI Aut. quattro S-Line-Plus\n\nScheckheft gepflegtes Fahrzeug\nTÜV & AU bis 06/2027\nAT-Motor hat 89.200 Km gefahren / Steuerkette neu\nEuro 6\n2. Hand \n1 Jahr Garantie gegen Aufpreis möglich\n\nService Historie:\n\n09-2016 bei 18.877 km\n05-2017 bei 31.585 km\n10-2017 bei 39.540 km\n07-2018 bei 54.089 km\n01-2020 bei 73.013 km\n05-2021 bei 80.719 km\n11-2022 bei 92.612 km\n11-2024 bei 110.769 km\n10-2025 bei 115.400 km,\n\nSonderausstattung:\n\nAusstattungs-Paket: S line Sport / Plus,\nAusstattungs-Paket: Sport Edition,\nAußenspiegel elektr. verstell-, heiz- und anklappbar, mit Abblendautomatik und Memory,\nBusiness-Paket,\nDiebstahlsicherung für Räder (Felgenschlösser),\nEinparkhilfe hinten (APS),\nFahrassistenz-System: Spurwechselassistent (Side Assist),\nInnenspiegel mit Abblendautomatik,\nIsofix-Aufnahmen für Kindersitz an Beifahrersitz,\nLM-Felgen 8,5x18 (5-Speichen, V-Design, für Winterbereifung),\nLM-Felgen 9x19 (7-Doppelspeichen),\nMulti-Media-Interface MMI Navigation Plus,\nSchiebe-/Hebedach elektr. (Glas) mit Vorwahlautomatik,\nSitzbezug / Polsterung: Leder Feinnappa mit Logo-Prägung in Vordersitzlehnen,\nSitze vorn elektr. verstellbar (links mit Memory),\nSound-System Bang & Olufsen,\nSport-Fahrwerk,\nStandheizung mit Zeitschaltuhr,\nSteckdose 230V,\nTürarmlehnen beledert\n\nWeitere Ausstattung:\n\nAirbag Fahrer-/Beifahrerseite,\nAntriebs-Schlupfregelung (ASR),\nAußenspiegel asphärisch, links,\nAußenspiegel asphärisch, rechts,\nAußenspiegel Wagenfarbe,\nAußentemperaturanzeige,\nElektron. Differentialsperre (EDS),\nFensterheber elektrisch vorn + hinten,\nGetränkehalter in Mittelkonsole,\nGlanz-Paket,\nHeckleuchten LED,\nIsofix-Aufnahmen für Kindersitz,\nKarosserie: 4-türig,\nKlimaautomatik,\nKombiinstrument mit Funkuhr,\nKopf-Airbag-System (Sideguard),\nLenksäule (Lenkrad) mech. Höhen-/Längsverstellung,\nMake-up-Spiegel beleuchtet,\nModellpflege,\nMonochrom-Display (6,5 Zoll),\nMotor 2,0 Ltr. - 165 kW 16V TFSI,\nReifen-Reparaturkit,\nReifenkontroll-Anzeige,\nRücksitzlehne geteilt/klappbar\nSchadstoffarm nach Abgasnorm Euro 6,\nScheibenwaschdüsen heizbar, Seitenairbag vorn,\nStart/Stop-Anlage,\nXenon-Scheinwerfer Plus (Abblend- und Fernlicht)\n\n\nInzahlungnahme Ihres jetzigen Fahrzeug möglich, gerne auch höherwertigere Fahrzeuge\n\nUnsere Fahrzeugbeschreibung dient nur der allgemeinen Identifizierung des Fahrzeuges.\nDie Angaben erheben nicht den Anspruch auf Vollständigkeit.\nDie gemachten Angaben und Beschreibungen sowie Bilder dienen nicht als zugesicherte Eigenschaften.\nDer Verkäufer übernimmt keine Haftung für Datenübermittlungsfehler durch Dritte. Die Ausstattungen sind ggf Monate. gesondert zu prüfen.\nDie Angaben zur Ausstattung wurden teilweise über die Herstellerschnittstelle (VIN-Abfrage) ermittelt. Daher können die Angaben zur Fahrzeugausstattung abweichen.\nIrrtümer und auch der Zwischenverkauf bleibt vorbehalten.\n\nEs handelt sich ein Gewerbe Angebot - - Gerwebe/Händler bevorzugt.\n\nBesichtigung und Probefahrt nur nach Vereinbarung.\nIm Lieferumfang nicht enthalten ist die dauerhafte Bereitstellung digitaler Elemente, deren Updates oder Produktverbesserungen.",
+  "dealerDetails": {
+    "id": 12734722,
+    "name": "Ronald Richter - Stuwe e.k Automobile",
+    "sellerType": "Dealer",
+    "phones": [
+      "+49 (0)40 6077618854"
+    ],
+    "messengers": {
+      "WHATS_APP": "+49 (0)171 5614734"
+    },
+    "languages": [
+      "Deutsch",
+      "English"
+    ],
+    "country": "DE",
+    "address": "Mühlendamm ., DE-22087 Hamburg",
+    "location": {
+      "latitude": 53.5612679,
+      "longitude": 10.0252739
+    },
+    "activeSince": "2015-02-16T00:00:00.000Z",
+    "homepageUrl": "https://home.mobile.de/home/redirect.html?customerId=12734722",
+    "iconUrl": "https://img.classistatic.de/api/v1/mo-prod/images/18/18a0a9b3-bdbc-4dbc-8428-1812d6c67c3f?rule=mo-640.jpg",
+    "reviewPageUrl": "https://www.mobile.de/bewertungen/RONALDRICHTERSTUWE?lang=en",
+    "score": {
+      "total": 4.6,
+      "responseTime": 4.7,
+      "friendliness": 4.7,
+      "advice": 4.4
+    },
+    "activeRatingCount": 36,
+    "vehicleAsDescribedPercentage": 93,
+    "recommendPercentage": 90,
+    "soldVehicleCount": null,
+    "reviews": []
+  },
+  "attributes": {
+    "Vehicle condition": "Used vehicle, Accident-free",
+    "Category": "Saloon",
+    "Model range": "A5 Sportback (8T)(05.2009->)",
+    "Trim line": "2.0 TFSI quattro (165kW)",
+    "Origin": "German edition",
+    "Mileage": "115,404 km",
+    "Cubic Capacity": "1,984 ccm",
+    "Power": "165 kW (224 hp)",
+    "Drive type": "Internal combustion engine",
+    "Fuel": "Petrol",
+    "Fuel consumption": [
+      "6.6 l/100km (combined)"
+    ],
+    "Number of Seats": "4",
+    "Door Count": "4/5",
+    "Transmission": "Automatic",
+    "Emission Class": "Euro6",
+    "Emissions Sticker": "4 (Green)",
+    "First Registration": "08/2015",
+    "Number of Vehicle Owners": "2",
+    "HU": "10/2027",
+    "Climatisation": "Automatic climatisation, 2 zones",
+    "Parking sensors": "Rear",
+    "Airbags": "Front and Side and More Airbags",
+    "Colour (Manufacturer)": "Mythosschwarz Metallic",
+    "Colour": "Black Metallic",
+    "Interior Design": "Full leather, Black",
+    "Trailer load braked": "1,700 kg",
+    "Trailer load unbraked": "750 kg",
+    "Weight": "1,645 kg",
+    "Date of last service (date)": "10/2025",
+    "Last service (mileage)": "115,400 km",
+    "Cylinders": "4",
+    "Tank capacity": "61 l",
+    "Energy consumption (comb.)": "6.6 l/100km",
+    "CO₂ emissions (comb.)": "156 g/km"
+  },
+  "features": [
+    "ABS",
+    "Alloy wheels",
+    "Arm rest",
+    "Autom. dimming interior mirror",
+    "Auxiliary heating",
+    "Bi-xenon headlights",
+    "Bluetooth",
+    "Cargo barrier",
+    "CD player",
+    "Central locking",
+    "Cruise control",
+    "Daytime running lights",
+    "Electric seat adjustment",
+    "Electric side mirror",
+    "Electric windows",
+    "Eletric seat adjustment with memory function",
+    "Emergency call system",
+    "Emergency tyre repair kit",
+    "ESP",
+    "Fatigue warning system",
+    "Fog lamps",
+    "Folding exterior mirrors",
+    "Four-wheel drive",
+    "Full Service History",
+    "Hands-free kit",
+    "Headlight washer system",
+    "Heated seats",
+    "Hill-start assist",
+    "Immobilizer",
+    "Isofix",
+    "Leather steering wheel",
+    "Light sensor",
+    "Lumbar support",
+    "Multifunction steering wheel",
+    "Navigation preparation",
+    "Navigation system",
+    "Non-smoker vehicle",
+    "On-board computer",
+    "Paddle shifters",
+    "Passenger seat Isofix point",
+    "Power Assisted Steering",
+    "Rain sensor",
+    "Sound system",
+    "Speed limit control system",
+    "Sport seats",
+    "Sports package",
+    "Sports suspension",
+    "Start-stop system",
+    "Summer tyres",
+    "Sunroof",
+    "Tinted windows",
+    "Traction control",
+    "Tuner/radio",
+    "Tyre pressure monitoring",
+    "USB port",
+    "Voice control",
+    "Winter tyres"
+  ]
+},
+{
+  "title": "Audi A3 Sportback Ambition S-Line Tempomat",
+  "previewImage": "https://img.classistatic.de/api/v1/mo-prod/images/08/0813a330-a7ea-4af1-858d-d9c786de1a25?rule=mo-1600.jpg",
+  "category": "EstateCar",
+  "brand": "Audi",
+  "model": "A3",
+  "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=445370667",
+  "price.total.amount": 17990,
+  "priceRating": {
+    "rating": "Fair price",
+    "priceRanges": {
+      "Very good price": {
+        "start": 12001,
+        "end": 15700
+      },
+      "Good price": {
+        "start": 15701,
+        "end": 16900
+      },
+      "Fair price": {
+        "start": 16901,
+        "end": 18700
+      },
+      "Increased price": {
+        "start": 18701,
+        "end": 20100
+      },
+      "High price": {
+        "start": 20101,
+        "end": 22400
+      }
+    }
+  },
+  "description": "Sonderausstattung\nAnhängerkupplung Vorbereitung\nAusstattungs-Paket: S line Selection\nAußenspiegel elektr. verstell- und heizbar, beide\nDachhimmel Stoff, schwarz\nEinparkhilfe vorn und hinten, akustisch und optisch mit selektiver Anzeige (APS Plus)\nFahrassistenz-System: Anfahr-Assistent (hold assist)\nFahrassistenz-System: Bremsassistent (Audi pre sense front)\nInnenausstattung: Aluminium-Optik\nIsofix-Aufnahmen für Kindersitz an Beifahrersitz\nKomfort-Klimaautomatik 2-Zonen\nLenkrad (Sport/Leder - 3-Speichen) mit Multifunktion\nLicht-Paket\nLM-Felgen 7,5x18 (10-Speichen)\nMetallic-Lackierung\nMulti-Media-Interface MMI Basic / MMI Radio\nNavigations-Paket\nSitzheizung vorn\nSound-System DSP / Audi Sound-System\nSport-Fahrwerk\n\nWeitere Ausstattung\nAdaptives Bremslicht\nAirbag Fahrer-/Beifahrerseite\nAntriebs-Schlupfregelung (ASR)\nAudi Drive Select\nAudiosystem: Radio mit CD-Player inkl. MP3-/WMA-Wiedergabefunktion\nAusstattungs-Paket: Ambition\nAußenspiegel asphärisch, links\nAußenspiegel konvex, rechts\nAußenspiegel Wagenfarbe\nBlinkleuchten LED in Außenspiegel integriert\nBremsanlage mit Rekuperationssystem\nBremsassistent\nElektron. Differentialsperre (EDS)\nFahrer-Informations-System (FIS) mit Farbdisplay\nFensterheber elektrisch vorn + hinten\nFrontscheibe Akustikglas\nGepäckraumabdeckung / Rollo\nHeckscheibe heizbar\nInnenausstattung: Dekoreinlagen Mikrometallic\nIsofix-Aufnahmen für Kindersitz\nKarosserie: 4-türig\nKnieairbag Fahrerseite\nKopf-Airbag-System (Sideguard)\nKopfstützen hinten (3-fach)\nMotor 1,4 Ltr. - 110 kW 16V TFSI ACT\nParkbremse elektro-mechanisch\nReifen-Reparaturkit\nReifenkontroll-Anzeige\nRücksitzlehne geteilt/klappbar\nSchadstoffarm nach Abgasnorm Euro 6\nSeitenairbag vorn\nSitzbezug / Polsterung: Stoff Rallye\nSitze vorn höhenverstellbar\nSitze vorn mit ausziehbarer Oberschenkelauflage\nSport-Fahrwerk\nSportsitze vorn\nStart/Stop-Anlage\nSteckdose (12V-Anschluß) in Mittelkonsole vorn\nWärmeschutzverglasung grün getönt\n\nAutohaus Löschen - Wir machen den Autokauf einfach !\n\nWillkommen beim Autohaus Löschen, Ihrem zuverlässigen Partner für einen unkomplizierten und stressfreien Autokauf! \nWir verstehen, dass der Kauf eines Fahrzeugs eine wichtige Entscheidung ist – und genau deshalb machen wir es Ihnen leicht. Bei uns steht nicht nur das Fahrzeug im Mittelpunkt, sondern vor allem Ihr Komfort und Ihre Zufriedenheit.\nUnser Versprechen an Sie : Einfacher Autokauf !\nVom ersten Moment an sind wir an Ihrer Seite, um Ihnen den Kauf Ihres Autos so einfach wie möglich zu gestalten. Egal, ob Sie ein sportliches Modell oder ein geräumiges Familienauto suchen – bei uns finden Sie eine breite Auswahl an Fahrzeugen.\nEs warten transparente Angebote, eine kompetente Beratung und ein reibungsloser Ablauf auf Sie.\nBei uns können Sie den Autokauf nach Ihren eigenen Vorstellungen gestalten.\nWir bieten Ihnen maßgeschneiderte Finanzierungsmöglichkeiten, die auf Ihre persönlichen Bedürfnisse abgestimmt sind. Außerdem haben Sie die Möglichkeit, eine Garantieverlängerung von bis zu 60 Monaten Laufzeit abzuschließen. (1.)\n\nSie wissen nicht wohin, mit Ihrem Alten?\nDann bringen Sie diesen gleich mit! Wir nehmen Ihr Fahrzeug gerne bei Kauf in Zahlung. \n\nSie sind nicht mehr mobil?\nKein Problem! Gerne liefern wir Ihr neues Fahrzeug bis vor die Haustür (2.) !\n\nBesuchen Sie uns und erleben Sie den Unterschied !Autohaus Löschen – Ihr Partner für den unkomplizierten Autokauf.\n\nÄnderungen, Zwischenverkauf und Irrtümer vorbehalten!\n\n(1.) nach Garantiebedingungen der Car-Garantie\n\n(2.) Auslieferung nur gegen Aufpreis möglich",
+  "dealerDetails": {
+    "id": 7938968,
+    "name": "Autohaus H.Löschen GmbH",
+    "sellerType": "Dealer",
+    "phones": [
+      "+49 (0)4941 9866044"
+    ],
+    "languages": [
+      "Deutsch",
+      "English"
+    ],
+    "country": "DE",
+    "address": "Liebigstr. 8, DE-26607 Aurich",
+    "location": {
+      "latitude": 53.5057158,
+      "longitude": 7.487850799999999
+    },
+    "activeSince": "2012-06-13T00:00:00.000Z",
+    "homepageUrl": "https://home.mobile.de/home/redirect.html?customerId=7938968",
+    "iconUrl": "https://img.classistatic.de/api/v1/mo-prod/images/1e/1efb633b-a859-42bd-a92a-e47910542ac6?rule=mo-640.jpg",
+    "reviewPageUrl": "https://www.mobile.de/bewertungen/AUTOHAUSLOESCHEN?lang=en",
+    "score": {
+      "total": 4.6,
+      "responseTime": 4.5,
+      "friendliness": 4.9,
+      "advice": 4.4
+    },
+    "activeRatingCount": 11,
+    "vehicleAsDescribedPercentage": 100,
+    "recommendPercentage": 100,
+    "soldVehicleCount": null,
+    "reviews": []
+  },
+  "attributes": {
+    "Vehicle condition": "Used vehicle, Accident-free",
+    "Category": "Estate car",
+    "Model range": "8VA",
+    "Trim line": "Ambition ultra S-Line",
+    "Origin": "German edition",
+    "Mileage": "94,350 km",
+    "Cubic Capacity": "1,395 ccm",
+    "Power": "110 kW (150 hp)",
+    "Drive type": "Internal combustion engine",
+    "Fuel": "Petrol",
+    "Fuel consumption": [
+      "4.7 l/100km (combined)"
+    ],
+    "Number of Seats": "5",
+    "Door Count": "4/5",
+    "Transmission": "Automatic",
+    "Emission Class": "Euro6",
+    "Emissions Sticker": "4 (Green)",
+    "First Registration": "11/2015",
+    "Number of Vehicle Owners": "3",
+    "HU": "New",
+    "Climatisation": "Automatic climatisation, 2 zones",
+    "Parking sensors": "Rear, Front",
+    "Airbags": "Front and Side and More Airbags",
+    "Colour (Manufacturer)": "Mythosschwarz Metallic",
+    "Colour": "Black Metallic",
+    "Interior Design": "Cloth, Black",
+    "Trailer load braked": "1,500 kg",
+    "Trailer load unbraked": "650 kg",
+    "Weight": "1,235 kg",
+    "Cylinders": "4",
+    "Tank capacity": "50 l",
+    "Energy consumption (comb.)": "4.7 l/100km",
+    "CO₂ emissions (comb.)": "109 g/km"
+  },
+  "features": [
+    "ABS",
+    "Alloy wheels",
+    "All season tyres",
+    "Ambient lighting",
+    "Arm rest",
+    "Bi-xenon headlights",
+    "Bluetooth",
+    "Cargo barrier",
+    "CD player",
+    "Central locking",
+    "Cruise control",
+    "Distance warning system",
+    "Electric side mirror",
+    "Electric windows",
+    "Emergency brake assist",
+    "Emergency tyre repair kit",
+    "ESP",
+    "Fatigue warning system",
+    "Fog lamps",
+    "Front wheel drive",
+    "Full Service History",
+    "Hands-free kit",
+    "Headlight washer system",
+    "Heated seats",
+    "Hill-start assist",
+    "Immobilizer",
+    "Isofix",
+    "Leather steering wheel",
+    "LED running lights",
+    "Light sensor",
+    "Multifunction steering wheel",
+    "Navigation system",
+    "Non-smoker vehicle",
+    "On-board computer",
+    "Passenger seat Isofix point",
+    "Power Assisted Steering",
+    "Rain sensor",
+    "Sound system",
+    "Sport seats",
+    "Sports package",
+    "Sports suspension",
+    "Start-stop system",
+    "Tinted windows",
+    "Traction control",
+    "Tuner/radio",
+    "Tyre pressure monitoring",
+    "USB port",
+    "Voice control",
+    "Warranty",
+    "Winter package"
+  ]
+},
+{
+  "title": "Volkswagen Golf VII Lim.ComfortlineBMT-Autom-Massage-AbTemp",
+  "previewImage": "https://img.classistatic.de/api/v1/mo-prod/images/b4/b49a88c7-fb2d-4569-b35d-794cddcd1896?rule=mo-1600.jpg",
+  "category": "Limousine",
+  "brand": "Volkswagen",
+  "model": "Golf",
+  "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=447093072",
+  "price.total.amount": 13100,
+  "priceRating": {
+    "rating": "Good price",
+    "priceRanges": {
+      "Very good price": {
+        "start": 9401,
+        "end": 12200
+      },
+      "Good price": {
+        "start": 12201,
+        "end": 13100
+      },
+      "Fair price": {
+        "start": 13101,
+        "end": 14600
+      },
+      "Increased price": {
+        "start": 14601,
+        "end": 15700
+      },
+      "High price": {
+        "start": 15701,
+        "end": 17400
+      }
+    }
+  },
+  "description": "Volkswagen Golf VII 1.2 TSI Comfortline BMT Automatik | 1.Hand | ACC | Massage | Navi | 84.500 km | 13.999 €\nSehr gepflegter Volkswagen Golf VII Comfortline BlueMotion Technology aus 09/2014 in Pure White. 1.Hand, nur 84.500 km Laufleistung und lückenlose Wartung sprechen für eine klare Historie und sehr gepflegte Nutzung. Der 1.2 TSI Motor mit 81 kW (110 PS) in Kombination mit dem Automatikgetriebe bietet eine angenehme Balance aus Effizienz und Alltagstauglichkeit.Fahrzeugdaten: Erstzulassung: 09/2014\nKilometerstand: 84.500 km\n1.2 TSI – 81 kW (110 PS)\nAutomatik\nFrontantrieb\nEuro 6\nCO₂-Emission kombiniert: 112 g/km\nVerbrauch kombiniert: 4,9 l/100 km\n1 Fahrzeughalter\nScheckheftgepflegt\nNichtraucherfahrzeug\nLetzte Wartung: 01/2026 bei 84.000 kmBesondere Vorteile dieses Fahrzeugs: 1.Hand mit geringer Laufleistung – in dieser Kombination selten auf dem Markt. Business-Paket Premium – inklusive Navigationssystem, ACC (automatische Distanzregelung) und Front Assist. Abstandstempomat (ACC) – komfortables und entspanntes Fahren auf Langstrecke. Massagefunktion im Fahrersitz – Komfortmerkmal, das in dieser Klasse nicht selbstverständlich ist. 2-Zonen-Klimaautomatik (Climatronic) – individueller Komfort für Fahrer und Beifahrer. Licht- und Sicht-Paket – automatische Licht- und Regensensorik. Automatikgetriebe – angenehmes Fahren im Stadtverkehr. BlueMotion Technology – niedriger Verbrauch bei solider Leistung. Anhängelast bis 1.700 kg gebremst – vielseitig nutzbar trotz kompakter Klasse. Preisbewertung „Sehr guter Preis“ – marktattraktive Positionierung im Vergleich zu ähnlichen Fahrzeugen.Ausstattung (Auszug): Navigationssystem\nBluetooth / Audio-Schnittstelle\nMEDIA-IN\nMultifunktions-Lederlenkrad mit Schaltfunktion\nEinparkhilfe vorn und hinten\nSitzheizung\nKlimaanlage Climatronic 2-Zonen\nStart/Stop-System\nIsofix\nLM-Felgen\nWinterbereifung zusätzlich\nFront-, Seiten- und Kopfairbags\nMüdigkeitserkennung\nAuto-Hold-Funktion\nElektrische Fensterheber vorn und hintenDas Fahrzeug befindet sich in einem sehr gepflegten Gesamtzustand. Alters- und laufleistungsbedingte Gebrauchsspuren sind möglich.\n\nVerkaufspreis: 13.999 €\nMwSt. nicht ausweisbar.\nWir nehmen Ihr Fahrzeug gerne in Zahlung und kümmern uns auf Wunsch um die Ablösung Ihrer bestehenden Finanzierung bei Ihrer Bank.\nGebrauchtwagengarantie von 12 bis 36 Monaten möglich. \nGerne erstellen wir Ihnen ein individuelles Finanzierungsangebot. \nWir unterstützen Sie bei Export- oder Kurzzeitkennzeichen sowie bei der Zulassung im Umkreis bis 50 km. Um Wartezeiten zu vermeiden, bitten wir um vorherige Terminvereinbarung. VTC Motors\n\nVoerder Straße 119\n58135 Hagen\nTel.: +49 163 8025479\nE-Mail: vtcmotors.de@gmail.com\n\nIrrtümer, Änderungen und Zwischenverkauf vorbehalten.",
+  "dealerDetails": {
+    "id": 40073064,
+    "name": "VTC-Motors",
+    "sellerType": "Dealer",
+    "phones": [
+      "+49 (0)2333 976901139"
+    ],
+    "messengers": {
+      "WHATS_APP": "+49 (0)163 8025479"
+    },
+    "languages": [
+      "Deutsch",
+      "Pусский",
+      "English"
+    ],
+    "country": "DE",
+    "address": "Vorderstraße 119, DE-58135 Hagen",
+    "location": {
+      "latitude": 51.33153,
+      "longitude": 7.41514
+    },
+    "activeSince": "2025-07-16T00:00:00.000Z",
+    "homepageUrl": "https://home.mobile.de/home/redirect.html?customerId=40073064",
+    "iconUrl": "https://img.classistatic.de/api/v1/mo-prod/images/bd/bdd308d3-33f5-4c3a-b6a1-e99604d9a982?rule=mo-640.jpg",
+    "reviewPageUrl": "https://www.mobile.de/bewertungen/VTCMotorsEnnepetal?lang=en",
+    "score": {
+      "total": 5,
+      "responseTime": 5,
+      "friendliness": 5,
+      "advice": 5
+    },
+    "activeRatingCount": 1,
+    "vehicleAsDescribedPercentage": 100,
+    "recommendPercentage": 100,
+    "soldVehicleCount": null,
+    "reviews": []
+  },
+  "attributes": {
+    "Vehicle condition": "Used vehicle",
+    "Category": "Saloon",
+    "Model range": "5G1/BE1",
+    "Trim line": "Comfortline BMT",
+    "Origin": "German edition",
+    "Mileage": "84,500 km",
+    "Cubic Capacity": "1,197 ccm",
+    "Power": "81 kW (110 hp)",
+    "Drive type": "Internal combustion engine",
+    "Fuel": "Petrol",
+    "Fuel consumption": [
+      "4.9 l/100km (combined)"
+    ],
+    "Number of Seats": "5",
+    "Door Count": "4/5",
+    "Transmission": "Automatic",
+    "Emission Class": "Euro6",
+    "Emissions Sticker": "4 (Green)",
+    "First Registration": "09/2014",
+    "Number of Vehicle Owners": "2",
+    "HU": "New",
+    "Climatisation": "Automatic air conditioning",
+    "Parking sensors": "Camera, Rear, Front",
+    "Airbags": "Front and Side and More Airbags",
+    "Colour (Manufacturer)": "PURE WHITE",
+    "Colour": "White Metallic",
+    "Interior Design": "Cloth, Grey",
+    "Trailer load braked": "1,700 kg",
+    "Trailer load unbraked": "700 kg",
+    "Weight": "1,229 kg",
+    "Date of last service (date)": "01/2026",
+    "Last service (mileage)": "84,000 km",
+    "Cylinders": "4",
+    "Tank capacity": "50 l",
+    "Energy consumption (comb.)": "4.9 l/100km",
+    "CO₂ emissions (comb.)": "112 g/km"
+  },
+  "features": [
+    "ABS",
+    "Adaptive Cruise Control",
+    "Alarm system",
+    "Alloy wheels",
+    "All season tyres",
+    "Arm rest",
+    "Autom. dimming interior mirror",
+    "Bluetooth",
+    "CD player",
+    "Central locking",
+    "Daytime running lights",
+    "Electric seat adjustment",
+    "Electric side mirror",
+    "Electric windows",
+    "ESP",
+    "Fog lamps",
+    "Folding exterior mirrors",
+    "Front wheel drive",
+    "Full Service History",
+    "Hands-free kit",
+    "Headlight washer system",
+    "Heated seats",
+    "Heated windshield",
+    "Hill-start assist",
+    "Immobilizer",
+    "Isofix",
+    "Leather steering wheel",
+    "Lumbar support",
+    "Massage seats",
+    "Multifunction steering wheel",
+    "Navigation system",
+    "New service",
+    "Non-smoker vehicle",
+    "On-board computer",
+    "Paddle shifters",
+    "Passenger seat Isofix point",
+    "Power Assisted Steering",
+    "Rain sensor",
+    "Rear traffic alert",
+    "Sound system",
+    "Start-stop system",
+    "Touchscreen",
+    "Tuner/radio",
+    "Tyre pressure monitoring",
+    "USB port",
+    "Warranty"
+  ]
+},
+{
+  "title": "BMW 428 iA M Paket BiXEN*KAM*HUD*H&K*SHZ*PARK",
+  "previewImage": "https://img.classistatic.de/api/v1/mo-prod/images/27/27cb8b3d-abff-4c09-8772-fdd8ff6ed325?rule=mo-1600.jpg",
+  "category": "Cabrio",
+  "brand": "BMW",
+  "model": "428",
+  "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=437929057",
+  "price.total.amount": 22444.99,
+  "priceRating": {
+    "rating": "Good price",
+    "priceRanges": {
+      "Very good price": {
+        "start": 16201,
+        "end": 21100
+      },
+      "Good price": {
+        "start": 21101,
+        "end": 22700
+      },
+      "Fair price": {
+        "start": 22701,
+        "end": 25300
+      },
+      "Increased price": {
+        "start": 25301,
+        "end": 27100
+      },
+      "High price": {
+        "start": 27101,
+        "end": 30200
+      }
+    }
+  },
+  "description": "Willkommen im Autoversum - Ihrem Spezialisten für junge- & gepflegte Gebrauchtwagen.\n\nWICHTIGE INFORMATION FÜR UNSERE KUNDEN:\nBesichtigungen vor Ort nur nach Terminvereinbarung möglich\n\nIMPORTANT INFORMATION FOR OUR FOREIGN CUSTOMERS:\nPlease note that you need an fix appointment for vehicle inspection and collection\n\nFIN: WBA3V5C58FP753629\nBestandsnummer: P753629\n\nAllgemeines:\n\nNichtraucherfahrzeug\nTierfreiesfahrzeug\nDurchgängig Scheckheft gepflegt\nTÜV bei Kauf neu neu\nInspektion bei Kauf neu\nUS-Import Vorschaden bekannt, Zustand und Reparatur sind sehr gut!\n\nGerne erstellen wir Ihnen ein individuell angepasstes Finanzierungsangebot - Wir freuen uns wenn Sie uns ansprechen!\n\nSonderausstattung\nAblage-Paket\nAdaptives Kurvenlicht\nAußen-/Innenspiegel mit Abblendautomatik (Außenspiegel mit Bordsteinautomatik, rechts )\nDurchladeeinrichtung (Mittelarmlehne hinten)\nExterieurumfänge Aluminium satiniert\nHead-up-Display\nInnenausstattung: Interieurleisten Edelholz (Innenausstattung: Instrumententafel - unterhalb Pearl Glossy Chrome )\nInstrumentenkombination (erweiterter Umfang)\nKlimaautomatik 2-Zonen mit autom. Umluft-Control\nKomfortzugang (Öffnungs- und Schließsystem)\nLendenwirbelstütze Sitz vorn links und rechts, elektr. verstellbar\nLicht- und Regensensor\nMetallic-Lackierung\nPark-Distance-Control (PDC) vorn und hinten\nReifensystem Run-Flat (mit Notlaufeigenschaften)\nRückfahrkamera\nService-System: ConnectedDrive Services\nSitzbezug / Polsterung: Leder Dakota\nSitzheizung vorn\nSound-System Harman-Kardon\n\nSerienausstattung\nAUX-IN-Anschluss (AUX-IN)\nAirbag Fahrer-/Beifahrerseite\nAnti-Blockier-System (ABS)\nAntriebsart: Heckantrieb\nAuspuffanlage (2-Rohr-Anlage) mit Chromblenden\nBi-Xenon-Scheinwerfer (Tagfahrlicht LED, Scheinwerfer-Reinigungsanlage (SRA) )\nBlinkleuchte in Außenspiegel integriert (Blinkleuchten Weiß )\nGeschwindigkeits-Regelanlage mit Bremsfunktion\nGetriebe Sport-Automatic - mit Steptronic (8-Stufen) (Lenkrad mit Schaltwippen/-tasten )\nGetränkehalter\nHardtopdach (elektr. versenkbar)\nHeckklappenbetätigung automatisch\nHeckleuchten LED\nIsofix-Aufnahmen für Kindersitz an Rücksitz\nKopfstützen hinten\nLM-Felgen\nLenksäule (Lenkrad) mechan. verstellbar\nLeuchtweitenregelung (automatisch)\nLicht-Paket (Ambiente-Beleuchtung, Fußraumbeleuchtung vorn, Ausstiegsleuchten in Türverkleidung unten, Leseleuchten vorn, Gepäckraumbeleuchtung )\nMultifunktion für Lenkrad\nNebelscheinwerfer LED\nRücksitzlehne geteilt/klappbar\nSchadstoffarm nach Abgasnorm Euro 6\nScheibenwaschdüsen heizbar\nScheibenwaschdüsen und Außenspiegel beheizt\nSeitenairbag vorn\nService-System: Intelligenter Notruf inkl. TeleServices\nSitze vorn elektr. verstellbar (links mit Memory)\nSoft-Close-Automatik für Kofferraum / Heckklappe\nStart/Stop-Anlage (Funktion) (Start-Stop-Knopf )\nWärmeschutzverglasung (Frontscheibe mit Bandfilter oben)\n\nService:\n\nFinanzierung: bis zu 84 Monate auch ohne Anzahlung möglich.\nGarantie: bis zu 36 Monate möglich\nInzahlungnahme: faires Angebot für Ihr Altfahrzeug\nBundesweiter Anmeldeservice: Zulassung,Kurzzeitkennzeichen, Ausfuhrkennzeichen und komplette Zollabwicklung.\nGeprüfte Gebrauchtwagen: technisch und optisch geprüfte Gebrauchtwagen\nKostenfreier Abholservice: am nächstgelegenen Bahnhof Tornesch, falls Sie mit dem Zug anreisen\n\nBitte beachten Sie als Privatkunde, dass unsere Fahrzeuge zu Ihrem Schutz ausschließlich mit einer Zusatzgarantie über 12 Monate verkauft werden. Dieser erweiterte Schutz wird zzgl. des Verkaufspreises bei Kaufvertragsabschluss berechnet. \nSie haben eine Frage? Sie erreichen uns unter 040/85564015 an oder schreiben Sie uns eine E-Mail an verkauf@autoversum.de.\nAngegebene Ausstattungsmerkmale dienen ausschließlich der allgemeinen Fahrzeugbeschreibung und stellen keine zugesicherte Eigenschaft im kaufrechtlichen Sinne dar. Maßgeblich für den vertraglich geschuldeten Lieferumfang ist allein der schriftlich fixierte Kaufvertrag.\n\nIm ausgewiesenen Preis ist grundsätzlich nur ein Radsatz enthalten; bei Elektrofahrzeugen ist nur ein Ladekabel Bestandteil des Angebots. Navigationsdatenträger (z. B. SD-Karten) sind nicht im Preis inbegriffen. Bitte prüfen Sie die tatsächliche Ausstattung vor Ort oder lassen Sie sich durch unser Verkaufsteam beraten.",
+  "dealerDetails": {
+    "id": 17614547,
+    "name": "DAG GmbH",
+    "sellerType": "Dealer",
+    "phones": [
+      "+49 (0)4122 408909623"
+    ],
+    "languages": [
+      "Deutsch",
+      "English",
+      "Italiano",
+      "Español"
+    ],
+    "country": "DE",
+    "address": "Tornescher Weg 74-76, DE-25436 Uetersen bei Hamburg",
+    "location": {
+      "latitude": 53.6887918,
+      "longitude": 9.6868166
+    },
+    "activeSince": "2018-01-31T00:00:00.000Z",
+    "homepageUrl": "https://home.mobile.de/home/redirect.html?customerId=17614547",
+    "iconUrl": "https://img.classistatic.de/api/v1/mo-prod/images/69/695e09ea-1958-4653-ab20-2cd538f3cc8c?rule=mo-640.jpg",
+    "reviewPageUrl": "https://www.mobile.de/bewertungen/DAGGMBH?lang=en",
+    "score": {
+      "total": 4.6,
+      "responseTime": 4.6,
+      "friendliness": 4.6,
+      "advice": 4.5
+    },
+    "activeRatingCount": 66,
+    "vehicleAsDescribedPercentage": 91,
+    "recommendPercentage": 91,
+    "soldVehicleCount": null,
+    "reviews": []
+  },
+  "attributes": {
+    "Vehicle condition": "Used vehicle, Accident-free",
+    "Category": "Convertible/Roadster",
+    "Model range": "3V63",
+    "Trim line": "428 i",
+    "Vehicle Number": "P753629",
+    "Availability": "Now",
+    "Origin": "EU edition",
+    "Mileage": "76,960 km",
+    "Cubic Capacity": "1,997 ccm",
+    "Power": "180 kW (245 hp)",
+    "Drive type": "Internal combustion engine",
+    "Fuel": "Petrol, E10-enabled",
+    "Number of Seats": "4",
+    "Door Count": "2/3",
+    "Transmission": "Automatic",
+    "Emission Class": "Euro6",
+    "Emissions Sticker": "4 (Green)",
+    "First Registration": "02/2015",
+    "Number of Vehicle Owners": "1",
+    "HU": "New",
+    "Climatisation": "Automatic climatisation, 2 zones",
+    "Parking sensors": "Front, Rear, Camera",
+    "Airbags": "Front and Side and More Airbags",
+    "Colour (Manufacturer)": "BLACK SAPPHIRE METALLIC",
+    "Colour": "Black Metallic",
+    "Interior Design": "Full leather, Black",
+    "Weight": "1,780 kg",
+    "Cylinders": "4"
+  },
+  "features": [
+    "ABS",
+    "Adaptive lighting",
+    "Alloy wheels",
+    "Arm rest",
+    "Bi-xenon headlights",
+    "Bluetooth",
+    "Central locking",
+    "Cruise control",
+    "Electric seat adjustment",
+    "Electric side mirror",
+    "Electric tailgate",
+    "Electric windows",
+    "Emergency call system",
+    "ESP",
+    "Fog lamps",
+    "Full Service History",
+    "Hands-free kit",
+    "Head-up display",
+    "Heated seats",
+    "Heated windshield",
+    "Immobilizer",
+    "Isofix",
+    "Leather steering wheel",
+    "LED running lights",
+    "Light sensor",
+    "Lumbar support",
+    "Multifunction steering wheel",
+    "Navigation system",
+    "Non-smoker vehicle",
+    "On-board computer",
+    "Power Assisted Steering",
+    "Rain sensor",
+    "Rear wheel drive",
+    "Sound system",
+    "Sports package",
+    "Sports suspension",
+    "Start-stop system",
+    "Traction control",
+    "Tuner/radio",
+    "Tyre pressure monitoring",
+    "USB port",
+    "Warranty"
+  ]
+}]

@@ -1,0 +1,179 @@
+<!-- Carousel de Coches para Home Component -->
+<div class="bg-gray-50 dark:bg-gray-900 min-h-screen">
+  
+  <!-- Hero Section -->
+  <section class="relative bg-gradient-to-r from-blue-600 to-purple-600 py-20">
+    <div class="absolute inset-0 bg-black opacity-20"></div>
+    <div class="container mx-auto px-4 relative z-10 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">
+        🚗 Encuentra tu Coche Perfecto
+      </h1>
+      <p class="text-xl text-white mb-8">
+        Descubre los mejores coches de segunda mano y nuevos en nuestra plataforma
+      </p>
+      
+      <div class="flex flex-col md:flex-row gap-4 justify-center">
+        <a [routerLink]="['/nuestros-coches']" 
+           class="bg-white hover:bg-gray-100 text-blue-600 font-bold py-3 px-8 rounded-lg transition duration-300">
+          Ver Todos los Coches
+        </a>
+        <a [routerLink]="['/vende-tu-coche']" 
+           class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-lg transition duration-300">
+          Vender mi Coche
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Carousel de Coches Destacados -->
+  <section class="py-16 bg-white dark:bg-gray-800">
+    <div class="container mx-auto px-4">
+      
+      <!-- Título de la sección -->
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-4">
+          Coches Destacados
+        </h2>
+        <p class="text-gray-600 dark:text-gray-300 text-lg">
+          Los mejores coches seleccionados para ti
+        </p>
+      </div>
+
+      <!-- Loading State -->
+      <div *ngIf="cargando()" class="text-center py-12">
+        <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto"></div>
+        <p class="text-gray-600 dark:text-gray-300 mt-4">Cargando coches...</p>
+      </div>
+
+      <!-- Error State -->
+      <div *ngIf="error()" class="text-center py-12">
+        <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded mb-4 max-w-md mx-auto">
+          <p class="font-medium">{{ error() }}</p>
+        </div>
+      </div>
+
+      <!-- Carousel Container -->
+      <div *ngIf="!cargando() && !error() && coches().length > 0" 
+           class="relative overflow-hidden">
+        
+        <!-- Botones de navegación -->
+        <button 
+          *ngIf="currentIndex() > 0"
+          (click)="moverIzquierda()" 
+          class="absolute left-4 top-1/2 transform -translate-y-1/2 z-20 bg-white hover:bg-gray-100 rounded-full p-3 shadow-lg transition-all duration-200">
+          <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+          </svg>
+        </button>
+
+        <button 
+          *ngIf="currentIndex() < coches().length - 1"
+          (click)="moverDerecha()" 
+          class="absolute right-4 top-1/2 transform -translate-y-1/2 z-20 bg-white hover:bg-gray-100 rounded-full p-3 shadow-lg transition-all duration-200">
+          <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+          </svg>
+        </button>
+
+        <!-- Contenedor del carousel -->
+        <div 
+          #scrollContainer
+          class="carousel-container flex justify-center items-center gap-6 py-8 px-16 min-h-[500px]"
+          (mousedown)="startDrag($event)"
+          (mousemove)="drag($event)"
+          (mouseup)="stopDrag()"
+          (touchstart)="startDrag($event)"
+          (touchmove)="drag($event)"
+          (touchend)="stopDrag()"
+          (dragstart)="preventDrag($event)">
+          
+          <!-- Tarjetas de coches -->
+          <ng-container *ngFor="let coche of cochesVisibles; let i = index">
+            <div *ngIf="coche" class="carousel-item">
+              <app-card-coche 
+                [coche]="coche" 
+                [isCenter]="i === 1"
+                (cocheClick)="verDetalleCoche($event)"
+                class="block">
+              </app-card-coche>
+            </div>
+            
+            <!-- Espacio vacío para tarjetas laterales -->
+            <div *ngIf="!coche" class="carousel-item opacity-0">
+              <div class="w-80 h-96"></div>
+            </div>
+          </ng-container>
+        </div>
+
+        <!-- Indicadores de posición -->
+        <div class="flex justify-center mt-6 space-x-2">
+          <button 
+            *ngFor="let coche of coches(); let i = index"
+            (click)="currentIndex.set(i)"
+            class="w-3 h-3 rounded-full transition-all duration-200"
+            [class.bg-blue-600]="i === currentIndex()"
+            [class.bg-gray-300]="i !== currentIndex()">
+          </button>
+        </div>
+      </div>
+
+      <!-- Empty State -->
+      <div *ngIf="!cargando() && !error() && coches().length === 0" 
+           class="text-center py-12">
+        <div class="text-gray-500 dark:text-gray-400">
+          <svg class="w-16 h-16 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                  d="M8 17l4 4 4-4m-4-5v9m-8-9h16"/>
+          </svg>
+          <h3 class="text-xl font-semibold mb-2">No hay coches disponibles</h3>
+          <p>Pronto tendremos nuevos coches para mostrar</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Sección de Características -->
+  <section class="py-16 bg-gray-100 dark:bg-gray-900">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-gray-800 dark:text-white mb-4">
+          ¿Por qué elegirnos?
+        </h2>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="text-center p-6 bg-white dark:bg-gray-800 rounded-lg shadow-lg">
+          <div class="text-4xl mb-4">🔍</div>
+          <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">
+            Búsqueda Avanzada
+          </h3>
+          <p class="text-gray-600 dark:text-gray-300">
+            Filtra por marca, modelo, precio, año y más características
+          </p>
+        </div>
+
+        <div class="text-center p-6 bg-white dark:bg-gray-800 rounded-lg shadow-lg">
+          <div class="text-4xl mb-4">✅</div>
+          <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">
+            Coches Verificados
+          </h3>
+          <p class="text-gray-600 dark:text-gray-300">
+            Todos nuestros coches pasan por un proceso de verificación riguroso
+          </p>
+        </div>
+
+        <div class="text-center p-6 bg-white dark:bg-gray-800 rounded-lg shadow-lg">
+          <div class="text-4xl mb-4">💰</div>
+          <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">
+            Mejores Precios
+          </h3>
+          <p class="text-gray-600 dark:text-gray-300">
+            Encuentra las mejores ofertas del mercado sin comisiones ocultas
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
