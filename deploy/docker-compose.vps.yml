@@ -1,0 +1,82 @@
+# Despliegue en el VPS de b-dev.es.
+#
+# Diferencias con el docker-compose.yml de la raiz:
+#   - No publica ningun puerto: la unica puerta es Traefik, que ya corre en el
+#     stack de /opt/bdev.
+#   - Se engancha a la red externa de ese stack para que Traefik lo vea.
+#   - Limites de memoria mas ajustados, porque el servidor es compartido.
+#
+# Uso:
+#   cd /opt/carsimport
+#   docker compose -f docker-compose.vps.yml --env-file .env up -d --build
+
+services:
+
+  carsimport-db:
+    image: mysql:8.0
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:?falta MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-concesionario_db}
+      MYSQL_USER: ${SPRING_DATASOURCE_USERNAME:?falta SPRING_DATASOURCE_USERNAME}
+      MYSQL_PASSWORD: ${SPRING_DATASOURCE_PASSWORD:?falta SPRING_DATASOURCE_PASSWORD}
+    volumes:
+      - carsimport-db-data:/var/lib/mysql
+    command: --innodb-buffer-pool-size=96M --performance-schema=OFF
+    mem_limit: 400m
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-p${MYSQL_ROOT_PASSWORD}"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 30s
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+    networks: [bdev]
+
+  carsimport-api:
+    build: ../backend
+    restart: unless-stopped
+    depends_on:
+      carsimport-db:
+        condition: service_healthy
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://carsimport-db:3306/${MYSQL_DATABASE:-concesionario_db}?serverTimezone=UTC
+      SPRING_DATASOURCE_USERNAME: ${SPRING_DATASOURCE_USERNAME}
+      SPRING_DATASOURCE_PASSWORD: ${SPRING_DATASOURCE_PASSWORD}
+      JWT_SECRET: ${JWT_SECRET:?falta JWT_SECRET}
+      JWT_EXPIRATION_MS: ${JWT_EXPIRATION_MS:-86400000}
+      INGESTA_FRECUENCIA: NUNCA
+      JAVA_OPTS: "-Xmx300m -XX:+UseSerialGC"
+    mem_limit: 450m
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+    networks: [bdev]
+
+  carsimport-web:
+    build: ../CochesFront
+    restart: unless-stopped
+    depends_on:
+      - carsimport-api
+    mem_limit: 64m
+    labels:
+      - traefik.enable=true
+      - "traefik.http.routers.carsimport.rule=Host(`carsimport.b-dev.es`)"
+      - traefik.http.routers.carsimport.entrypoints=websecure
+      - traefik.http.routers.carsimport.tls.certresolver=le
+      - traefik.http.services.carsimport.loadbalancer.server.port=80
+      - traefik.http.routers.carsimport.middlewares=secheaders@docker
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+    networks: [bdev]
+
+volumes:
+  carsimport-db-data:
+
+networks:
+  bdev:
+    external: true
+    name: bdev_default

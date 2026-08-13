@@ -1,0 +1,69 @@
+# Levanta el proyecto entero (base de datos + API + front) con un solo comando:
+#
+#   cp .env.example .env    # y rellena JWT_SECRET y las contrasenas
+#   docker compose up -d
+#
+# Front en http://localhost:8080 y la API por debajo, en /api.
+
+services:
+
+  carsimport-db:
+    image: mysql:8.0
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:?falta MYSQL_ROOT_PASSWORD en .env}
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-concesionario_db}
+      MYSQL_USER: ${SPRING_DATASOURCE_USERNAME:?falta SPRING_DATASOURCE_USERNAME en .env}
+      MYSQL_PASSWORD: ${SPRING_DATASOURCE_PASSWORD:?falta SPRING_DATASOURCE_PASSWORD en .env}
+    volumes:
+      - carsimport-db-data:/var/lib/mysql
+    # Sin 'ports': la base de datos NO se expone a internet, solo la ven los
+    # contenedores de esta red.
+    command: --innodb-buffer-pool-size=128M --performance-schema=OFF
+    mem_limit: 512m
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-p${MYSQL_ROOT_PASSWORD}"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 30s
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+
+  carsimport-api:
+    build: ./backend
+    restart: unless-stopped
+    depends_on:
+      carsimport-db:
+        condition: service_healthy
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://carsimport-db:3306/${MYSQL_DATABASE:-concesionario_db}?serverTimezone=UTC
+      SPRING_DATASOURCE_USERNAME: ${SPRING_DATASOURCE_USERNAME}
+      SPRING_DATASOURCE_PASSWORD: ${SPRING_DATASOURCE_PASSWORD}
+      JWT_SECRET: ${JWT_SECRET:?falta JWT_SECRET en .env}
+      JWT_EXPIRATION_MS: ${JWT_EXPIRATION_MS:-86400000}
+      CORS_ALLOWED_ORIGINS: ${CORS_ALLOWED_ORIGINS:-http://localhost:8080}
+      INGESTA_FRECUENCIA: ${INGESTA_FRECUENCIA:-NUNCA}
+      APIFY_API_TOKEN: ${APIFY_API_TOKEN:-}
+      APIFY_DATASET_ID: ${APIFY_DATASET_ID:-}
+      JAVA_OPTS: "-Xmx320m -XX:+UseSerialGC"
+    mem_limit: 512m
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+
+  carsimport-web:
+    build: ./CochesFront
+    restart: unless-stopped
+    depends_on:
+      - carsimport-api
+    ports:
+      - "8080:80"
+    mem_limit: 64m
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+
+volumes:
+  carsimport-db-data:
