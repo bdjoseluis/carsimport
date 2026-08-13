@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
 import { AuthServiceService } from '../../services/login/auth-service.service';
 import { OfertaService } from '../../services/oferta.service';
-import { environment } from '../../../environments/environment.development';
+import { environment } from '../../../environments/environment';
 
 @Component({
   selector: 'app-vende-tu-coche',
@@ -48,7 +48,7 @@ export class VendeTuCocheComponent implements OnInit {
   fotosPreview: string[] = [];
 
   marcas = [
-    'Abarth','Alfa Romeo','Audi','BMW','Chevrolet','Chrysler','Citroën',
+    'Abarth','Alfa Romeo','Audi','BMW','Chevrolet','Chrysler','CitroÁ«n',
     'Dacia','DS','Ferrari','Fiat','Ford','Honda','Hyundai','Infiniti',
     'Jaguar','Jeep','Kia','Lamborghini','Land Rover','Lexus','Maserati',
     'Mazda','Mercedes-Benz','Mini','Mitsubishi','Nissan','Opel','Peugeot',

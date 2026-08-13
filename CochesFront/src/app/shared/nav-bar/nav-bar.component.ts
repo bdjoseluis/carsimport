@@ -1,4 +1,4 @@
-import { Component, inject, OnInit, OnDestroy, ChangeDetectorRef, NgZone } from '@angular/core';
+import { Component, inject, OnInit, OnDestroy } from '@angular/core';
 import { RouterLink, RouterModule, Router, NavigationEnd } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { AuthServiceService } from '../../services/login/auth-service.service';
@@ -12,71 +12,49 @@ import { filter } from 'rxjs/operators';
   styleUrl: './nav-bar.component.css',
 })
 export class NavBarComponent implements OnInit, OnDestroy {
-  protected userName: string | null = null;
-  protected email: string | null = null;
-  protected isAdmin = false;
-  protected isLoggedIn = false;
+
+  private readonly authService = inject(AuthServiceService);
+  private readonly router = inject(Router);
+  private readonly subscription = new Subscription();
+
   protected dropdownOpen = false;
   protected rutaCosmica = false;
 
-  private authService = inject(AuthServiceService);
-  private cdr = inject(ChangeDetectorRef);
-  private ngZone = inject(NgZone);
-  private router = inject(Router);
-  private subscription: Subscription = new Subscription();
+  /**
+   * El estado de sesion se lee directamente de las señales del servicio.
+   * Antes habia una suscripcion a authStatus$ mas NgZone.run() mas
+   * detectChanges() a mano para mantener esto sincronizado; con señales
+   * Angular se entera solo.
+   */
+  protected get isLoggedIn(): boolean { return this.authService.estaAutenticado(); }
+  protected get userName(): string | null { return this.authService.usuario(); }
+  protected get email(): string | null { return this.authService.getEmail(); }
+  protected get isAdmin(): boolean { return this.authService.esAdmin(); }
 
   ngOnInit(): void {
-    this.updateUserInfo();
     this.checkRuta(this.router.url);
 
     this.subscription.add(
-      this.authService.authStatus$.subscribe(() => {
-        this.ngZone.run(() => this.updateUserInfo());
-      })
-    );
-
-    this.subscription.add(
       this.router.events.pipe(
-        filter(e => e instanceof NavigationEnd)
-      ).subscribe((e: any) => {
-        this.checkRuta(e.urlAfterRedirects);
-        this.cdr.detectChanges();
-      })
+        filter((e): e is NavigationEnd => e instanceof NavigationEnd)
+      ).subscribe(e => this.checkRuta(e.urlAfterRedirects))
     );
-  }
-
-  private checkRuta(url: string): void {
-    this.rutaCosmica = url === '/home' || url.startsWith('/vendetucoche');
-  }
-
-
-  protected updateUserInfo(): void {
-    this.isLoggedIn = this.authService.isAuthenticated();
-    if (this.isLoggedIn) {
-      this.userName = this.authService.getUserName();
-      this.email = this.authService.getEmail();
-      this.isAdmin = this.authService.getUserRole() === 'ADMIN';
-    } else {
-      this.userName = null;
-      this.email = null;
-      this.isAdmin = false;
-      this.dropdownOpen = false;
-    }
-    this.cdr.detectChanges();
-  }
-
-  protected toggleDropdown(): void {
-    this.dropdownOpen = !this.dropdownOpen;
-    this.cdr.detectChanges();
-  }
-
-  protected logout(): void {
-    this.dropdownOpen = false;
-    this.cdr.detectChanges();
-    this.authService.logout();
   }
 
   ngOnDestroy(): void {
     this.subscription.unsubscribe();
+  }
+
+  protected toggleDropdown(): void {
+    this.dropdownOpen = !this.dropdownOpen;
+  }
+
+  protected logout(): void {
+    this.dropdownOpen = false;
+    this.authService.logout();
+  }
+
+  private checkRuta(url: string): void {
+    this.rutaCosmica = url === '/home' || url.startsWith('/vendetucoche');
   }
 }

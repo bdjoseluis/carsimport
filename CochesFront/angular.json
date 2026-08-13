@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "bodyCraftFront": {
+    "carsimport": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:class": { "skipTests": true },
@@ -12,8 +12,7 @@
         "@schematics/angular:guard": { "skipTests": true },
         "@schematics/angular:interceptor": { "skipTests": true },
         "@schematics/angular:pipe": { "skipTests": true },
-        "@schematics/angular:resolver": { "skipTests": true },
-        "@schematics/angular:service": { "skipTests": true }
+        "@schematics/angular:resolver": { "skipTests": true }
       },
       "root": "",
       "sourceRoot": "src",
@@ -22,26 +21,17 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/body-craft-front",
+            "outputPath": "dist/carsimport",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": ["zone.js"],
             "tsConfig": "tsconfig.app.json",
-            "assets": [
-              { "glob": "**/*", "input": "public/assets" },
-              { "glob": "**/*", "input": "public" }
-            ],
+            "assets": [{ "glob": "**/*", "input": "public" }],
             "styles": ["src/styles.css"],
             "scripts": []
           },
           "configurations": {
             "production": {
-              "fileReplacements": [
-                {
-                  "replace": "src/environments/environment.development.ts",
-                  "with": "src/environments/environment.ts"
-                }
-              ],
               "budgets": [
                 {
                   "type": "initial",
@@ -74,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "bodyCraftFront:build:production"
+              "buildTarget": "carsimport:build:production"
             },
             "development": {
-              "buildTarget": "bodyCraftFront:build:development"
+              "buildTarget": "carsimport:build:development"
             }
           },
           "options": {
@@ -93,10 +83,7 @@
           "options": {
             "polyfills": ["zone.js", "zone.js/testing"],
             "tsConfig": "tsconfig.spec.json",
-            "assets": [
-              { "glob": "**/*", "input": "src/assets" },
-              { "glob": "**/*", "input": "public" }
-            ],
+            "assets": [{ "glob": "**/*", "input": "public" }],
             "styles": ["src/styles.css"],
             "scripts": []
           }

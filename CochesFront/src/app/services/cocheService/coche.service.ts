@@ -4,7 +4,7 @@ import { map, tap, catchError } from 'rxjs/operators';
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { iCoche } from '../../interfaces/iCoche';
 import { AuthServiceService } from '../login/auth-service.service';
-import { environment } from '../../../environments/environment.development';
+import { environment } from '../../../environments/environment';
 
 export interface CocheFiltros {
   marca?: string;
@@ -54,11 +54,10 @@ export class CocheService {
   public coches$ = this.cochesSubject.asObservable();
   private cochesData: iCoche[] = [];
 
-  constructor(
-    private http: HttpClient,
-    private authService: AuthServiceService
-  ) {
-    this.getCoches().subscribe();
+  constructor(private http: HttpClient) {
+    // Sin peticiones en el constructor: antes se lanzaba un getCoches() aqui,
+    // lo que disparaba una llamada HTTP con solo inyectar el servicio y creaba
+    // una carrera con los componentes que pedian datos a la vez.
   }
 
   // ─── LECTURA ──────────────────────────────────────────────────────────────────
@@ -109,16 +108,23 @@ export class CocheService {
     );
   }
 
+  /**
+   * Los 5 mas recientes. Antes leia una cache que podia estar todavia vacia y
+   * devolvia una lista en blanco sin avisar; ahora deriva de la peticion real.
+   */
   getCochesDestacados(): Observable<iCoche[]> {
-    const destacados = [...this.cochesData]
-      .sort((a, b) => new Date(b.fechaPublicacion).getTime() - new Date(a.fechaPublicacion).getTime())
-      .slice(0, 5);
-    return new Observable(obs => { obs.next(destacados); obs.complete(); });
+    return this.getCoches().pipe(
+      map(coches => [...coches]
+        .sort((a, b) =>
+          new Date(b.fechaPublicacion).getTime() - new Date(a.fechaPublicacion).getTime())
+        .slice(0, 5))
+    );
   }
 
   getMarcasDisponibles(): Observable<string[]> {
-    const marcas = [...new Set(this.cochesData.map(c => c.marca))].sort();
-    return new Observable(obs => { obs.next(marcas); obs.complete(); });
+    return this.getCoches().pipe(
+      map(coches => [...new Set(coches.map(c => c.marca).filter(Boolean))].sort())
+    );
   }
 
   // ─── ESCRITURA ────────────────────────────────────────────────────────────────

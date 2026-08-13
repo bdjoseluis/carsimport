@@ -1,8 +1,8 @@
-import { Injectable } from '@angular/core';
+﻿import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, throwError } from 'rxjs';
 import { catchError } from 'rxjs/operators';
-import { environment } from '../../environments/environment.development';
+import { environment } from '../../environments/environment';
 import { UserDto, UpdateUserDto } from '../interfaces/user-dto';
 import { RegisterDto } from '../interfaces/register/register';
 import { AuthServiceService } from './login/auth-service.service';

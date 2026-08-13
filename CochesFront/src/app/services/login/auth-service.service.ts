@@ -1,102 +1,118 @@
-import { inject, Injectable } from '@angular/core';
+import { computed, inject, Injectable, signal } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { environment } from '../../../environments/environment.development';
 import { Router } from '@angular/router';
-import { BehaviorSubject, Observable, switchMap, tap } from 'rxjs';
+import { Observable, tap } from 'rxjs';
+import { environment } from '../../../environments/environment';
+
+interface AuthResponse {
+  token: string;
+  username: string;
+  role: string;
+}
+
+interface SesionGuardada {
+  token: string;
+  username: string;
+  role: string;
+}
+
+const CLAVE_SESION = 'carsimport.sesion';
 
 @Injectable({ providedIn: 'root' })
 export class AuthServiceService {
-  
-  private apiUrl = `${environment.apiUrl}/api/auth`;
-  private http = inject(HttpClient);
-  private router = inject(Router);
 
-  private authStatusChanged = new BehaviorSubject<boolean>(this.isAuthenticated());
-  public authStatus$ = this.authStatusChanged.asObservable();
+  private readonly apiUrl = `${environment.apiUrl}/api/auth`;
+  private readonly http = inject(HttpClient);
+  private readonly router = inject(Router);
 
-  constructor() {}
+  /**
+   * Toda la sesion vive en una sola señal, y en una sola clave de localStorage.
+   * Antes habia cinco claves sueltas (token, user_name, email, user_role,
+   * user_id) que se podian quedar descompasadas entre si.
+   */
+  private readonly sesion = signal<SesionGuardada | null>(this.leerSesionGuardada());
 
-  getRole(): string | null {
-    return this.getUserRole();
-  }
+  readonly estaAutenticado = computed(() => {
+    const s = this.sesion();
+    return s !== null && !this.tokenCaducado(s.token);
+  });
 
-  login(credentials: { email: string; password: string }): Observable<any> {
-    return this.http.post(`${this.apiUrl}/login`, credentials, { responseType: 'text' }).pipe(
-      tap((token) => this.saveToken(token)),
-      switchMap(() =>
-        this.http.get<{ username: string; role: string }>(`${this.apiUrl}/me`)
-      ),
-      tap((userInfo) => {
-        localStorage.setItem('user_name', userInfo.username);
-        localStorage.setItem('email', credentials.email);
-        localStorage.setItem('user_role', userInfo.role);
-        this.authStatusChanged.next(true);
-      })
+  readonly usuario = computed(() => this.sesion()?.username ?? null);
+  readonly rol = computed(() => this.sesion()?.role ?? null);
+  readonly esAdmin = computed(() => this.estaAutenticado() && this.rol() === 'ADMIN');
+
+  login(credenciales: { email: string; password: string }): Observable<AuthResponse> {
+    return this.http.post<AuthResponse>(`${this.apiUrl}/login`, credenciales).pipe(
+      tap(respuesta => this.guardarSesion(respuesta))
     );
   }
 
-  saveToken(token: string): void {
-    localStorage.setItem('token', token);
+  register(usuario: { username: string; password: string }): Observable<unknown> {
+    return this.http.post(`${this.apiUrl}/register`, usuario);
+  }
+
+  logout(): void {
+    localStorage.removeItem(CLAVE_SESION);
+    this.sesion.set(null);
+    this.router.navigate(['/home']);
   }
 
   getToken(): string | null {
-    return localStorage.getItem('token');
+    return this.sesion()?.token ?? null;
   }
 
-  getUserRole(): string | null {
-    const stored = localStorage.getItem('user_role');
-    if (stored) return stored;
+  // ── Compatibilidad con el codigo que ya existia ──────────────────────────
+  isAuthenticated(): boolean { return this.estaAutenticado(); }
+  getUserRole(): string | null { return this.rol(); }
+  getRole(): string | null { return this.rol(); }
+  getUserName(): string | null { return this.usuario(); }
+  /** El username ES el email: es lo que se usa para iniciar sesion. */
+  getEmail(): string | null { return this.usuario(); }
 
-    const token = this.getToken();
-    if (!token) return null;
+  // ── Privados ─────────────────────────────────────────────────────────────
+
+  private guardarSesion(respuesta: AuthResponse): void {
+    const sesion: SesionGuardada = {
+      token: respuesta.token,
+      username: respuesta.username,
+      role: respuesta.role
+    };
+    localStorage.setItem(CLAVE_SESION, JSON.stringify(sesion));
+    this.sesion.set(sesion);
+  }
+
+  private leerSesionGuardada(): SesionGuardada | null {
+    const bruto = localStorage.getItem(CLAVE_SESION);
+    if (!bruto) return null;
+
     try {
-      const payload = JSON.parse(atob(token.split('.')[1]));
-      return payload.role || null;
+      const sesion = JSON.parse(bruto) as SesionGuardada;
+      // Si el token guardado ya no vale, limpiamos en vez de arrastrar basura.
+      if (!sesion?.token || this.tokenCaducado(sesion.token)) {
+        localStorage.removeItem(CLAVE_SESION);
+        return null;
+      }
+      return sesion;
     } catch {
+      localStorage.removeItem(CLAVE_SESION);
       return null;
     }
   }
 
-  getUserName(): string | null {
-    return localStorage.getItem('user_name');
-  }
-
-  getEmail(): string | null {
-    return localStorage.getItem('email');
-  }
-
-  getUserId(): number | null {
-    const id = localStorage.getItem('user_id');
-    return id ? parseInt(id) : null;
-  }
-
-  isAuthenticated(): boolean {
-    return !!this.getToken() && !this.isTokenExpired();
-  }
-
-  isTokenExpired(): boolean {
-    const token = this.getToken();
-    if (!token) return true;
+  /**
+   * Lee la fecha de caducidad del token para no mandar peticiones que ya
+   * sabemos que van a devolver 401.
+   *
+   * Esto es una comodidad del cliente, NO una medida de seguridad: el token lo
+   * valida siempre el servidor, que es quien tiene la clave de firma.
+   */
+  private tokenCaducado(token: string): boolean {
     try {
       const payload = JSON.parse(atob(token.split('.')[1]));
-      const now = Math.floor(Date.now() / 1000);
-      return payload.exp && payload.exp < now;
+      if (!payload?.exp) return false;
+      return payload.exp < Math.floor(Date.now() / 1000);
     } catch {
       return true;
     }
-  }
-  register(user: { username: string; password: string }): Observable<any> {
-    return this.http.post(`${this.apiUrl}/register`, user);
-  }
-
-
-  logout(): void {
-    localStorage.removeItem('token');
-    localStorage.removeItem('user_name');
-    localStorage.removeItem('email');
-    localStorage.removeItem('user_role');
-    localStorage.removeItem('user_id');
-    this.authStatusChanged.next(false);
-    this.router.navigate(['/home']);
   }
 }
