@@ -1,23 +1,33 @@
-# Secretos personales
-contraseñas.txt
-*.txt
-images.jpg
-kleinwagen.jpg
-kleinwagen2.jpg
+# --- Secretos -------------------------------------------------------------
+.env
+*.env
+!.env.example
+contrasenas.txt
+credenciales.txt
 
-# Backend compilado
+# --- Backend --------------------------------------------------------------
 backend/target/
-backend/.mvn/
+*.jar
+*.war
 
-# Frontend
+# --- Frontend -------------------------------------------------------------
 CochesFront/node_modules/
 CochesFront/dist/
 CochesFront/.angular/
+CochesFront/coverage/
 
-# IDEs
+# --- IDEs y sistema -------------------------------------------------------
 .vscode/
 .idea/
+*.iml
+.DS_Store
+Thumbs.db
 
-# Env files
-.env
-*.env
+# --- Logs -----------------------------------------------------------------
+*.log
+npm-debug.log*
+
+# NOTA: el .gitignore anterior tenia una regla "*.txt" que excluia cualquier
+# archivo de texto del proyecto, no solo el de contrasenas. El wrapper de Maven
+# (.mvn/) tampoco debe ignorarse: se commitea para que cualquiera pueda compilar
+# sin instalar Maven.
