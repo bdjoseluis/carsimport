@@ -1,5 +1,6 @@
 package com.webcoches.backend.security;
 
+import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -74,6 +75,17 @@ public class SecurityConfig {
 
                 // --- Todo lo demas exige estar autenticado ---
                 .anyRequest().authenticated()
+            )
+            // Sin esto, Spring responde 403 tanto al que no ha iniciado sesion
+            // como al que si la ha iniciado pero no tiene permisos. Para una API
+            // con token hay que distinguirlos: 401 significa "identificate" y
+            // 403 "estas identificado pero esto no es para ti". El front necesita
+            // esa diferencia para saber si tiene que mandarte al login.
+            .exceptionHandling(ex -> ex
+                .authenticationEntryPoint((req, res, e) ->
+                    res.sendError(HttpServletResponse.SC_UNAUTHORIZED, "No autenticado"))
+                .accessDeniedHandler((req, res, e) ->
+                    res.sendError(HttpServletResponse.SC_FORBIDDEN, "Sin permisos"))
             )
             .addFilterBefore(jwtFilter, UsernamePasswordAuthenticationFilter.class);
 
