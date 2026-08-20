@@ -28,7 +28,9 @@
                   [class]="getPriceRatingClass(coche()!.priceRating!)">
               {{ coche()!.priceRating }}
             </span>
-            <a [href]="coche()!.urlOriginal" target="_blank"
+            <!-- Sin enlace no se pinta el boton: los anuncios del seed de demo
+                 no apuntan a ninguna ficha externa. -->
+            <a *ngIf="coche()!.urlOriginal" [href]="coche()!.urlOriginal" target="_blank" rel="noopener"
                class="bg-[#1a1a1a] border border-[#2a2a2a] hover:border-[#00ff80]
                       text-gray-400 hover:text-[#00ff80] text-xs px-3 py-1 rounded-full transition">
               Ver anuncio original →
