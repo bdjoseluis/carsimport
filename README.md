@@ -19,7 +19,7 @@ España", y el panel interno para gestionar reservas y ofertas de particulares.
 | **Inicio** | Carrusel de destacados y últimos anuncios importados |
 | **Nuestros coches** | Catálogo nacional con filtros por marca, precio, año, combustible, cambio y estado |
 | **Importación** | Anuncios alemanes con el precio final en España ya calculado |
-| **Ficha de importado** | Ficha completa + **calculadora de importación** (comisión, transporte, matriculación, ITV, revisión) |
+| **Ficha de importado** | Ficha completa + **calculadora de importación** (comisión, transporte, matriculación, IEDMT por tramo de CO₂, ITV, revisión) |
 | **Reservar** | Formulario de reserva sobre un coche concreto |
 | **Vende tu coche** | Captación: un particular ofrece su coche |
 | **Panel admin** | Publicar y editar coches, y gestionar las ofertas recibidas |
@@ -27,9 +27,17 @@ España", y el panel interno para gestionar reservas y ofertas de particulares.
 La pieza con más lógica de negocio es la **calculadora de importación**: sobre el
 precio alemán aplica una comisión escalonada (18 % por debajo de 5.000 €, 15 %
 hasta 15.000, 13 % hasta 30.000 y 12 % a partir de ahí) y le suma transporte,
-matriculación y los extras que marque el usuario. El mismo cálculo se usa al
-ingerir los anuncios, para que el precio de la tarjeta y el del desglose nunca
-se contradigan.
+gestión de matriculación y los extras que marque el usuario.
+
+Aparte va el **IEDMT**, el impuesto de matriculación, que es el gasto más grande
+después del coche y va por tramos de CO₂ (0 % por debajo de 120 g/km, 4,75 %
+hasta 159, 9,75 % hasta 199 y 14,75 % a partir de 200). En un SUV de gasolina
+son varios miles de euros, así que la calculadora lo desglosa aparte. Cuando el
+anuncio no trae las emisiones **no cobra un 0 %**: avisa de que el impuesto no
+está incluido, porque un cero el cliente lo lee como "este coche no paga".
+
+El total es una estimación orientativa: Hacienda liquida el IEDMT sobre el valor
+de tablas oficiales del modelo, no sobre el precio de compra, y la app lo dice.
 
 <!-- CAPTURA:IMPORTACION -->
 

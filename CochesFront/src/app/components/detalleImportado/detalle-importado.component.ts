@@ -53,7 +53,7 @@ export class DetalleImportadoComponent implements OnInit {
     if (!c) return;
     this.calculando.set(true);
     this.cocheImportadoService.calcularPresupuesto(
-      c.precioOriginal, this.conItv(), this.conRevision()
+      c.precioOriginal, c.co2, this.conItv(), this.conRevision()
     ).subscribe({
       next: (data) => { this.presupuesto.set(data); this.calculando.set(false); },
       error: () => this.calculando.set(false)

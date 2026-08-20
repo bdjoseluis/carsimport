@@ -24,11 +24,21 @@ export class CocheImportadoService {
     return this.http.get<string[]>(`${this.apiUrl}/marcas`);
   }
 
-  calcularPresupuesto(precioBase: number, conItv: boolean, conRevision: boolean): Observable<any> {
-    const params = new HttpParams()
+  /**
+   * El co2 se manda tal cual viene del anuncio ("127 g/km (comb.)"): es el
+   * backend el que lo interpreta y decide el tramo del impuesto de
+   * matriculación. Si el anuncio no lo trae no se manda, y el desglose vuelve
+   * con un aviso en vez de con un impuesto de cero.
+   */
+  calcularPresupuesto(precioBase: number, co2: string | undefined,
+                      conItv: boolean, conRevision: boolean): Observable<any> {
+    let params = new HttpParams()
       .set('precioBase', precioBase.toString())
       .set('conItv',     conItv.toString())
       .set('conRevision', conRevision.toString());
+    if (co2) {
+      params = params.set('co2', co2);
+    }
     return this.http.get(this.presupUrl, { params });
   }
 

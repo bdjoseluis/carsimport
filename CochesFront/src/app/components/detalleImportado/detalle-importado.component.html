@@ -203,8 +203,21 @@
               <span>{{ presupuesto().transporte | currency:'EUR':'symbol':'1.0-0' }}</span>
             </div>
             <div class="flex justify-between text-gray-400">
-              <span>Matriculación</span>
+              <span>Gestión de matriculación</span>
               <span>{{ presupuesto().matriculacion | currency:'EUR':'symbol':'1.0-0' }}</span>
+            </div>
+            <div *ngIf="!presupuesto().avisoIedmt" class="flex justify-between text-gray-400">
+              <span>
+                Impuesto de matriculación
+                <span class="text-gray-600 text-xs block">
+                  IEDMT {{ presupuesto().tipoIedmt }} · {{ presupuesto().co2 }} g/km
+                </span>
+              </span>
+              <span>{{ presupuesto().iedmt | currency:'EUR':'symbol':'1.0-0' }}</span>
+            </div>
+            <div *ngIf="presupuesto().avisoIedmt"
+                 class="bg-amber-950/40 border border-amber-800/60 rounded-lg p-3 text-amber-300 text-xs leading-relaxed">
+              ⚠ {{ presupuesto().avisoIedmt }}
             </div>
             <div *ngIf="presupuesto().itv > 0" class="flex justify-between text-gray-400">
               <span>ITV española</span>
