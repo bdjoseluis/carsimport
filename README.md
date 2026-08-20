@@ -8,7 +8,7 @@ España", y el panel interno para gestionar reservas y ofertas de particulares.
 **Angular 19** (standalone components + signals) · **Spring Boot 3.2** ·
 **MySQL 8** · **Java 17** · Docker Compose
 
-<!-- CAPTURA:HOME -->
+![Portada de la aplicación: buscador y carrusel de coches destacados](docs/capturas/home.png)
 
 ---
 
@@ -39,9 +39,17 @@ está incluido, porque un cero el cliente lo lee como "este coche no paga".
 El total es una estimación orientativa: Hacienda liquida el IEDMT sobre el valor
 de tablas oficiales del modelo, no sobre el precio de compra, y la app lo dice.
 
-<!-- CAPTURA:IMPORTACION -->
+![Catálogo de importación con los filtros de marca, precio, combustible y cambio](docs/capturas/importacion.png)
 
-<!-- CAPTURA:CALCULADORA -->
+<p align="center">
+  <img src="docs/capturas/calculadora.png" width="448"
+       alt="Calculadora de importación del Porsche Macan: 46.900 € en Alemania, 5.628 € de comisión, 450 € de transporte, 300 € de gestión de matriculación y 6.918 € de IEDMT (14,75 %, 223 g/km), total 60.196 €">
+</p>
+
+El desglose de arriba es el del Porsche Macan del catálogo de demostración:
+**6.918 € de IEDMT** sobre 46.900 €, porque emite 223 g/km y cae en el tramo
+alto. Sin ese impuesto el total daría 53.278 €, un 12 % por debajo de lo que
+cuesta de verdad ponerlo en la calle.
 
 ---
 
@@ -167,8 +175,9 @@ cubren los tests de `ReglasDeAccesoTest`.
 cd backend && mvn test
 ```
 
-17 tests sobre H2: reglas de acceso por rol y método, autenticación, la
-regresión del registro y los filtros de búsqueda.
+30 tests sobre H2: reglas de acceso por rol y método, autenticación, la
+regresión del registro, los filtros de búsqueda, el endpoint de marcas y los
+tramos del IEDMT (fronteras exactas incluidas, y que sin CO₂ no se cobre).
 
 ---
 
