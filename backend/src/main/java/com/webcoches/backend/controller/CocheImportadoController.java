@@ -25,6 +25,19 @@ public class CocheImportadoController {
         return cocheImportadoRepository.findByActivoTrue();
     }
 
+    /**
+     * El desplegable de marcas del filtro. El front lo llamaba desde el
+     * principio, pero el endpoint no existia: la peticion caia en /{id}, el
+     * "marcas" no se podia convertir a Long y la respuesta acababa siendo un
+     * 401 seco. Resultado: el desplegable salia vacio siempre.
+     *
+     * Va declarado antes que /{id} para que quede claro que es una ruta fija.
+     */
+    @GetMapping("/marcas")
+    public List<String> marcas() {
+        return cocheImportadoRepository.marcasDisponibles();
+    }
+
     @GetMapping("/{id}")
     public CocheImportado detalle(@PathVariable Long id) {
         return cocheImportadoRepository.findById(id).orElseThrow();

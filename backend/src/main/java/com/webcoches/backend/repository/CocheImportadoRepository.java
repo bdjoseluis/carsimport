@@ -18,6 +18,12 @@ public interface CocheImportadoRepository
     Optional<CocheImportado> findByApifyId(String apifyId);
     List<CocheImportado> findByActivoTrue();
 
+    /** Las marcas que hay ahora mismo en el catalogo, para el desplegable del filtro. */
+    @Query("SELECT DISTINCT c.marca FROM CocheImportado c "
+         + "WHERE c.activo = true AND c.marca IS NOT NULL AND c.marca <> '' "
+         + "ORDER BY c.marca")
+    List<String> marcasDisponibles();
+
     @Modifying
     @Transactional
     @Query("UPDATE CocheImportado c SET c.activo = false WHERE c.fuente = :fuente")
