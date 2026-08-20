@@ -18,7 +18,10 @@ COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 EXPOSE 80
 
+# Contra 127.0.0.1 y no contra "localhost": wget lo resuelve a ::1 y nginx solo
+# escucha en IPv4, asi que el contenedor salia "unhealthy" con la web sirviendo
+# perfectamente.
 HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
-    CMD wget -q --spider http://localhost/ || exit 1
+    CMD wget -q --spider http://127.0.0.1/ || exit 1
 
 CMD ["nginx", "-g", "daemon off;"]
