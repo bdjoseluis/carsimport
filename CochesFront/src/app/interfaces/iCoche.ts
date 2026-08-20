@@ -26,12 +26,12 @@ export interface iCocheDetalle {
     imagenUrl : string[]; // Array de URLs de imágenes
     // Fecha completa de matriculación o solo año/mes (string para fecha)
     matriculacion: string; 
-    combustible: 'Gasolina' | 'Diesel' | 'Híbrido' | 'Eléctrico';
+    combustible: 'Gasolina' | 'Diésel' | 'Híbrido' | 'Eléctrico';
 
     // Características del motor y transmisión
     potenciaCV: number; // Caballos de Vapor
     cilindrada: number; // cc
-    transmision: 'Manual' | 'Automática';
+    transmision: 'Manual' | 'Automático';
 
     // Características de la carrocería y el color
     tipoCarroceria: 'Berlina' | 'SUV' | 'Familiar' | 'Deportivo' | 'Monovolumen' | 'Pickup';

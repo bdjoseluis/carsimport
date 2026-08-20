@@ -29,10 +29,15 @@ export interface CocheCreateDto {
   anio: number;
   imagenUrl: string[];
   matriculacion: string;
-  combustible: 'Gasolina' | 'Diesel' | 'Híbrido' | 'Eléctrico';
+  // Estos valores viajan tal cual a la base de datos y los filtros del catalogo
+  // comparan por igualdad exacta, asi que tienen que escribirse igual en los
+  // tres sitios: este DTO, el formulario de publicacion y el desplegable de
+  // busqueda. Antes eran "Diesel" y "Automatica" aqui y "Diesel" y "Automatico"
+  // en el buscador, de forma que un coche publicado no aparecia al filtrarlo.
+  combustible: 'Gasolina' | 'Diésel' | 'Híbrido' | 'Eléctrico';
   potenciaCV: number;
   cilindrada: number;
-  transmision: 'Manual' | 'Automática';
+  transmision: 'Manual' | 'Automático';
   tipoCarroceria: 'Berlina' | 'SUV' | 'Familiar' | 'Deportivo' | 'Monovolumen' | 'Pickup';
   numPuertas: 2 | 3 | 4 | 5;
   colorExterior: string;
