@@ -175,9 +175,12 @@ cubren los tests de `ReglasDeAccesoTest`.
 cd backend && mvn test
 ```
 
-30 tests sobre H2: reglas de acceso por rol y método, autenticación, la
+31 tests sobre H2: reglas de acceso por rol y método, autenticación, la
 regresión del registro, los filtros de búsqueda, el endpoint de marcas y los
 tramos del IEDMT (fronteras exactas incluidas, y que sin CO₂ no se cobre).
+Uno más, `CuentasDeDemoTest`, lee `data.sql` y comprueba que los hashes de las
+cuentas de arriba corresponden de verdad a la contraseña documentada: el seed
+llevaba uno que no, y no se podía entrar con ninguna de las dos.
 
 ---
 
