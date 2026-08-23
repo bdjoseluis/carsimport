@@ -30,12 +30,12 @@
 -- ---------------------------------------------------------------------------
 
 INSERT INTO usuarios (username, password, role)
-SELECT 'admin', '$2a$10$N.zmdr9k7uOCQb376NoUnuTJ8iAt6Z5EHsM8lE9lBOsl7i.f2q.Ky', 'ADMIN'
+SELECT 'admin', '$2a$10$Z4yrVT.f.UTSAlKhzknJfu8DSkTE1dZo7MnZ1rfqo.KObNBGRCbKS', 'ADMIN'
 FROM DUAL
 WHERE NOT EXISTS (SELECT * FROM usuarios WHERE username = 'admin');
 
 INSERT INTO usuarios (username, password, role)
-SELECT 'cliente', '$2a$10$N.zmdr9k7uOCQb376NoUnuTJ8iAt6Z5EHsM8lE9lBOsl7i.f2q.Ky', 'USER'
+SELECT 'cliente', '$2a$10$Z4yrVT.f.UTSAlKhzknJfu8DSkTE1dZo7MnZ1rfqo.KObNBGRCbKS', 'USER'
 FROM DUAL
 WHERE NOT EXISTS (SELECT * FROM usuarios WHERE username = 'cliente');
 
