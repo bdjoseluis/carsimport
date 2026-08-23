@@ -47,6 +47,10 @@ services:
       SPRING_DATASOURCE_PASSWORD: ${SPRING_DATASOURCE_PASSWORD}
       JWT_SECRET: ${JWT_SECRET:?falta JWT_SECRET}
       JWT_EXPIRATION_MS: ${JWT_EXPIRATION_MS:-86400000}
+      # Hace falta aunque el front salga por el mismo dominio: el navegador
+      # manda Origin en los POST del mismo origen y sin esto Spring devuelve
+      # 403, o sea que se ve el catalogo pero no se puede iniciar sesion.
+      CORS_ALLOWED_ORIGINS: ${CORS_ALLOWED_ORIGINS:-https://carsimport.b-dev.es}
       INGESTA_FRECUENCIA: NUNCA
       JAVA_OPTS: "-Xmx300m -XX:+UseSerialGC"
     mem_limit: 450m
