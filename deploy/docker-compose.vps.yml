@@ -71,7 +71,12 @@ services:
       - traefik.http.routers.carsimport.entrypoints=websecure
       - traefik.http.routers.carsimport.tls.certresolver=le
       - traefik.http.services.carsimport.loadbalancer.server.port=80
-      - traefik.http.routers.carsimport.middlewares=secheaders@docker
+      # secheaders-embed en vez de secheaders: manda
+      #   Content-Security-Policy: frame-ancestors 'self' https://portfolio.b-dev.es
+      # en lugar de X-Frame-Options: SAMEORIGIN, para que el escaparate del
+      # portfolio pueda meter la demo en un iframe. Sigue prohibido a cualquier
+      # otro sitio. El middleware se define en /opt/bdev/docker-compose.yml.
+      - traefik.http.routers.carsimport.middlewares=secheaders-embed@docker
     logging:
       driver: json-file
       options: { max-size: "10m", max-file: "3" }
